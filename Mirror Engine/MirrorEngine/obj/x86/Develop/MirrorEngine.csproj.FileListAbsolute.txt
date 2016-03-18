@@ -1,0 +1,58 @@
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\opacityX.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\solidX.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\000_solid.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\001_actor.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\002_actor.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\003_pencil.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\004_pencil_inv.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\005_fill.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\006_fill_inv.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\007_stamp.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\008_stamp_inv.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\009_eraser.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\010_eraser_inv.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\011_uiLeft.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\012_uiRight.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\013_grid.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\014_prince.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\015_prince.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\016_save (1).png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\017_save (2).png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\018_buttBack.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\019_buttBack.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\020_cogs (1).png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\021_cogs (2).png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\022_box.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\023_box.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\024_radio.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\025_radio.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\026_eraserCircle.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\027_plus.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\028_plusPressed.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\029_minus.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\030_minusPressed.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\031_flag (1).png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\032_flag (2).png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\033_newMap.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\034_newMap.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\035_loadMap.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\036_loadMap.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\037_opaque.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\selection.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Content\GUI\000_EngineGUI\selectioninv.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\MirrorEngine.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\MirrorEngine.pdb
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\IronPython.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Microsoft.Dynamic.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Microsoft.Scripting.AspNet.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Microsoft.Scripting.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Microsoft.Scripting.Metadata.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Tao.OpenGl.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Tao.Sdl.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\IronPython.xml
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Microsoft.Dynamic.xml
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Microsoft.Scripting.xml
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Microsoft.Scripting.AspNet.xml
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Microsoft.Scripting.Metadata.xml
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\obj\x86\Develop\MirrorEngine.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\obj\x86\Develop\MirrorEngine.pdb

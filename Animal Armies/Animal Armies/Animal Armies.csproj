@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1F687A8B-AFF3-4887-A4A1-D4FC425894C2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Game</RootNamespace>
+    <AssemblyName>Game</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>Always</RunPostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Develop|x86'">
+    <OutputPath>bin\Develop\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tao.OpenGl">
+      <HintPath>..\..\Mirror Engine\taoframework-2.1.0\bin\Tao.OpenGl.dll</HintPath>
+    </Reference>
+    <Reference Include="Tao.Sdl">
+      <HintPath>..\..\Mirror Engine\taoframework-2.1.0\bin\Tao.Sdl.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Acting\Animals\Blob.cs" />
+    <Compile Include="Acting\Animals\Llama.cs" />
+    <Compile Include="Acting\Animals\Penguin.cs" />
+    <Compile Include="Acting\Animals\Robin.cs" />
+    <Compile Include="Acting\Animals\Rat.cs" />
+    <Compile Include="Acting\Animals\TRex.cs" />
+    <Compile Include="Acting\Animals\Turtle.cs" />
+    <Compile Include="Acting\Behaviors\AnimalBehavior.cs" />
+    <Compile Include="Acting\Behaviors\BaseBehavior.cs" />
+    <Compile Include="Acting\Behaviors\FlyingBehavior.cs" />
+    <Compile Include="Acting\Behaviors\GameBehavior.cs" />
+    <Compile Include="Acting\AnimalActor.cs" />
+    <Compile Include="Acting\Base.cs" />
+    <Compile Include="Acting\GameActor.cs" />
+    <Compile Include="Acting\GameActorFactory.cs" />
+    <Compile Include="Acting\Projectiles\FlyingSprite.cs" />
+    <Compile Include="Acting\Projectiles\Explosion.cs" />
+    <Compile Include="AI\HoldPositionOrder.cs" />
+    <Compile Include="AI\ClusterOrder.cs" />
+    <Compile Include="AI\AttackOrder.cs" />
+    <Compile Include="AI\ComputerPlayer.cs" />
+    <Compile Include="AI\Order.cs" />
+    <Compile Include="AI\Platoon.cs" />
+    <Compile Include="AI\RetreatOrder.cs" />
+    <Compile Include="AI\SurroundOrder.cs" />
+    <Compile Include="AI\SurroundOrder2.cs" />
+    <Compile Include="CameraManager.cs" />
+    <Compile Include="HumanPlayer.cs" />
+    <Compile Include="Net\PlayerListMessage.cs" />
+    <Compile Include="Net\Connection.cs" />
+    <Compile Include="Net\PassTokenMessage.cs" />
+    <Compile Include="Net\JoinMessage.cs" />
+    <Compile Include="Net\NetClient.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="Components\GameAudio.cs" />
+    <Compile Include="Components\GameGraphics.cs" />
+    <Compile Include="Components\GameInput.cs" />
+    <Compile Include="Components\GamePhysics.cs" />
+    <Compile Include="Components\GameResources.cs" />
+    <Compile Include="Components\GameWorld.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="GUI\GameGUI.cs" />
+    <Compile Include="GameTile.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WorldGenerator.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Acting\Behaviors\Attacks\" />
+    <Folder Include="Acting\Behaviors\Movement\" />
+    <Folder Include="Acting\Bosses\" />
+    <Folder Include="Acting\Items\" />
+    <Folder Include="Content\Audio\" />
+    <Folder Include="Content\Brushes\" />
+    <Folder Include="Content\GUI\000_EngineGUI\" />
+    <Folder Include="Content\GUI\001_GameGUI\" />
+    <Folder Include="Content\Maps\" />
+    <Folder Include="Content\Scripts\ActorScripts\" />
+    <Folder Include="Content\Scripts\TileScripts\" />
+    <Folder Include="Content\Scripts\WorldScripts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\GameIcon.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Music\002_gandalfnod.ogg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\001_trex\TREX.png" />
+    <Content Include="Content\Tiles\Tiles\Bridge1.png" />
+    <Content Include="Content\Tiles\Tiles\Bridge2.png" />
+    <Content Include="Content\Tiles\Tiles\fort.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Bridge1.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Bridge2.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Cliff1.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Cliff2.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Cliff3.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Cliff4.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\forest.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Forest1.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Forest2.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Forest3.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\fort.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\grass.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\grass0.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\grass000.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Hills1.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Hills2.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\ice.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\LogBridge1.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\LogBridge2.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\mountain.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Mountain2.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Prairie Tileset\Cliff1.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Prairie Tileset\Cliff2.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Prairie Tileset\Cliff3.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Prairie Tileset\Cliff4.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Prairie Tileset\Forest.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Prairie Tileset\Forest2.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Prairie Tileset\Forest3.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Prairie Tileset\Fort.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Prairie Tileset\grass.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Prairie Tileset\grass1.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Prairie Tileset\grass2.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Prairie Tileset\grass3.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Prairie Tileset\grass4.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Prairie Tileset\Hills1.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Prairie Tileset\Hills2.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Prairie Tileset\Mountain.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\sand0.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\sand1.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\smiley.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Snow Tileset\Cliff1.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Snow Tileset\Cliff2.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Snow Tileset\Cliff3.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Snow Tileset\Cliff4.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Snow Tileset\forest1.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Snow Tileset\forest2.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Snow Tileset\forest3.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Snow Tileset\Fort.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Snow Tileset\grass0.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Snow Tileset\grass1.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Snow Tileset\grass2.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Snow Tileset\grass3.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Snow Tileset\hills1.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\Snow Tileset\Mountain1.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\wall001.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\water.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\water\VVater1.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\water\VVater2.png" />
+    <Content Include="Content\Tiles\Tiles\Old Tiles\water\VVater3.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Cliff\Cliff1.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Cliff\Cliff2.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Cliff\Cliff3.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Cliff\Cliff4.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest1-0.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest1-1.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest1-2.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest1-3.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest1-4.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest2-0.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest2-1.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest2-2.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest2-3.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest2-4.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest3-0.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest3-1.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest3-2.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest3-3.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest3-4.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Fort\Fort.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\grass.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\grass1.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\grass2.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\grass3.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\grass4.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Hills\Hills1-0.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Hills\Hills1-1.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Hills\Hills1-2.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Hills\Hills1-3.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Hills\Hills1-4.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Hills\Hills2-0.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Hills\Hills2-1.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Hills\Hills2-2.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Hills\Hills2-3.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Hills\Hills2-4.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Mountain\Mountain1-0.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Mountain\Mountain1-1.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Mountain\Mountain1-2.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Mountain\Mountain1-3.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Mountain\Mountain1-4.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Water\water.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Water\water1.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Water\water2.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Water\water3.png" />
+    <Content Include="Content\Tiles\Tiles\Snow\Cliff\Cliff1.png" />
+    <Content Include="Content\Tiles\Tiles\Snow\Cliff\Cliff2.png" />
+    <Content Include="Content\Tiles\Tiles\Snow\Cliff\Cliff3.png" />
+    <Content Include="Content\Tiles\Tiles\Snow\Cliff\Cliff4.png" />
+    <Content Include="Content\Tiles\Tiles\Snow\Forest\forest1-0.png" />
+    <Content Include="Content\Tiles\Tiles\Snow\Forest\forest1-1.png" />
+    <Content Include="Content\Tiles\Tiles\Snow\Forest\forest1-2.png" />
+    <Content Include="Content\Tiles\Tiles\Snow\Forest\forest2-0.png" />
+    <Content Include="Content\Tiles\Tiles\Snow\Forest\forest2-1.png" />
+    <Content Include="Content\Tiles\Tiles\Snow\Forest\forest2-2.png" />
+    <Content Include="Content\Tiles\Tiles\Snow\Forest\forest3-0.png" />
+    <Content Include="Content\Tiles\Tiles\Snow\Forest\forest3-1.png" />
+    <Content Include="Content\Tiles\Tiles\Snow\Forest\forest3-2.png" />
+    <Content Include="Content\Tiles\Tiles\Snow\Fort\Fort.png" />
+    <Content Include="Content\Tiles\Tiles\Snow\grass0.png" />
+    <Content Include="Content\Tiles\Tiles\Snow\grass1.png" />
+    <Content Include="Content\Tiles\Tiles\Snow\grass2.png" />
+    <Content Include="Content\Tiles\Tiles\Snow\grass3.png" />
+    <Content Include="Content\Tiles\Tiles\Snow\Hills\hills1-0.png" />
+    <Content Include="Content\Tiles\Tiles\Snow\Hills\hills1-1.png" />
+    <Content Include="Content\Tiles\Tiles\Snow\Hills\hills1-2.png" />
+    <Content Include="Content\Tiles\Tiles\Snow\Mountain\Mountain1-0.png" />
+    <Content Include="Content\Tiles\Tiles\Snow\Mountain\Mountain1-1.png" />
+    <Content Include="Content\Tiles\Tiles\Snow\Mountain\Mountain1-2.png" />
+    <Content Include="Content\Tiles\Tiles\Snow\Water\water.png" />
+    <Content Include="Content\Tiles\Tiles\Snow\Water\water1.png" />
+    <Content Include="Content\Tiles\Tiles\Snow\Water\water2.png" />
+    <Content Include="Content\Tiles\Tiles\Snow\Water\water3.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest1-0.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest1-1.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest1-2.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest1-3.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest1-4.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest1-5.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest2-0.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest2-1.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest2-2.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest2-3.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest2-4.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest2-5.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest3-0.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest3-1.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest3-2.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest3-3.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest3-4.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest3-5.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest4-0.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest4-1.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest4-2.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest4-3.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest4-4.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest4-5.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest5-0.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest5-1.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest5-2.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest5-3.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest5-4.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest5-5.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Grass\grass0.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Grass\grass1.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Grass\grass2.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Grass\grass3.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Grass\grass4.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Grass\grass5.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Hills\Hills1-0.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Hills\Hills1-1.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Hills\Hills1-2.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Hills\Hills1-3.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Hills\Hills1-4.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Hills\Hills1-5.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Hills\Hills2-0.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Hills\Hills2-1.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Hills\Hills2-2.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Hills\Hills2-3.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Hills\Hills2-4.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Hills\Hills2-5.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Mountain\Mountain1-0.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Mountain\Mountain1-1.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Mountain\Mountain1-2.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Mountain\Mountain1-3.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Mountain\Mountain1-4.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Mountain\Mountain1-5.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Mountain\Mountain2-0.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Mountain\Mountain2-1.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Mountain\Mountain2-2.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Mountain\Mountain2-3.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Mountain\Mountain2-4.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Mountain\Mountain2-5.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Water\water.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Water\water1.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Water\water2.png" />
+    <Content Include="Content\Tiles\Tiles\Temperate\Water\water3.png" />
+    <Content Include="Content\Tiles\Tiles\wall001.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\water\VVater1.png" />
+    <Content Include="Content\Tiles\Tiles\water\VVater2.png" />
+    <Content Include="Content\Tiles\Tiles\water\VVater3.png" />
+    <Content Include="Content\Tiles\Tiles\water\water.png" />
+    <Content Include="GameIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Mirror Engine\MirrorEngine\MirrorEngine.csproj">
+      <Project>{79F5CC4A-3B0F-4B7F-87FA-7BB332FC3868}</Project>
+      <Name>MirrorEngine</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\Fonts\Vera.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy "$(SolutionDir)..\Mirror Engine\taoframework-2.1.0\lib\*.dll" "$(TargetDir)"
+
+if errorlevel 8 exit %25errorlevel%25
+exit 0</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

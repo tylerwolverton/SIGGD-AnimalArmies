@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{79F5CC4A-3B0F-4B7F-87FA-7BB332FC3868}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MirrorEngine</RootNamespace>
+    <AssemblyName>MirrorEngine</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;ENGINEDEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;ENGINERELEASE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Develop|x86'">
+    <OutputPath>bin\Develop\</OutputPath>
+    <DefineConstants>TRACE;ENGINEDEVELOP</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IronPython">
+      <HintPath>..\IronPython-2.7.3\IronPython.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamic">
+      <HintPath>..\IronPython-2.7.3\Microsoft.Dynamic.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Scripting">
+      <HintPath>..\IronPython-2.7.3\Microsoft.Scripting.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Scripting.AspNet">
+      <HintPath>..\IronPython-2.7.3\Microsoft.Scripting.AspNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Scripting.Metadata">
+      <HintPath>..\IronPython-2.7.3\Microsoft.Scripting.Metadata.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tao.OpenGl">
+      <HintPath>..\taoframework-2.1.0\bin\Tao.OpenGl.dll</HintPath>
+    </Reference>
+    <Reference Include="Tao.Sdl">
+      <HintPath>..\taoframework-2.1.0\bin\Tao.Sdl.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Acting\Actor.cs" />
+    <Compile Include="Acting\ActorFactory.cs" />
+    <Compile Include="Acting\Behavior.cs" />
+    <Compile Include="Acting\Life.cs" />
+    <Compile Include="Core\Camera.cs" />
+    <Compile Include="Core\Color.cs" />
+    <Compile Include="Core\KMeans.cs" />
+    <Compile Include="GUI\Containers\DialogueBox.cs" />
+    <Compile Include="GUI\Items\GUIRadioButton.cs" />
+    <Compile Include="GUI\Containers\GUIRadioControl.cs" />
+    <Compile Include="GUI\Items\GUICheckBox.cs" />
+    <Compile Include="Input\MouseKeyBinding.cs" />
+    <Compile Include="Resources\Handle.cs" />
+    <Compile Include="Resources\ILoadable.cs" />
+    <Compile Include="Resources\Script.cs" />
+    <Compile Include="Resources\SongSample.cs" />
+    <Compile Include="Resources\AudioSample.cs" />
+    <Compile Include="GUI\Items\GUILabel.cs" />
+    <Compile Include="GUI\Items\GUIButton.cs" />
+    <Compile Include="GUI\GUIContainer.cs" />
+    <Compile Include="GUI\Containers\GUIControl.cs" />
+    <Compile Include="GUI\Containers\GUIList.cs" />
+    <Compile Include="GUI\Items\GUITextBox.cs" />
+    <Compile Include="Resources\Texture2D.cs" />
+    <Compile Include="Core\Vector2.cs" />
+    <Compile Include="Components\AudioComponent.cs" />
+    <Compile Include="Components\Component.cs" />
+    <Compile Include="Components\GraphicsComponent.cs" />
+    <Compile Include="Components\InputComponent.cs" />
+    <Compile Include="Components\PhysicsComponent.cs" />
+    <Compile Include="Components\ResourceComponent.cs" />
+    <Compile Include="Components\World.cs" />
+    <Compile Include="GUI\GUI.cs" />
+    <Compile Include="GUI\GUIItem.cs" />
+    <Compile Include="Input\AxisBinding.cs" />
+    <Compile Include="Input\InputBinding.cs" />
+    <Compile Include="Input\InputEvent.cs" />
+    <Compile Include="Input\SinglePressBinding.cs" />
+    <Compile Include="Input\TextBinding.cs" />
+    <Compile Include="MirrorEngine.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Core\State.cs" />
+    <Compile Include="Acting\Animation.cs" />
+    <Compile Include="Resources\Font.cs" />
+    <Compile Include="Core\AStar.cs" />
+    <Compile Include="Resources\Mapfile.cs" />
+    <Compile Include="Core\PairingHeap.cs" />
+    <Compile Include="Core\RectangleF.cs" />
+    <Compile Include="Core\Tile.cs" />
+    <Compile Include="Components\EditorComponent.cs" />
+    <Compile Include="Treequake\EditorGUI.cs" />
+    <Compile Include="GUI\Containers\ScrollingImageTable.cs" />
+    <Compile Include="Treequake\Passive Tools\LoadMapTool.cs" />
+    <Compile Include="Treequake\Passive Tools\ResetTool.cs" />
+    <Compile Include="Treequake\Passive Tools\EditorSettingsTool.cs" />
+    <Compile Include="Treequake\Passive Tools\SaveMapTool.cs" />
+    <Compile Include="Treequake\Active Tools\ActorTool.cs" />
+    <Compile Include="Treequake\Active Tools\Eraser Tool.cs" />
+    <Compile Include="Treequake\Active Tools\FillTool.cs" />
+    <Compile Include="Treequake\Passive Tools\NewMapTool.cs" />
+    <Compile Include="Treequake\Active Tools\PencilTool.cs" />
+    <Compile Include="Treequake\Active Tools\SelectionTool.cs" />
+    <Compile Include="Treequake\Tool.cs" />
+    <Compile Include="Treequake\Passive Tools\WorldSettingsTool.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Content\GUI\000_EngineGUI\opacityX.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\solidX.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\000_solid.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\001_actor.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\002_actor.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\003_pencil.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\004_pencil_inv.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\005_fill.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\006_fill_inv.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\007_stamp.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\008_stamp_inv.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\009_eraser.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\010_eraser_inv.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\011_uiLeft.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\012_uiRight.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\013_grid.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\014_prince.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\015_prince.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\016_save %281%29.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\017_save %282%29.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\018_buttBack.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\019_buttBack.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\020_cogs %281%29.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\021_cogs %282%29.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\022_box.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\023_box.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\024_radio.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\025_radio.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\026_eraserCircle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\027_plus.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\028_plusPressed.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\029_minus.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\030_minusPressed.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\031_flag %281%29.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\032_flag %282%29.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\033_newMap.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\034_newMap.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\035_loadMap.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\036_loadMap.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\037_opaque.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\selection.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\000_EngineGUI\selectioninv.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

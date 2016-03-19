@@ -8,9 +8,9 @@ namespace Game
 {
     public class GameGraphics : GraphicsComponent
     {
-
         const int WIDTH = 1000;
         const int HEIGHT = 600;
+        GUILabel TitleLabel;
 		GUILabel MenuLabel;
 		GUILabel ExitLabel;
         public new Game engine
@@ -37,30 +37,28 @@ namespace Game
 			if (engine.currentWorldName == null || engine.currentWorldName.Equals("Maps/Menu.map"))
 			{
 				menuLoad();
-
 			}
         }
 
 		public void loadWorld(Vector2 pos, MouseKeyBinding.MouseButton mouseButton)
 		{
 			engine.setWorld("Maps/newWorld.map");
-			menuUnload();
-			
+			menuUnload();	
 		}
 
-		
-
 		public void menuLoad()
-		{
-			MenuLabel = new GUILabel(gui, null, "WHAT LOOK AT THIS ITS TEXT CAN YOU CLICK ON IT?");
+        {
+            TitleLabel = new GUILabel(gui, new Handle(engine.resourceComponent, "Menu/Title.png"));
+            TitleLabel.pos = new Vector2(width / 2 - 192, height / 2 - 256);
+            gui.add(TitleLabel);
+			MenuLabel = new GUILabel(gui, new Handle(engine.resourceComponent, "Menu/Start.png"));
 			MenuLabel.mouseClickEvent += loadWorld;
-			MenuLabel.pos = new Vector2(width / 2, height / 2);
+			MenuLabel.pos = new Vector2(width / 2 - 150, height / 2 + 150);
 			gui.add(MenuLabel);
-			ExitLabel = new GUILabel(gui, null, "I just give up on this game.");
+            ExitLabel = new GUILabel(gui, new Handle(engine.resourceComponent, "Menu/Quit.png"));
 			ExitLabel.mouseClickEvent += exitGame;
-			ExitLabel.pos = new Vector2(width / 2, height / 2+20);
+			ExitLabel.pos = new Vector2(width / 2 + 23, height / 2 + 150);
 			gui.add(ExitLabel);
-			
 		}
 
 		public void exitGame(Vector2 pos, MouseKeyBinding.MouseButton mouseButton)
@@ -69,13 +67,14 @@ namespace Game
 		}
 
 		public void menuUnload()
-		{
+        {
+            gui.remove(TitleLabel);
 			gui.remove(MenuLabel);
 			gui.remove(ExitLabel);
 		}
+
         protected override void update()
         {
-
             base.update();
             if (engine.paused)
             {
@@ -107,8 +106,6 @@ namespace Game
 			{
 				camera.viewRect = new RectangleF(camera.viewRect.left, camera.viewRect.top - (camera.viewRect.bottom - gameWorld.height * Tile.size), hWidth, hHeight);
 			}
-
-
         }
 
         protected override void drawTile(Tile tile, RectangleF viewRect)

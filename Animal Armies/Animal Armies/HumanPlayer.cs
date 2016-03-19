@@ -42,9 +42,6 @@ namespace Game
 			movedUnits = new LinkedList<AnimalActor>();
 		}
 
-
-
-
 		public override void startTurn()
 		{
 			movedUnits = new LinkedList<AnimalActor>();
@@ -66,7 +63,6 @@ namespace Game
             selectedAnimalActor = null;
             enterButtonReleased = false;
             world.endTurn();
-			
         }
 
         /*
@@ -178,8 +174,6 @@ namespace Game
                     // Don't light up tile that actor is on so player can tell which unit is selected
                     world.getTileAt(selectedAnimalActor.position).color = selectedColor;
 				}
-
-
 			}
             // Reset the move and attack color values
 			else
@@ -216,7 +210,6 @@ namespace Game
                 selectedAnimalActor = null;
                 moveRange = null;
             }
-
 
 			// Handle unit selection through clicks
 			if (click.isPressed)
@@ -292,13 +285,11 @@ namespace Game
                     selectedAnimalActor.anim.ticksPerFrame /= 2;
 					selectLeftReleased = false;
 				}
-
 			}
 			else
 			{
 				selectLeftReleased = true;
 			}
-
 
 			if (world.selectRight.isPressed && (selectedAnimalActor == null || selectedAnimalActor.canMove == true))
 			{
@@ -312,7 +303,6 @@ namespace Game
 						currentAutoselect = (currentAutoselect - 1);
 						if (currentAutoselect<0)
 							currentAutoselect=units.Count-1;
-	
 					}
 					
 					moveRange = null;
@@ -324,87 +314,74 @@ namespace Game
                     selectedAnimalActor.anim.ticksPerFrame /= 2;
 					selectRightReleased = false;
 				}
-
 			}
 			else
 			{
 				selectRightReleased = true;
 			}
-
-
 		}
 
-		
-	
-    /* TODO:
-     * What do these functions do?  Why do they exist?
-     * It would be very helpful if whoever wrote them also wrote comments.
-     */
-	public void collapseUnits()
-	{
-		IEnumerator<AnimalActor> enu = units.GetEnumerator();
-		enu.MoveNext();
-		AnimalActor first= enu.Current;
-		storage = new LinkedList<AnimalActor>();
-		while (enu.MoveNext())
-		{
-			storage.AddFirst(enu.Current);
+        /* TODO:
+         * What do these functions do?  Why do they exist?
+         * It would be very helpful if whoever wrote them also wrote comments.
+         */
+	    public void collapseUnits()
+	    {
+		    IEnumerator<AnimalActor> enu = units.GetEnumerator();
+		    enu.MoveNext();
+		    AnimalActor first= enu.Current;
+		    storage = new LinkedList<AnimalActor>();
+		    while (enu.MoveNext())
+		    {
+			    storage.AddFirst(enu.Current);
 			
-		}
-		enu = storage.GetEnumerator();
-		while (enu.MoveNext())
-		{
-			enu.Current.die();
-			FlyingSprite sprite = new FlyingSprite(world, enu.Current.position, new Vector2(0, 0),1 , new Vector2(1,1), Vector2.Zero, 0, first.position, null);
-			sprite.anim = enu.Current.anim;
-			world.addActor(sprite);
-		}
+		    }
+		    enu = storage.GetEnumerator();
+		    while (enu.MoveNext())
+		    {
+			    enu.Current.die();
+			    FlyingSprite sprite = new FlyingSprite(world, enu.Current.position, new Vector2(0, 0),1 , new Vector2(1,1), Vector2.Zero, 0, first.position, null);
+			    sprite.anim = enu.Current.anim;
+			    world.addActor(sprite);
+		    }
 
-	}
+	    }
 
-	public void expandUnits()
-	{
-
-		 IEnumerator<AnimalActor> enu = storage.GetEnumerator();
-		 Tile current = world.getTileAt(units.First.Value.position);
-		 LinkedList<Tile> tiles = new LinkedList<Tile>();
-		tiles.AddFirst(current);
-		AnimalActor currentActor=null;
-		while(tiles.Count!=0 && (currentActor!=null || enu.MoveNext()))
-		{
-			if (currentActor == null)
-				currentActor = enu.Current;
-			current= tiles.First.Value;
-			tiles.RemoveFirst();
+	    public void expandUnits()
+	    {
+	        IEnumerator<AnimalActor> enu = storage.GetEnumerator();
+		    Tile current = world.getTileAt(units.First.Value.position);
+		    LinkedList<Tile> tiles = new LinkedList<Tile>();
+		    tiles.AddFirst(current);
+		    AnimalActor currentActor=null;
+		    while(tiles.Count!=0 && (currentActor!=null || enu.MoveNext()))
+		    {
+			    if (currentActor == null)
+				    currentActor = enu.Current;
+			    current= tiles.First.Value;
+			    tiles.RemoveFirst();
 			
-			IEnumerator<Tile> tileEnu= current.adjacent.GetEnumerator();
-			while (tileEnu.MoveNext())
-			{
-				if (tileEnu.Current!=null)
-				tiles.AddLast(tileEnu.Current);
-			}
-				 AnimalActor a = world.getAnimalOnTile(current);
-				 if (a == null && current!=null)
-				 {
-						 enu.Current.position = new Vector2(current.x, current.y);
-						 FlyingSprite sprite = new FlyingSprite(world, units.First.Value.position, new Vector2(0, 0), 1, new Vector2(1, 1), Vector2.Zero, 0, enu.Current.position, enu.Current);
+			    IEnumerator<Tile> tileEnu= current.adjacent.GetEnumerator();
+			    while (tileEnu.MoveNext())
+			    {
+				    if (tileEnu.Current!=null)
+				    tiles.AddLast(tileEnu.Current);
+			    }
+				     AnimalActor a = world.getAnimalOnTile(current);
+				     if (a == null && current!=null)
+				     {
+						     enu.Current.position = new Vector2(current.x, current.y);
+						     FlyingSprite sprite = new FlyingSprite(world, units.First.Value.position, new Vector2(0, 0), 1, new Vector2(1, 1), Vector2.Zero, 0, enu.Current.position, enu.Current);
 						 
-					     sprite.anim=enu.Current.anim;
-						 world.addActor(enu.Current);
-						 enu.Current.removeMe = false;
-						 enu.Current.changeTeam(team);
-						 world.addActor(sprite);
-						 //enu.Current.customDraw = AnimalActor.drawInvisible;
-						 currentActor = null;
-				 }
-				
-
-			 }
-		 
-		
+					         sprite.anim=enu.Current.anim;
+						     world.addActor(enu.Current);
+						     enu.Current.removeMe = false;
+						     enu.Current.changeTeam(team);
+						     world.addActor(sprite);
+						     //enu.Current.customDraw = AnimalActor.drawInvisible;
+						     currentActor = null;
+				     }
+			     }
+	        }
 	}
-
-	}
-
-
 }

@@ -46,9 +46,7 @@ namespace Game
         {
 
             cameraManager = new CameraManager(engine, numTeams);
-
 			// calls the base constructor
-
         }
 
         protected override void constructGameActorFactory()
@@ -87,7 +85,6 @@ namespace Game
 
                 i.Current.canMove = true;
                 i.Current.canAct = true;
-
             }
         }
 
@@ -243,14 +240,8 @@ namespace Game
 					cameraMoveDirection.y = 1;
 				if (position.y < width * .05)
 					cameraMoveDirection.y = -1;
-
-					
-			
 			}
-
-			
 				cameraManager.panCamera(cameraMoveDirection * 5);
-
         }
 
         private void UpdateInfoBox()
@@ -290,7 +281,6 @@ namespace Game
                     else
                     {
                         playerInfoBox.text += "| Exp= " + (highLightPlayer as AnimalActor).expLevel[(highLightPlayer as AnimalActor).level] + "/" + (highLightPlayer as AnimalActor).expLevel[(highLightPlayer as AnimalActor).level].ToString() + " |";
-
                     }
                     //makes the playerinfobox the same color as its team and makes it transparent
                     playerInfoBox.bgColor = new Color(highLightPlayer.color.r, highLightPlayer.color.g, highLightPlayer.color.b, 0.3f);
@@ -329,9 +319,7 @@ namespace Game
 					return (AnimalActor)a.Current;
 
 			return null;
-
 		}
-
 
 		protected override void start()
         {

@@ -18,7 +18,6 @@ namespace Game
 			this.world = world;
 			this.units = units;
 			this.team = team;
-
 		}
 
 		//Called at beginning of turn, call world.endTurn() once turn is done.
@@ -29,7 +28,6 @@ namespace Game
 
         public void updateStatusEffects(AnimalActor actor)
         {
-           
             if (actor.isPoisoned)
             {
                 if (actor.poisonCount == 0)

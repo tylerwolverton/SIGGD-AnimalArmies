@@ -8,14 +8,29 @@ using Game.AI;
 
 namespace Game
 {
+    public enum team_t { None, Blue, Purple, Red, Yellow };
+    public enum player_type_t { None, Human, Computer };
+
+    public class Team
+    {
+        public team_t Color { get; set; }
+        public player_type_t PlayerType { get; set; }
+
+        public Team(team_t teamColor, player_type_t playerType)
+        {
+            Color = teamColor;
+            PlayerType = playerType;
+        }
+    }
+
     public class GameWorld : World
     {
 		public SinglePressBinding click, enter, rightClick, selectLeft, selectRight, collapse, uncollapse;
-        public static int numTeams = 5; 
         public int currentTeam = 0;
+        public int maxNumTeams = 4;
         public int unitsMoved; // number of units moved this turn
-        public LinkedList<AnimalActor>[] teams = new LinkedList<AnimalActor>[numTeams];
-        public team_t[] teamList = new team_t[] {team_t.None,team_t.Red, team_t.Blue, team_t.Purple, team_t.Yellow }; // Define team colors
+        public List<LinkedList<AnimalActor>> teams = new List<LinkedList<AnimalActor>>();
+        public Dictionary<team_t, Team> TeamDict = new Dictionary<team_t,Team>();// = new team_t[] {team_t.None,team_t.Red, team_t.Blue, team_t.Purple, team_t.Yellow }; // Define team colors
 		public String[] teamBanner = new String[] { "", "GUI\\002_TeamBoxes\\Blue_team.png", "GUI\\002_TeamBoxes\\Purple_team.png", "GUI\\002_TeamBoxes\\Red_team.png","GUI\\002_TeamBoxes\\Yellow_team.png"};
         public List<AnimalActor> currentActors;
         public team_t currentColor;
@@ -30,7 +45,7 @@ namespace Game
 		public GUILabel teamBox;
 
 		public int teamBoxCooldown=0;
-		public Player[] players = new Player[numTeams];
+		public List<Player> playerList = new List<Player>();
 
         public CameraManager cameraManager;
 
@@ -45,7 +60,7 @@ namespace Game
         public GameWorld(Game theEngine, Mapfile map) :base(theEngine, map)
         {
 
-            cameraManager = new CameraManager(engine, numTeams);
+            cameraManager = new CameraManager(engine, maxNumTeams);
 			// calls the base constructor
         }
 
@@ -121,7 +136,7 @@ namespace Game
 			teamBox.pos = new Vector2(engine.graphicsComponent.width / 2 - teamBox.size.x / 2, 0);
 
             readyTeam(currentColor);
-            players[currentTeam].startTurn();
+            playerList.[currentTeam].startTurn();
         }
         
         /*************************************** Initialization Functions ***************************************/ 
@@ -136,6 +151,11 @@ namespace Game
 			selectRight= (SinglePressBinding)engine.inputComponent[GameInput.ExampleBindings.SELECTRIGHT];
 			collapse = (SinglePressBinding)engine.inputComponent[GameInput.ExampleBindings.COLLAPSE];
 			uncollapse = (SinglePressBinding)engine.inputComponent[GameInput.ExampleBindings.UNCOLLAPSE];
+
+            TeamDict.Add(team_t.Purple, new Team(team_t.Purple, player_type_t.None));
+            TeamDict.Add(team_t.Yellow, new Team(team_t.Yellow, player_type_t.None));
+            TeamDict.Add(team_t.Blue, new Team(team_t.Blue, player_type_t.None));
+            TeamDict.Add(team_t.Red, new Team(team_t.Red, player_type_t.None));
         }
 
 		protected override void initTiles(Mapfile.TileData[, ,] tileData)
@@ -332,20 +352,24 @@ namespace Game
 			{
                 initializeInfoBox();
 
-				int numHumans = 3;
-
 				engine.inputComponent.normalize();
-				for (int i = 0; i < numTeams; i++)
+				foreach (var teamEntry in TeamDict.Values)
 				{
-					teams[i] = new LinkedList<AnimalActor>();
-
-					if (i < numHumans)
-						players[i] = new HumanPlayer(this, teams[i], (team_t)i);
-					else
-						players[i] = new ComputerPlayer(this, teams[i], (team_t)i);
+                    if(teamEntry.PlayerType == player_type_t.Human)
+                    {
+                        var team = new LinkedList<AnimalActor>();
+                        teams.Add(team);
+                        playerList.Add(new HumanPlayer(this, team, teamEntry.Color));
+                    }
+                    else if (teamEntry.PlayerType == player_type_t.Computer)
+                    {
+                        var team = new LinkedList<AnimalActor>();
+                        teams.Add(team);
+                        playerList.Add(new ComputerPlayer(this, team, teamEntry.Color));
+                    }
 				}
 
-				currentColor = teamList[currentTeam];
+				currentColor = playerList.First().team;
 
 				readyTeam(currentColor);
 

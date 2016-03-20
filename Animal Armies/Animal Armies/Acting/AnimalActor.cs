@@ -9,8 +9,6 @@ using System.Diagnostics;
 
 namespace Game
 {
-    // TODO: why does this live here?
-    public enum team_t { None, Blue, Purple, Red, Yellow };
     public enum tileDefense
     {
         grass = 0,
@@ -108,13 +106,13 @@ namespace Game
             //
             foreach (LinkedList<AnimalActor> team in world.teams)
             {
-                if(team.Count() == 0)
+                if(team.Count() > 0)
                 {
                     teamCount++;
                 }
             }
 
-            if (teamCount == GameWorld.numTeams - 1)
+            if (teamCount <= 1)
             {
                 world.engine.quit = true;
             }

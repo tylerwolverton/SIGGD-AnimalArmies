@@ -102,6 +102,4 @@ namespace Game
             return moveCamera(player_positions[(int)team], draw);
         }
     }
-
-
 }

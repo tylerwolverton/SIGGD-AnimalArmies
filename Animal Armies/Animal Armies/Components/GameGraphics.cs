@@ -13,6 +13,13 @@ namespace Game
         GUILabel TitleLabel;
 		GUILabel MenuLabel;
 		GUILabel ExitLabel;
+
+        GUILabel PurpleBg;
+        GUILabel YellowBg;
+        GUILabel RedBg;
+        GUILabel BlueBg;
+        GUILabel StartLabel;
+
         public new Game engine
         {
             get
@@ -40,10 +47,45 @@ namespace Game
 			}
         }
 
+        public void loadTeamSelect(Vector2 pos, MouseKeyBinding.MouseButton mouseButton)
+        {
+            menuUnload();
+
+            PurpleBg = new GUILabel(gui, new Handle(engine.resourceComponent, "Menu/TeamSelect/Purple.png"));
+            PurpleBg.pos = new Vector2(0, 100);
+            gui.add(PurpleBg);
+
+            YellowBg = new GUILabel(gui, new Handle(engine.resourceComponent, "Menu/TeamSelect/Yellow.png"));
+            YellowBg.pos = new Vector2(250, 100);
+            gui.add(YellowBg);
+
+            RedBg = new GUILabel(gui, new Handle(engine.resourceComponent, "Menu/TeamSelect/Red.png"));
+            RedBg.pos = new Vector2(500, 100);
+            gui.add(RedBg);
+
+            BlueBg = new GUILabel(gui, new Handle(engine.resourceComponent, "Menu/TeamSelect/Blue.png"));
+            BlueBg.pos = new Vector2(750, 100);
+            gui.add(BlueBg);
+
+            StartLabel = new GUILabel(gui, new Handle(engine.resourceComponent, "Menu/Start.png"));
+            StartLabel.mouseClickEvent += loadWorld;
+            StartLabel.pos = new Vector2(width / 2 - 64, height - 75);
+            gui.add(StartLabel);
+        }
+
+        private void unloadTeamSelect()
+        {
+            gui.remove(PurpleBg);
+            gui.remove(YellowBg);
+            gui.remove(RedBg);
+            gui.remove(BlueBg);
+        }
+
 		public void loadWorld(Vector2 pos, MouseKeyBinding.MouseButton mouseButton)
 		{
 			engine.setWorld("Maps/newWorld.map");
-			menuUnload();	
+            
+            unloadTeamSelect();	
 		}
 
 		public void menuLoad()
@@ -52,7 +94,7 @@ namespace Game
             TitleLabel.pos = new Vector2(width / 2 - 192, height / 2 - 256);
             gui.add(TitleLabel);
 			MenuLabel = new GUILabel(gui, new Handle(engine.resourceComponent, "Menu/Start.png"));
-			MenuLabel.mouseClickEvent += loadWorld;
+            MenuLabel.mouseClickEvent += loadTeamSelect;
 			MenuLabel.pos = new Vector2(width / 2 - 150, height / 2 + 150);
 			gui.add(MenuLabel);
             ExitLabel = new GUILabel(gui, new Handle(engine.resourceComponent, "Menu/Quit.png"));

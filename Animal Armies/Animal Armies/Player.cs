@@ -11,7 +11,7 @@ namespace Game
 
         // Note: units is just a reference to the list of units maintained by the GameWorld.  We don't have any control over it.
 		protected readonly LinkedList<AnimalActor> units;
-		protected readonly team_t team;
+        public team_t team { get; protected set; }
 
 		public Player(GameWorld world, LinkedList<AnimalActor> units, team_t team)
 		{

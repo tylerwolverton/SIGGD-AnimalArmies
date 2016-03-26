@@ -80,7 +80,7 @@ namespace Game
          */
         public void die()
         {
-            world.teams[(int)team].Remove(this);
+            TeamDictionary.TeamDict[team].ActorList.Remove(this);
             world.currentActors.Remove(this);
             removeMe = true;
         }

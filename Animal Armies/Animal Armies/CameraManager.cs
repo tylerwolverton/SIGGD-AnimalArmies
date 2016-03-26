@@ -14,14 +14,10 @@ namespace Game
         // Minimum distance the camera will jump, in pixels
         private static int CAM_JUMP_MIN = 5 * GameTile.size;
 
-        // Each player can save one camera position
-        private Vector2[] player_positions;
-
         public CameraManager(Game engine, int num_teams)
         {
             gc = engine.graphicsComponent;
             cam = engine.graphicsComponent.camera;
-            player_positions = new Vector2[num_teams];
         }
 
         /**
@@ -82,8 +78,8 @@ namespace Game
          */
         public Vector2 saveView(team_t team)
         {
-            player_positions[(int)team] = new Vector2(cam.position);
-            return player_positions[(int)team];
+            TeamDictionary.TeamDict[team].CameraPosition = new Vector2(cam.position);
+            return cam.position;
         }
 
         /**
@@ -95,11 +91,11 @@ namespace Game
          */
         public bool loadView(team_t team, bool draw = false)
         {
-            if (player_positions[(int)team] == null)
+            if (TeamDictionary.TeamDict[team].CameraPosition == null)
             {
                 return false;
             }
-            return moveCamera(player_positions[(int)team], draw);
+            return moveCamera(TeamDictionary.TeamDict[team].CameraPosition, draw);
         }
     }
 }

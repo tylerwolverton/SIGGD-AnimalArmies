@@ -4,6 +4,8 @@ using Engine;
 using System.Diagnostics;
 using Tao.Sdl;
 
+using Game.GUI;
+
 namespace Game
 {
     public class GameGraphics : GraphicsComponent
@@ -13,12 +15,9 @@ namespace Game
         GUILabel TitleLabel;
 		GUILabel MenuLabel;
 		GUILabel ExitLabel;
-
-        GUILabel PurpleBg;
-        GUILabel YellowBg;
-        GUILabel RedBg;
-        GUILabel BlueBg;
         GUILabel StartLabel;
+
+        PlayerSelection PlayerSelect;
 
         public new Game engine
         {
@@ -51,42 +50,26 @@ namespace Game
         {
             menuUnload();
 
-            PurpleBg = new GUILabel(gui, new Handle(engine.resourceComponent, "Menu/TeamSelect/Purple.png"));
-            PurpleBg.pos = new Vector2(0, 100);
-            gui.add(PurpleBg);
+            PlayerSelect = new PlayerSelection(engine, gui);
 
-            YellowBg = new GUILabel(gui, new Handle(engine.resourceComponent, "Menu/TeamSelect/Yellow.png"));
-            YellowBg.pos = new Vector2(250, 100);
-            gui.add(YellowBg);
-
-            RedBg = new GUILabel(gui, new Handle(engine.resourceComponent, "Menu/TeamSelect/Red.png"));
-            RedBg.pos = new Vector2(500, 100);
-            gui.add(RedBg);
-
-            BlueBg = new GUILabel(gui, new Handle(engine.resourceComponent, "Menu/TeamSelect/Blue.png"));
-            BlueBg.pos = new Vector2(750, 100);
-            gui.add(BlueBg);
+            PlayerSelect.LoadGuiElements();
 
             StartLabel = new GUILabel(gui, new Handle(engine.resourceComponent, "Menu/Start.png"));
-            StartLabel.mouseClickEvent += loadWorld;
+            StartLabel.mouseClickEvent += startGame;
             StartLabel.pos = new Vector2(width / 2 - 64, height - 75);
-            gui.add(StartLabel);
+            gui.add(StartLabel);            
         }
-
-        private void unloadTeamSelect()
+        
+        public void startGame(Vector2 pos, MouseKeyBinding.MouseButton mouseButton)
         {
-            gui.remove(PurpleBg);
-            gui.remove(YellowBg);
-            gui.remove(RedBg);
-            gui.remove(BlueBg);
-        }
+            if( PlayerSelect.StartGame())
+            {
+                engine.setWorld("Maps/newWorld.map");
 
-		public void loadWorld(Vector2 pos, MouseKeyBinding.MouseButton mouseButton)
-		{
-			engine.setWorld("Maps/newWorld.map");
-            
-            unloadTeamSelect();	
-		}
+                gui.remove(StartLabel);
+            }
+
+        }
 
 		public void menuLoad()
         {

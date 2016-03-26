@@ -13,25 +13,35 @@ namespace Game
 
     public class Team
     {
+        public bool IsActive { get; set; }
         public team_t Color { get; set; }
         public player_type_t PlayerType { get; set; }
+        public string BannerPath { get; set; }
+        public LinkedList<AnimalActor> ActorList { get; set; }
+        public Vector2 CameraPosition { get; set; }
 
-        public Team(team_t teamColor, player_type_t playerType)
+        public Team(team_t teamColor, player_type_t playerType, string bannerPath)
         {
+            IsActive = false;
             Color = teamColor;
             PlayerType = playerType;
+            BannerPath = bannerPath;
+            ActorList = new LinkedList<AnimalActor>();
+            CameraPosition = new Vector2(0, 0);
         }
     }
 
     public class GameWorld : World
     {
 		public SinglePressBinding click, enter, rightClick, selectLeft, selectRight, collapse, uncollapse;
-        public int currentTeam = 0;
-        public int maxNumTeams = 4;
+        public int currentTeam;
+        //public int maxNumTeams = 4;
+        private int numTeams;
         public int unitsMoved; // number of units moved this turn
-        public List<LinkedList<AnimalActor>> teams = new List<LinkedList<AnimalActor>>();
-        public Dictionary<team_t, Team> TeamDict = new Dictionary<team_t,Team>();// = new team_t[] {team_t.None,team_t.Red, team_t.Blue, team_t.Purple, team_t.Yellow }; // Define team colors
-		public String[] teamBanner = new String[] { "", "GUI\\002_TeamBoxes\\Blue_team.png", "GUI\\002_TeamBoxes\\Purple_team.png", "GUI\\002_TeamBoxes\\Red_team.png","GUI\\002_TeamBoxes\\Yellow_team.png"};
+        public List<LinkedList<AnimalActor>> teams;
+        //public team_t[] teamList = new team_t[] { team_t.None, team_t.Red, team_t.Blue, team_t.Purple, team_t.Yellow }; // Define team colors
+        //public static Dictionary<team_t, Team> TeamDict = new Dictionary<team_t,Team>();
+		//public String[] teamBanner = new String[] { "", "GUI\\002_TeamBoxes\\Blue_team.png", "GUI\\002_TeamBoxes\\Purple_team.png", "GUI\\002_TeamBoxes\\Red_team.png","GUI\\002_TeamBoxes\\Yellow_team.png"};
         public List<AnimalActor> currentActors;
         public team_t currentColor;
 		public AI.ComputerPlayer AI;
@@ -44,8 +54,9 @@ namespace Game
 
 		public GUILabel teamBox;
 
-		public int teamBoxCooldown=0;
+		public int teamBoxCooldown;
 		public List<Player> playerList = new List<Player>();
+        //public Player[] players = new Player[5];
 
         public CameraManager cameraManager;
 
@@ -59,9 +70,7 @@ namespace Game
 
         public GameWorld(Game theEngine, Mapfile map) :base(theEngine, map)
         {
-
-            cameraManager = new CameraManager(engine, maxNumTeams);
-			// calls the base constructor
+            teams  = new List<LinkedList<AnimalActor>>();
         }
 
         protected override void constructGameActorFactory()
@@ -85,33 +94,32 @@ namespace Game
 
 		public void addToTeam(AnimalActor recruit, team_t newTeam)
 		{
-			teams[(int)newTeam].AddLast(recruit);
+            TeamDictionary.TeamDict[newTeam].ActorList.AddLast(recruit);
 		}
 
         public void readyTeam(team_t team)
         {
             unitsMoved = 0;
-            IEnumerator<AnimalActor> i = teams[currentTeam].GetEnumerator();
             currentActors= new List<AnimalActor>();
 			
-            while (i.MoveNext())
+            foreach (var actor in TeamDictionary.TeamDict[team].ActorList)
             {
-                currentActors.Add(i.Current);
+                currentActors.Add(actor);
 
-                i.Current.canMove = true;
-                i.Current.canAct = true;
+                actor.canMove = true;
+                actor.canAct = true;
             }
         }
 
         public void unreadyTeam(team_t team)
         {
             unitsMoved = 0;
-            IEnumerator<AnimalActor> i = teams[currentTeam].GetEnumerator();
-            while (i.MoveNext())
+            
+            foreach (var actor in TeamDictionary.TeamDict[team].ActorList)
             {
-                i.Current.canMove = false;
-                i.Current.canAct = false;
-                i.Current.changeActorSprite(false);
+                actor.canMove = false;
+                actor.canAct = false;
+                actor.changeActorSprite(false);
             }
         }
 
@@ -119,16 +127,15 @@ namespace Game
         public void endTurn()
         {
             // increment current team and ready it while unreadying the old team
-
             unreadyTeam(currentColor);
-            // set currentTeam to the next team in the list (accounting for wraparound with a mod)
 
+            // set currentTeam to the next team in the list (accounting for wraparound with a mod
             currentTeam = (currentTeam + 1) % (numTeams);
-            currentColor = teamList[currentTeam];
+            currentColor = playerList[currentTeam].team;
 
 			if (currentTeam != 0)
 			{
-				teamBox.texture = new Handle(engine.resourceComponent, teamBanner[currentTeam]);
+				teamBox.texture = new Handle(engine.resourceComponent, TeamDictionary.TeamDict[currentColor].BannerPath);
 				teamBoxCooldown = 120;
 			}
 
@@ -136,7 +143,7 @@ namespace Game
 			teamBox.pos = new Vector2(engine.graphicsComponent.width / 2 - teamBox.size.x / 2, 0);
 
             readyTeam(currentColor);
-            playerList.[currentTeam].startTurn();
+            playerList[currentTeam].startTurn();
         }
         
         /*************************************** Initialization Functions ***************************************/ 
@@ -151,11 +158,6 @@ namespace Game
 			selectRight= (SinglePressBinding)engine.inputComponent[GameInput.ExampleBindings.SELECTRIGHT];
 			collapse = (SinglePressBinding)engine.inputComponent[GameInput.ExampleBindings.COLLAPSE];
 			uncollapse = (SinglePressBinding)engine.inputComponent[GameInput.ExampleBindings.UNCOLLAPSE];
-
-            TeamDict.Add(team_t.Purple, new Team(team_t.Purple, player_type_t.None));
-            TeamDict.Add(team_t.Yellow, new Team(team_t.Yellow, player_type_t.None));
-            TeamDict.Add(team_t.Blue, new Team(team_t.Blue, player_type_t.None));
-            TeamDict.Add(team_t.Red, new Team(team_t.Red, player_type_t.None));
         }
 
 		protected override void initTiles(Mapfile.TileData[, ,] tileData)
@@ -225,9 +227,8 @@ namespace Game
 				if (currentActors.Count == 0)
 					endTurn();
 
-				players[currentTeam].Update();
+				playerList[currentTeam].Update();
 			}
-            
         }
 
         private void UpdateCamera()
@@ -273,7 +274,7 @@ namespace Game
 			else
 				teamBoxCooldown--;
 
-            GUI tempGUI = engine.graphicsComponent.gui;//setting a temporary gui again just to set a GUI
+            Engine.GUI tempGUI = engine.graphicsComponent.gui;//setting a temporary gui again just to set a GUI
             highlightTile = (GameTile)getTileAt(engine.graphicsComponent.camera.screen2World(engine.inputComponent.getMousePosition()));//the tile that the mouse is hovering over
 			
             if (highlightTile != null)
@@ -353,24 +354,24 @@ namespace Game
                 initializeInfoBox();
 
 				engine.inputComponent.normalize();
-				foreach (var teamEntry in TeamDict.Values)
-				{
-                    if(teamEntry.PlayerType == player_type_t.Human)
+                foreach (var teamEntry in TeamDictionary.TeamDict.Values)
+                {
+                    if (teamEntry.PlayerType == player_type_t.Human)
                     {
-                        var team = new LinkedList<AnimalActor>();
-                        teams.Add(team);
-                        playerList.Add(new HumanPlayer(this, team, teamEntry.Color));
+                        TeamDictionary.TeamDict[teamEntry.Color].IsActive = true;
+                        playerList.Add(new HumanPlayer(this, TeamDictionary.TeamDict[teamEntry.Color].ActorList, teamEntry.Color));
+                        numTeams++;
                     }
                     else if (teamEntry.PlayerType == player_type_t.Computer)
                     {
-                        var team = new LinkedList<AnimalActor>();
-                        teams.Add(team);
-                        playerList.Add(new ComputerPlayer(this, team, teamEntry.Color));
+                        TeamDictionary.TeamDict[teamEntry.Color].IsActive = true;
+                        playerList.Add(new ComputerPlayer(this, TeamDictionary.TeamDict[teamEntry.Color].ActorList, teamEntry.Color));
+                        numTeams++;
                     }
-				}
-
-				currentColor = playerList.First().team;
-
+                }
+                cameraManager = new CameraManager(engine, numTeams);
+				
+                currentColor = playerList.First().team;
 				readyTeam(currentColor);
 
 				endTurn();

@@ -3,7 +3,7 @@ using Game;
 
 namespace Game
 {
-    public class GameGUI : GUI
+    public class GameGUI : Engine.GUI
     {
         GUIList testList; 
 

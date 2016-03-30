@@ -113,7 +113,6 @@ namespace Game
 				}
 			}
 				return a;
-
 		}
     }
 }

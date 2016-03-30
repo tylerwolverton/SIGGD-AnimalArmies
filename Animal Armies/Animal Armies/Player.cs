@@ -13,11 +13,11 @@ namespace Game
 		protected readonly LinkedList<AnimalActor> units;
         public team_t team { get; protected set; }
 
-		public Player(GameWorld world, LinkedList<AnimalActor> units, team_t team)
+		public Player(GameWorld world, team_t team)
 		{
 			this.world = world;
-			this.units = units;
-			this.team = team;
+            this.team = team;
+            this.units = TeamDictionary.TeamDict[team].ActorList;
 		}
 
 		//Called at beginning of turn, call world.endTurn() once turn is done.

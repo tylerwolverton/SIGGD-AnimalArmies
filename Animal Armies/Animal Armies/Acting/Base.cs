@@ -34,11 +34,7 @@ namespace Game
                 this.actorName = "Purple Base";
             }
             
-            position = new Vector2(position.x - (position.x % 32), position.y - (position.y % 32));
-			
+            position = new Vector2(position.x - (position.x % 32), position.y - (position.y % 32));	
 		}
-
-
-
 	}
 }

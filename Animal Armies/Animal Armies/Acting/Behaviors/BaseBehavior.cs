@@ -10,7 +10,7 @@ namespace Game
         team_t team;
         Color teamColor;
         Boolean transformReady = true;
-        public int teamValue = 1;
+        public int teamValue = 10;
         private const Boolean SPAWN_RANDOM_ACTORS = true;
         public BaseBehavior(GameWorld world, GameActor actor, team_t team, Color teamColor)
             : base(world, actor)
@@ -23,8 +23,6 @@ namespace Game
         {
             if (transformReady)
             {
-
-
                 Tile current = world.getTileAt(actor.position);
                 for (int i = -2; i <= 2; i++)
                 {
@@ -32,7 +30,7 @@ namespace Game
                     {
                         Tile checkTile = world.getTile(current.xIndex + i, current.yIndex + j);
 
-                        if (teamValue >= 0 && SPAWN_RANDOM_ACTORS)
+                        if (TeamDictionary.TeamDict[team].IsActive && teamValue >= 0 && SPAWN_RANDOM_ACTORS)
                         { 
                             AnimalActor newActor = ((GameActorFactory)world.actorFactory).createRandomAnimalActor(new Vector2(checkTile.x, checkTile.y));
                             GameTile realTile = (GameTile)newActor.FindOpenTile(newActor, checkTile as GameTile);
@@ -64,8 +62,6 @@ namespace Game
 
                 actor.removeMe = true;
             }
-
         }
-
     }
 }

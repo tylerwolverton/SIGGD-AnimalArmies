@@ -13,21 +13,21 @@ namespace Game.AI
         }
          public override void execute()
          { 
-             foreach (AnimalActor aiActor in context.units)
+             foreach (AnimalActor aiActor in platoon.units)
              {
                  GameTile best = null;
                  double best_dist = double.NegativeInfinity;
                  foreach (GameTile target in aiActor.findPaths())
                  {
                      // Check that the target tile is empty
-                     AnimalActor actor_at_target = context.world.getAnimalOnTile(target);
+                     AnimalActor actor_at_target = platoon.world.getAnimalOnTile(target);
                      if (actor_at_target != null)
                      {
                          continue;
                      }
 
                      double dist = 0;
-                     foreach (Engine.Actor enemyActor in context.world.actors)
+                     foreach (Engine.Actor enemyActor in platoon.world.actors)
                      {
                          // Ignore the player in the same team
                          if (enemyActor.color == aiActor.color) continue;

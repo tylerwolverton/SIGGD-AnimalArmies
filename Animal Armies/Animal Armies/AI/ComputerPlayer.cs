@@ -17,8 +17,8 @@ namespace Game.AI
 
 		private bool finished = false;
 
-		public ComputerPlayer(GameWorld world, LinkedList<AnimalActor> units, team_t team)
-			: base(world, units, team)
+		public ComputerPlayer(GameWorld world, team_t team)
+			: base(world, team)
 		{
 			// For right now, we'll group all our units into one platoon
 			// Typically, you would create new, smaller, mutually exclusive lists,

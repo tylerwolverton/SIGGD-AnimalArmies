@@ -18,18 +18,18 @@ namespace Game.AI
         public override void execute()
         {
             // Find centroid of our units
-            GameTile center = context.getCenterTile();
+            GameTile center = platoon.getCenterTile();
 
             Engine.Actor a = null;
             if (enemy == null)
             {
                 double dist = double.MaxValue;
-                for (int f = 0; f < context.world.actors.Count(); f++)
+                for (int f = 0; f < platoon.world.actors.Count(); f++)
                 {
-                    Engine.Actor x = context.world.actors.ElementAt(f);
-                    if (x is AnimalActor && ((AnimalActor)x).team != this.context.team && ((GameTile)x.curTile).manhattan((GameTile)context.units.ElementAt(0).curTile) < dist)
+                    Engine.Actor x = platoon.world.actors.ElementAt(f);
+                    if (x is AnimalActor && ((AnimalActor)x).team != this.platoon.team && ((GameTile)x.curTile).manhattan((GameTile)platoon.units.ElementAt(0).curTile) < dist)
                     {
-                        dist = ((GameTile)x.curTile).manhattan((GameTile)context.units.ElementAt(0).curTile);
+                        dist = ((GameTile)x.curTile).manhattan((GameTile)platoon.units.ElementAt(0).curTile);
                         a = x;
                     }
                 }
@@ -41,35 +41,35 @@ namespace Game.AI
 
             if (a == null) return;
             GameTile victim = (GameTile)a.curTile;
-            for (int i = 0; i < context.units.Count; i++)
+            for (int i = 0; i < platoon.units.Count; i++)
             {
                 GameTile moveTile = null;
-                if (context.world.getActorOnTile(victim.right) == null)
+                if (platoon.world.getActorOnTile(victim.right) == null)
                 {
                     moveTile = (GameTile)victim.right;
                 }
-                else if (context.world.getActorOnTile(victim.up) == null)
+                else if (platoon.world.getActorOnTile(victim.up) == null)
                 {
                     moveTile = (GameTile)victim.up;
                 }
-                else if (context.world.getActorOnTile(victim.left) == null)
+                else if (platoon.world.getActorOnTile(victim.left) == null)
                 {
                     moveTile = (GameTile)victim.left;
                 }
-                else if (context.world.getActorOnTile(victim.down) == null)
+                else if (platoon.world.getActorOnTile(victim.down) == null)
                 {
                     moveTile = (GameTile)victim.down;
                 }
                 if (moveTile != null)
                 {
-                    moveUnit(context.units.ElementAt(i), moveTile);
-                    context.units.ElementAt(i).attackTile(victim);
+                    moveUnit(platoon.units.ElementAt(i), moveTile);
+                    platoon.units.ElementAt(i).attackTile(victim);
 
-                    Console.WriteLine("platoon unit {0} at ({1}, {2}) moving to ({3}, {4}) and attacking ({5}, {6})", i, context.units.ElementAt(i).curTile.xIndex, context.units.ElementAt(i).curTile.yIndex, moveTile.xIndex, moveTile.yIndex, victim.xIndex, victim.yIndex);
+                    Console.WriteLine("platoon unit {0} at ({1}, {2}) moving to ({3}, {4}) and attacking ({5}, {6})", i, platoon.units.ElementAt(i).curTile.xIndex, platoon.units.ElementAt(i).curTile.yIndex, moveTile.xIndex, moveTile.yIndex, victim.xIndex, victim.yIndex);
                 }
                 else
                 {
-                    Console.WriteLine("platoon unit {0} at ({1}, {2}) couldn't move to attack ({3}, {4})", i, context.units.ElementAt(i).curTile.xIndex, context.units.ElementAt(i).curTile.yIndex, victim.xIndex, victim.yIndex);
+                    Console.WriteLine("platoon unit {0} at ({1}, {2}) couldn't move to attack ({3}, {4})", i, platoon.units.ElementAt(i).curTile.xIndex, platoon.units.ElementAt(i).curTile.yIndex, victim.xIndex, victim.yIndex);
                 }
             }
             

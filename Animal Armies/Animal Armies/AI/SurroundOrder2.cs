@@ -50,7 +50,7 @@ namespace Game.AI
         {
             //Iterate through each of our units, make a map of tiles : a list of who can reach the tiles
             Dictionary<GameTile, List<AnimalActor>> teamTiles = new Dictionary<GameTile, List<AnimalActor>>();
-            foreach (AnimalActor actor in context.units)
+            foreach (AnimalActor actor in platoon.units)
             {
                 // Don't bother with dead units or those that have already moved.
                 if (actor.removeMe || !actor.canMove || !actor.canAct)
@@ -81,10 +81,10 @@ namespace Game.AI
             }
             
             // Otherwise, compute targeting info for all enemies
-            foreach (LinkedList<AnimalActor> team in context.world.teams)
+            foreach (LinkedList<AnimalActor> team in platoon.world.teams)
             {
                 // Ignore teams that are us
-                if (team.Count == 0 || team.First.Value.team == context.team)
+                if (team.Count == 0 || team.First.Value.team == platoon.team)
                     continue;
 
                 foreach (AnimalActor animal in team)

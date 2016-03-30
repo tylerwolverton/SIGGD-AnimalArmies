@@ -39,9 +39,6 @@ namespace Game
         private int numTeams;
         public int unitsMoved; // number of units moved this turn
         public List<LinkedList<AnimalActor>> teams;
-        //public team_t[] teamList = new team_t[] { team_t.None, team_t.Red, team_t.Blue, team_t.Purple, team_t.Yellow }; // Define team colors
-        //public static Dictionary<team_t, Team> TeamDict = new Dictionary<team_t,Team>();
-		//public String[] teamBanner = new String[] { "", "GUI\\002_TeamBoxes\\Blue_team.png", "GUI\\002_TeamBoxes\\Purple_team.png", "GUI\\002_TeamBoxes\\Red_team.png","GUI\\002_TeamBoxes\\Yellow_team.png"};
         public List<AnimalActor> currentActors;
         public team_t currentColor;
 		public AI.ComputerPlayer AI;
@@ -56,7 +53,6 @@ namespace Game
 
 		public int teamBoxCooldown;
 		public List<Player> playerList = new List<Player>();
-        //public Player[] players = new Player[5];
 
         public CameraManager cameraManager;
 
@@ -138,7 +134,6 @@ namespace Game
 				teamBox.texture = new Handle(engine.resourceComponent, TeamDictionary.TeamDict[currentColor].BannerPath);
 				teamBoxCooldown = 120;
 			}
-
 			
 			teamBox.pos = new Vector2(engine.graphicsComponent.width / 2 - teamBox.size.x / 2, 0);
 
@@ -359,13 +354,13 @@ namespace Game
                     if (teamEntry.PlayerType == player_type_t.Human)
                     {
                         TeamDictionary.TeamDict[teamEntry.Color].IsActive = true;
-                        playerList.Add(new HumanPlayer(this, TeamDictionary.TeamDict[teamEntry.Color].ActorList, teamEntry.Color));
+                        playerList.Add(new HumanPlayer(this, teamEntry.Color));
                         numTeams++;
                     }
                     else if (teamEntry.PlayerType == player_type_t.Computer)
                     {
                         TeamDictionary.TeamDict[teamEntry.Color].IsActive = true;
-                        playerList.Add(new ComputerPlayer(this, TeamDictionary.TeamDict[teamEntry.Color].ActorList, teamEntry.Color));
+                        playerList.Add(new ComputerPlayer(this, teamEntry.Color));
                         numTeams++;
                     }
                 }

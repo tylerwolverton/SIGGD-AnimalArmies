@@ -12,8 +12,6 @@ namespace Game
         // Masking Variables
         public int maskingCategory;
         public List<int> collidableActors = new List<int>();
-
-
         
         private Life _life;
         public Life life { get { return _life; } set { _life = value; } }

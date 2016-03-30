@@ -33,8 +33,8 @@ namespace Game
 		bool moveColHitMax = true;
 		bool atkColHitMax = true;		
 
-		public HumanPlayer(GameWorld world, LinkedList<AnimalActor> units, team_t team)
-			: base(world, units, team)
+		public HumanPlayer(GameWorld world, team_t team)
+			: base(world, team)
 		{
 			click = world.click;
 			enter = world.enter;

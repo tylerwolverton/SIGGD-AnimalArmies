@@ -9,11 +9,11 @@ namespace Game.AI
 {
     public abstract class Order
     {
-        public Platoon context;
+        protected Platoon platoon;
 
-        public Order(Platoon context)
+        public Order(Platoon platoon)
         {
-            this.context = context;
+            this.platoon = platoon;
         }
 
         public abstract void execute();
@@ -28,31 +28,31 @@ namespace Game.AI
                 return false;
             }
 
-            context.world.cameraManager.moveCamera(unit.position, true);
-            //Thread.Sleep(CAM_SLEEP_TIME);
-			for (int i = 0; i < 30; i++)
-			{
-				context.world.engine.graphicsComponent.draw();
-				Thread.Sleep(CAM_SLEEP_TIME);
-				context.world.Update();
-			}
+            platoon.world.cameraManager.moveCamera(unit.position, true);
+            Thread.Sleep(CAM_SLEEP_TIME);
+            //for (int i = 0; i < 30; i++)
+            //{
+            //    platoon.world.engine.graphicsComponent.draw();
+            //    Thread.Sleep(CAM_SLEEP_TIME);
+            //    platoon.world.Update();
+            //}
 
             unit.moveTile(target);
-            context.world.engine.graphicsComponent.draw();
+            platoon.world.engine.graphicsComponent.draw();
             // Sleep to let the user adjust
-            //Thread.Sleep(CAM_SLEEP_TIME);
-			for (int i = 0; i < 30; i++)
-			{
-				context.world.engine.graphicsComponent.draw();
-				Thread.Sleep(CAM_SLEEP_TIME);
-				context.world.Update();
-			}
+            Thread.Sleep(CAM_SLEEP_TIME);
+            //for (int i = 0; i < 30; i++)
+            //{
+            //    platoon.world.engine.graphicsComponent.draw();
+            //    Thread.Sleep(CAM_SLEEP_TIME);
+            //    platoon.world.Update();
+            //}
             return true;
         }
 
         public void addUnit(AnimalActor unit)
         {
-            context.addUnit(unit);
+            platoon.addUnit(unit);
         }
     }
 

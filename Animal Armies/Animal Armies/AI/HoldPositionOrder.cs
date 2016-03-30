@@ -35,7 +35,7 @@ namespace Game.AI
             posVec = new Engine.Vector2(this.position.x, this.position.y);
             this.attackRadius = attackRadius;
 
-            this.cluster = new ClusterOrder(this.context, this.position);
+            this.cluster = new ClusterOrder(this.platoon, this.position);
         }
 
 
@@ -43,7 +43,7 @@ namespace Game.AI
         {
             Console.WriteLine("Executing hold position order");
 
-            if (context.unitListChanged)
+            if (platoon.unitListChanged)
             {
                 updatePosition();
             }
@@ -53,7 +53,7 @@ namespace Game.AI
             if (closestEnemy != null)
             {
                 // Code to surround and attack that enemy here.  Will probably use Anubhaw and Andrew's Surround Order.
-                AttackOrder attack = new AttackOrder(context, closestEnemy);
+                AttackOrder attack = new AttackOrder(platoon, closestEnemy);
                 attack.execute();
             }
 
@@ -64,9 +64,9 @@ namespace Game.AI
         private void updatePosition()
         {
             // Update our position
-            if (!this.tileCentric && context.units.Count > 0)
+            if (!this.tileCentric && platoon.units.Count > 0)
             {
-                this.position = (GameTile)context.world.getTileAt(context.getCenter());
+                this.position = (GameTile)platoon.world.getTileAt(platoon.getCenter());
                 posVec = new Engine.Vector2(this.position.x, this.position.y);
                 cluster.setCenter(position);
             }
@@ -78,7 +78,7 @@ namespace Game.AI
             double closestEnemyDist = double.PositiveInfinity;
 
             // We prioritize units by their proximity to the position
-            foreach (Engine.Actor act in context.world.getActorsInCone(posVec, attackRadius * 32, new Engine.Vector2(0, 0), 360))
+            foreach (Engine.Actor act in platoon.world.getActorsInCone(posVec, attackRadius * 32, new Engine.Vector2(0, 0), 360))
             {
                 if (!(act is AnimalActor))
                 {
@@ -87,7 +87,7 @@ namespace Game.AI
 
                 AnimalActor target = (AnimalActor)act;
                 Console.WriteLine("Found animal actor at (" + target.position.x + "," + target.position.y + "), team is " + target.team);
-                if (target.team == context.team)
+                if (target.team == platoon.team)
                 {
                     continue;
                 }

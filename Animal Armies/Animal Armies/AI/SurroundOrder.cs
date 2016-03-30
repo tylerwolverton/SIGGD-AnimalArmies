@@ -17,7 +17,7 @@ namespace Game.AI
         {
             //Iterate through each of our units, make a map of tiles : a list of who can reach the tiles
             Dictionary<GameTile, List<AnimalActor>> teamTiles = new Dictionary<GameTile, List<AnimalActor>>();
-            foreach (AnimalActor actor in context.units)
+            foreach (AnimalActor actor in platoon.units)
             {
                 foreach (GameTile tile in actor.findPaths())
                 {
@@ -27,11 +27,11 @@ namespace Game.AI
                 }
             }
             Dictionary<AnimalActor, Dictionary<GameTile, List<AnimalActor>>> targetList = new Dictionary<AnimalActor, Dictionary<GameTile, List<AnimalActor>>>();
-            foreach (LinkedList<AnimalActor> team in context.world.teams)
+            foreach (LinkedList<AnimalActor> team in platoon.world.teams)
             {
                 foreach (AnimalActor animal in team)
                 {
-                    if (animal.team != context.team)
+                    if (animal.team != platoon.team)
                     {
                         Dictionary<GameTile, List<AnimalActor>> adj = new Dictionary<GameTile, List<AnimalActor>>();
                         foreach (GameTile tile in animal.curTile.adjacent)

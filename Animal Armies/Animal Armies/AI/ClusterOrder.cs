@@ -21,7 +21,7 @@ namespace Game.AI
             // If we don't know where we should cluster to, just pull all the units in.
             if (center == null)
             {
-                this.center = context.getCenterTile();
+                this.center = platoon.getCenterTile();
             }
             else 
             {
@@ -34,11 +34,11 @@ namespace Game.AI
         {
             turn_count++;
             System.Console.WriteLine("Executing cluster order");
-            System.Console.WriteLine("Center is at " + center + ", should probably be at " + context.getCenterTile());
+            System.Console.WriteLine("Center is at " + center + ", should probably be at " + platoon.getCenterTile());
 
             // Cluster!  Move units toward the center of the centroid.
             // TODO: There's a bug that lets actors step on each other (or something).
-            foreach (AnimalActor actor in context.units)
+            foreach (AnimalActor actor in platoon.units)
             {
                 if (!actor.canMove)
                 {
@@ -52,7 +52,7 @@ namespace Game.AI
                 foreach (GameTile target in actor.findPaths())
                 {
                     // Check that the target tile is empty
-                    GameActor actor_at_target = context.world.getActorOnTile(target);
+                    GameActor actor_at_target = platoon.world.getActorOnTile(target);
                     if (actor_at_target != null)
                     {
                         continue;

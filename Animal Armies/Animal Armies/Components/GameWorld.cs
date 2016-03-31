@@ -8,7 +8,7 @@ using Game.AI;
 
 namespace Game
 {
-    public enum team_t { None, Blue, Purple, Red, Yellow };
+    public enum team_t { Blue, Purple, Red, Yellow };
     public enum player_type_t { None, Human, Computer };
 
     public class Team
@@ -35,13 +35,12 @@ namespace Game
     {
 		public SinglePressBinding click, enter, rightClick, selectLeft, selectRight, collapse, uncollapse;
         public int currentTeam;
-        //public int maxNumTeams = 4;
         private int numTeams;
         public int unitsMoved; // number of units moved this turn
         public List<LinkedList<AnimalActor>> teams;
         public List<AnimalActor> currentActors;
         public team_t currentColor;
-		public AI.ComputerPlayer AI;
+		//public AI.ComputerPlayer AI;
         public GameTile[,] tiles;
 
         public GameTile highlightTile;
@@ -95,8 +94,12 @@ namespace Game
 
         public void readyTeam(team_t team)
         {
+            teamBox.texture = new Handle(engine.resourceComponent, TeamDictionary.TeamDict[team].BannerPath);
+            teamBox.pos = new Vector2(engine.graphicsComponent.width / 2 - teamBox.size.x / 2, 0);
+            teamBoxCooldown = 120;
+
             unitsMoved = 0;
-            currentActors= new List<AnimalActor>();
+            currentActors = new List<AnimalActor>();
 			
             foreach (var actor in TeamDictionary.TeamDict[team].ActorList)
             {
@@ -129,13 +132,13 @@ namespace Game
             currentTeam = (currentTeam + 1) % (numTeams);
             currentColor = playerList[currentTeam].team;
 
-			if (currentTeam != 0)
-			{
-				teamBox.texture = new Handle(engine.resourceComponent, TeamDictionary.TeamDict[currentColor].BannerPath);
-				teamBoxCooldown = 120;
-			}
+            //if (currentTeam != 0)
+            //{
+            //    teamBox.texture = new Handle(engine.resourceComponent, TeamDictionary.TeamDict[currentColor].BannerPath);
+            //    teamBoxCooldown = 120;
+            //}
 			
-			teamBox.pos = new Vector2(engine.graphicsComponent.width / 2 - teamBox.size.x / 2, 0);
+			//teamBox.pos = new Vector2(engine.graphicsComponent.width / 2 - teamBox.size.x / 2, 0);
 
             readyTeam(currentColor);
             playerList[currentTeam].startTurn();
@@ -343,7 +346,6 @@ namespace Game
             //engine.audioComponent.playSong(true, song);
        
             // Number of Human Players (eventually have this passed in from main menu)
-            // One higher than number you want due to team_None existing
 			if (!engine.currentWorldName.Equals("Maps/Menu.map"))
 			{
                 initializeInfoBox();
@@ -355,12 +357,14 @@ namespace Game
                     {
                         TeamDictionary.TeamDict[teamEntry.Color].IsActive = true;
                         playerList.Add(new HumanPlayer(this, teamEntry.Color));
+                        teams.Add(TeamDictionary.TeamDict[teamEntry.Color].ActorList);
                         numTeams++;
                     }
                     else if (teamEntry.PlayerType == player_type_t.Computer)
                     {
                         TeamDictionary.TeamDict[teamEntry.Color].IsActive = true;
                         playerList.Add(new ComputerPlayer(this, teamEntry.Color));
+                        teams.Add(TeamDictionary.TeamDict[teamEntry.Color].ActorList);
                         numTeams++;
                     }
                 }

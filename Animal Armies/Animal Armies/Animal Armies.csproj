@@ -111,6 +111,7 @@
     <Compile Include="AI\SurroundOrder.cs" />
     <Compile Include="AI\SurroundOrder2.cs" />
     <Compile Include="CameraManager.cs" />
+    <Compile Include="GUI\GameOverScreen.cs" />
     <Compile Include="GUI\PlayerSelection.cs" />
     <Compile Include="HumanPlayer.cs" />
     <Compile Include="Net\PlayerListMessage.cs" />

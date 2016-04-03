@@ -343,7 +343,7 @@ namespace Game
 		protected override void start()
         {
             Handle song = engine.resourceComponent.get("Music/Menu.ogg");
-            //engine.audioComponent.playSong(true, song);
+            engine.audioComponent.playSong(true, song);
        
             // Number of Human Players (eventually have this passed in from main menu)
 			if (!engine.currentWorldName.Equals("Maps/Menu.map"))

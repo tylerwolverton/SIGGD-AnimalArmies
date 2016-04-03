@@ -25,8 +25,9 @@ namespace Game.AI
 			// and feed one to each platoon
 			Platoon dfltPlat = new Platoon(this.world, this.team);
 			//Order dfltOrder = new HoldPositionOrder(dfltPlat, null, 5);
-			Order dfltOrder = new SurroundOrder(dfltPlat);
-			//Order dfltOrder = new SurroundOrder2(dfltPlat);
+			//Order dfltOrder = new SurroundOrder(dfltPlat);
+			Order dfltOrder = new SurroundOrder2(dfltPlat);
+            //Order dfltOrder = new AttackOrder(dfltPlat, null);
 			dfltPlat.setOrder(dfltOrder);
 			platoons = new LinkedList<Platoon>();
 			platoons.AddLast(dfltPlat);

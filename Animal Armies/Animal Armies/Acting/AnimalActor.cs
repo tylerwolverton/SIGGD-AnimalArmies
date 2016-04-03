@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using Engine;
 using Game;
+using Game.GUI;
 using System.Diagnostics;
 
 
@@ -83,6 +84,7 @@ namespace Game
             TeamDictionary.TeamDict[team].ActorList.Remove(this);
             world.currentActors.Remove(this);
             removeMe = true;
+            checkEndOfGame();
         }
 
         /*
@@ -103,18 +105,24 @@ namespace Game
         private void checkEndOfGame()
         {
             int teamCount = 0;
-            //
+            team_t teamColor = team_t.Purple;
+
             foreach (LinkedList<AnimalActor> team in world.teams)
             {
                 if(team.Count() > 0)
                 {
                     teamCount++;
+                    teamColor = team.First().team;
                 }
             }
 
             if (teamCount <= 1)
             {
-                world.engine.quit = true;
+                var gameOverScreen = new GameOverScreen(world.engine);
+
+                gameOverScreen.ShowWinner(teamColor);
+
+                //world.engine.quit = true;
             }
         }
 
@@ -241,9 +249,6 @@ namespace Game
 			pathCost = moveCost;
             return pathsFromCurrentTile;
         }
-
-
-
 
 		public Boolean canMoveTo(Tile target)
         {
@@ -506,7 +511,6 @@ namespace Game
                 attacker.expPoints += this.spawnCost;
                 
                 checkLevelUp(attacker, this);
-                checkEndOfGame();
                 die();
                 return;
             }
@@ -528,7 +532,6 @@ namespace Game
                     world.addActor(attackerExplosion);
                     
                     checkLevelUp(this, attacker);
-                    checkEndOfGame();
                     attacker.die();
                     return;
                 }

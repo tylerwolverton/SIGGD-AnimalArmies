@@ -56,3 +56,4 @@ C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\Mirro
 C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\bin\Develop\Microsoft.Scripting.Metadata.xml
 C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\obj\x86\Develop\MirrorEngine.dll
 C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\obj\x86\Develop\MirrorEngine.pdb
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Mirror Engine\MirrorEngine\obj\x86\Develop\MirrorEngine.csprojResolveAssemblyReference.cache

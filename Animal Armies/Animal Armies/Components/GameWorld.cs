@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using Engine;
-using System.Threading;
-using System.Diagnostics;
 using Game.AI;
 
 namespace Game
@@ -45,8 +43,7 @@ namespace Game
 
         public GameTile highlightTile;
         public Actor highLightPlayer;
-		//public GUITextBox locationBox;
-		//public GUITextBox playerInfoBox;
+
 		public GUILabel playerInfoLabel;
 		public GUILabel playerInfoOutlineLabel;
 		public GUITextBox healthInfoBox;
@@ -201,11 +198,7 @@ namespace Game
         public void initializeInfoBox()
         {
             Engine.GUI tempGUI = engine.graphicsComponent.gui;
-			//locationBox = new GUITextBox(tempGUI, "");
-			//locationBox.size = new Vector2(30, 30);
-			//locationBox.textOffset = new Vector2(locationBox.right, locationBox.bot / 2);
-			//locationBox.bgColor.a= 0.30f;
-			//playerInfoBox = new GUITextBox(tempGUI, "");
+
 			playerInfoLabel = new GUILabel(tempGUI, new Handle(engine.resourceComponent, "GUI\\PlayerInfoBg.png"));
 			playerInfoOutlineLabel = new GUILabel(tempGUI, new Handle(engine.resourceComponent, "GUI\\PlayerInfoOutline.png"));
 			healthInfoBox = new GUITextBox(tempGUI, "");
@@ -292,9 +285,7 @@ namespace Game
             if (highlightTile != null)
             {
                 //locationBox.texture = highlightTile.texture;
-                highLightPlayer = (this.getAnimalOnTile(highlightTile) as AnimalActor);//the animal that the mouse is hovering over
-																					   //locationBox.text = "| " + highlightTile + " ";
-																					   //locationBox.text = "| Terrain Def: " + highlightTile.defense;
+                highLightPlayer = (this.getAnimalOnTile(highlightTile) as AnimalActor);
 
 				//updates the Player Information box
 				if (highLightPlayer != null)
@@ -314,13 +305,7 @@ namespace Game
 					{
 						levelInfoBox.text += "| Exp: " + (highLightPlayer as AnimalActor).expLevel[(highLightPlayer as AnimalActor).level] + "/" + (highLightPlayer as AnimalActor).expLevel[(highLightPlayer as AnimalActor).level].ToString();
 					}
-					//makes the playerinfobox the same color as its team and makes it transparent
-					//healthInfoBox.bgColor = Color.WHITE;//new Color(highLightPlayer.color.r, highLightPlayer.color.g, highLightPlayer.color.b, 0.3f);
-					//attackInfoBox.bgColor = Color.WHITE;
-					//levelInfoBox.bgColor = Color.WHITE;
-					//constantly updates location of the Playerbox so that 
-					//it doesnt overlap the texture location box 
-					//playerInfoBox.pos = new Vector2(locationBox.right + 1, 0f);
+
 					var mousePos = engine.inputComponent.getMousePosition();
 					if (mousePos.x < engine.graphicsComponent.camera.screenWidth - 165)
 					{
@@ -347,12 +332,8 @@ namespace Game
 				}
 				else
 				{
-					//locationBox.texture = null;
 					playerInfoOutlineLabel.visible = false;
 					playerInfoLabel.visible = false;
-					//healthInfoBox.bgColor = new Color(0, 0, 0, 0f);
-					//attackInfoBox.bgColor = new Color(0, 0, 0, 0f);
-					//levelInfoBox.bgColor = new Color(0, 0, 0, 0f);
 					healthInfoBox.visible = false;
 					attackInfoBox.visible = false;
 					levelInfoBox.visible = false;

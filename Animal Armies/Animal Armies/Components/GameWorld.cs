@@ -45,8 +45,10 @@ namespace Game
 
         public GameTile highlightTile;
         public Actor highLightPlayer;
-        //public GUITextBox locationBox;
-        //public GUITextBox playerInfoBox;
+		//public GUITextBox locationBox;
+		//public GUITextBox playerInfoBox;
+		public GUILabel playerInfoLabel;
+		public GUILabel playerInfoOutlineLabel;
 		public GUITextBox healthInfoBox;
 		public GUITextBox attackInfoBox;
 		public GUITextBox levelInfoBox;
@@ -199,15 +201,19 @@ namespace Game
         public void initializeInfoBox()
         {
             Engine.GUI tempGUI = engine.graphicsComponent.gui;
-            //locationBox = new GUITextBox(tempGUI, "");
-            //locationBox.size = new Vector2(30, 30);
-            //locationBox.textOffset = new Vector2(locationBox.right, locationBox.bot / 2);
-            //locationBox.bgColor.a= 0.30f;
-            //playerInfoBox = new GUITextBox(tempGUI, "");
+			//locationBox = new GUITextBox(tempGUI, "");
+			//locationBox.size = new Vector2(30, 30);
+			//locationBox.textOffset = new Vector2(locationBox.right, locationBox.bot / 2);
+			//locationBox.bgColor.a= 0.30f;
+			//playerInfoBox = new GUITextBox(tempGUI, "");
+			playerInfoLabel = new GUILabel(tempGUI, new Handle(engine.resourceComponent, "GUI\\PlayerInfoBg.png"));
+			playerInfoOutlineLabel = new GUILabel(tempGUI, new Handle(engine.resourceComponent, "GUI\\PlayerInfoOutline.png"));
 			healthInfoBox = new GUITextBox(tempGUI, "");
 		    attackInfoBox = new GUITextBox(tempGUI, "");
 			levelInfoBox = new GUITextBox(tempGUI, "");
 
+			tempGUI.add(playerInfoOutlineLabel);
+			tempGUI.add(playerInfoLabel);
 			tempGUI.add(healthInfoBox);
 			tempGUI.add(attackInfoBox);
 			tempGUI.add(levelInfoBox);
@@ -295,46 +301,61 @@ namespace Game
 				{
 					//draws the image of the tile when it has one
 					//the text shows the Name and Health of the actor 
-					healthInfoBox.text = " Health= " + (highLightPlayer as AnimalActor).life.health + " ";
-					attackInfoBox.text = " Attack= " + (highLightPlayer as AnimalActor).attackDamage.ToString() + " ";
-					attackInfoBox.text += "| Defense= " + (highLightPlayer as AnimalActor).defense.ToString() + " ";
-					levelInfoBox.text = " Level= " + (highLightPlayer as AnimalActor).level.ToString() + " ";
+					healthInfoBox.text = " Health: " + (highLightPlayer as AnimalActor).life.health + " ";
+					attackInfoBox.text = " Attack: " + (highLightPlayer as AnimalActor).attackDamage.ToString() + " ";
+					attackInfoBox.text += "| Defense: " + (highLightPlayer as AnimalActor).defense.ToString() + " ";
+					levelInfoBox.text = " Level: " + (highLightPlayer as AnimalActor).level.ToString() + " ";
 
 					if ((highLightPlayer as AnimalActor).level != AnimalActor.maxLevel)
 					{
-						levelInfoBox.text += "| Exp= " + (highLightPlayer as AnimalActor).expPoints.ToString() + "/" + (highLightPlayer as AnimalActor).expLevel[(highLightPlayer as AnimalActor).level + 1].ToString() + " |";
+						levelInfoBox.text += "| Exp: " + (highLightPlayer as AnimalActor).expPoints.ToString() + "/" + (highLightPlayer as AnimalActor).expLevel[(highLightPlayer as AnimalActor).level + 1].ToString();
 					}
 					else
 					{
-						levelInfoBox.text += "| Exp= " + (highLightPlayer as AnimalActor).expLevel[(highLightPlayer as AnimalActor).level] + "/" + (highLightPlayer as AnimalActor).expLevel[(highLightPlayer as AnimalActor).level].ToString() + " |";
+						levelInfoBox.text += "| Exp: " + (highLightPlayer as AnimalActor).expLevel[(highLightPlayer as AnimalActor).level] + "/" + (highLightPlayer as AnimalActor).expLevel[(highLightPlayer as AnimalActor).level].ToString();
 					}
 					//makes the playerinfobox the same color as its team and makes it transparent
-					healthInfoBox.bgColor = Color.WHITE;//new Color(highLightPlayer.color.r, highLightPlayer.color.g, highLightPlayer.color.b, 0.3f);
-					attackInfoBox.bgColor = Color.WHITE;
-					levelInfoBox.bgColor = Color.WHITE;
+					//healthInfoBox.bgColor = Color.WHITE;//new Color(highLightPlayer.color.r, highLightPlayer.color.g, highLightPlayer.color.b, 0.3f);
+					//attackInfoBox.bgColor = Color.WHITE;
+					//levelInfoBox.bgColor = Color.WHITE;
 					//constantly updates location of the Playerbox so that 
 					//it doesnt overlap the texture location box 
 					//playerInfoBox.pos = new Vector2(locationBox.right + 1, 0f);
 					var mousePos = engine.inputComponent.getMousePosition();
 					if (mousePos.x < engine.graphicsComponent.camera.screenWidth - 165)
 					{
+						playerInfoOutlineLabel.pos = mousePos + new Vector2(13, -2);
+						playerInfoLabel.pos = mousePos + new Vector2(15, 0);
 						healthInfoBox.pos = mousePos + new Vector2(15, 0);
 						attackInfoBox.pos = mousePos + new Vector2(15, 15);
 						levelInfoBox.pos = mousePos + new Vector2(15, 30);
 					}
 					else
 					{
+						playerInfoOutlineLabel.pos = mousePos + new Vector2(148, -2);
+						playerInfoLabel.pos = mousePos - new Vector2(150, 0);
 						healthInfoBox.pos = mousePos - new Vector2(150, 0);
 						attackInfoBox.pos = mousePos + new Vector2(-150, 15);
 						levelInfoBox.pos = mousePos + new Vector2(-150, 30);
 					}
+
+					playerInfoOutlineLabel.visible = true;
+					playerInfoLabel.visible = true;
+					healthInfoBox.visible = true;
+					attackInfoBox.visible = true;
+					levelInfoBox.visible = true;
 				}
 				else
 				{
 					//locationBox.texture = null;
-					healthInfoBox.bgColor = new Color(0, 0, 0, 0f);
-					attackInfoBox.bgColor = new Color(0, 0, 0, 0f);
-					levelInfoBox.bgColor = new Color(0, 0, 0, 0f);
+					playerInfoOutlineLabel.visible = false;
+					playerInfoLabel.visible = false;
+					//healthInfoBox.bgColor = new Color(0, 0, 0, 0f);
+					//attackInfoBox.bgColor = new Color(0, 0, 0, 0f);
+					//levelInfoBox.bgColor = new Color(0, 0, 0, 0f);
+					healthInfoBox.visible = false;
+					attackInfoBox.visible = false;
+					levelInfoBox.visible = false;
 					healthInfoBox.text = "";
 					attackInfoBox.text = "";
 					levelInfoBox.text = "";

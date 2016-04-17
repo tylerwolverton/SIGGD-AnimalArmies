@@ -44,6 +44,7 @@ namespace Game.AI
             //Find enemy to attack
             attack(targetList);
 
+            moveRemainingUnits();
         }
 
         private Dictionary<GameTile, List<AnimalActor>> getTeamTiles()
@@ -163,7 +164,74 @@ namespace Game.AI
                     moved.Add(maxArrangement[i]);
                 }
             }
-            
+        }
+
+        private void moveRemainingUnits()
+        {
+            foreach (AnimalActor actor in platoon.units)
+            {
+                // Don't bother with dead units or those that have already moved.
+                if (actor.removeMe || !actor.canMove || !actor.canAct)
+                    continue;
+
+                AnimalActor target = null;
+
+                foreach(var team in TeamDictionary.TeamDict.Values)
+                {
+                    if( team.IsActive
+                        && team.Color != platoon.units.First().team
+                        && team.ActorList.Count > 0 )
+                    {
+                        foreach(var animal in team.ActorList)
+                        {
+                            if(!animal.life.dead)
+                            {
+                                target = animal;
+                                break;
+                            }
+                        }
+
+                        if(target != null)
+                            break;
+                    }
+                }
+
+                if (target == null)
+                    continue;
+
+                var possibleMoves = actor.findPaths();
+                var lastPos = actor.curTile;
+
+                foreach(var tile in possibleMoves)
+                {
+                    var actorXDist = target.curTile.x - actor.curTile.x;
+                    var actorYDist = target.curTile.y - actor.curTile.y;
+
+                    var actorTileXDist = actor.curTile.x - tile.x;
+                    var actorTileYDist = actor.curTile.y - tile.y;
+
+                    if(Math.Sqrt(actorXDist * actorXDist + actorYDist * actorYDist) > 
+                        Math.Sqrt(actorTileXDist * actorTileXDist + actorTileYDist * actorTileYDist))
+                    {
+                        if (moveUnit(actor, tile as GameTile))
+                            break;
+                        
+                        //if(actor.curTile != lastPos)
+                        //    break;
+                    }
+                }
+
+                if (actor.curTile == lastPos)
+                {
+                    foreach (var tile in possibleMoves)
+                    {
+                        if (moveUnit(actor, tile as GameTile))
+                            break;
+                        //if (actor.curTile != lastPos)
+                        //    break;
+                    }
+                }
+            }
         }
 
         private int countUnique(List<AnimalActor> arrangement)

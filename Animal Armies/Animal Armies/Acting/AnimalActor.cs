@@ -331,7 +331,7 @@ namespace Game
                     if (initialTile.xIndex + radius < world.width)
                     {
                         possibleTile = (world.getTile(initialTile.xIndex + radius, initialTile.yIndex + sideY) as GameTile);
-                        if (world.getActorOnTile(possibleTile) == null && actor.movementType[possibleTile.type] != 999)
+                        if (possibleTile != null && world.getActorOnTile(possibleTile) == null && actor.movementType[possibleTile.type] != 999)
                         {
                             return possibleTile;
                         }

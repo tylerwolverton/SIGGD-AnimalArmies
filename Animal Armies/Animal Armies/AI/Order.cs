@@ -18,7 +18,7 @@ namespace Game.AI
 
         public abstract void execute();
 
-        private static int CAM_SLEEP_TIME = 8;
+        private static int CAM_SLEEP_TIME = 10;
 
         // Move the camera with a nice jump for the user to see
         protected bool moveUnit(AnimalActor unit, GameTile target)
@@ -29,24 +29,24 @@ namespace Game.AI
             }
 
             platoon.world.cameraManager.moveCamera(unit.position, true);
-            Thread.Sleep(CAM_SLEEP_TIME);
-            //for (int i = 0; i < 30; i++)
-            //{
-            //    platoon.world.engine.graphicsComponent.draw();
-            //    Thread.Sleep(CAM_SLEEP_TIME);
-            //    platoon.world.Update();
-            //}
+            //Thread.Sleep(CAM_SLEEP_TIME);
+            for (int i = 0; i < 30; i++)
+            {
+                platoon.world.engine.graphicsComponent.draw();
+                Thread.Sleep(CAM_SLEEP_TIME);
+                platoon.world.Update();
+            }
 
             unit.moveTile(target);
             platoon.world.engine.graphicsComponent.draw();
             // Sleep to let the user adjust
-            Thread.Sleep(CAM_SLEEP_TIME);
-            //for (int i = 0; i < 30; i++)
-            //{
-            //    platoon.world.engine.graphicsComponent.draw();
-            //    Thread.Sleep(CAM_SLEEP_TIME);
-            //    platoon.world.Update();
-            //}
+            //Thread.Sleep(CAM_SLEEP_TIME);
+            for (int i = 0; i < 30; i++)
+            {
+                platoon.world.engine.graphicsComponent.draw();
+                Thread.Sleep(CAM_SLEEP_TIME);
+                platoon.world.Update();
+            }
             return true;
         }
 

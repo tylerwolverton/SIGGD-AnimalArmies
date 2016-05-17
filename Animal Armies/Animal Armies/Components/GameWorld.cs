@@ -101,11 +101,6 @@ namespace Game
 
         public void readyTeam(team_t team)
         {
-			//if (TeamDictionary.TeamDict[team].ActorList.Count > 0)
-			//{
-			//	cameraManager.moveCamera(TeamDictionary.TeamDict[team].ActorList.First().position);
-			//}
-
             teamBox.texture = new Handle(engine.resourceComponent, TeamDictionary.TeamDict[team].BannerPath);
             teamBox.pos = new Vector2(engine.graphicsComponent.width / 2 - teamBox.size.x / 2, 0);
             teamBoxCooldown = 120;
@@ -120,9 +115,6 @@ namespace Game
                 actor.canMove = true;
                 actor.canAct = true;
             }
-
-			//if(currentActors.Count > 0)
-			//	cameraManager.moveCamera(currentActors.First().position);
 		}
 
         public void unreadyTeam(team_t team)

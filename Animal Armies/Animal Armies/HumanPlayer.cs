@@ -47,6 +47,11 @@ namespace Game
 			movedUnits = new LinkedList<AnimalActor>();
             currentUnitCount = units.Count;
 
+			if (currentUnitCount > 0)
+			{
+				world.cameraManager.moveCamera(units.First().position);
+			}
+
             foreach (AnimalActor actor in units)
             {
                 updateStatusEffects(actor);
@@ -54,7 +59,7 @@ namespace Game
 
             System.Console.WriteLine("Number of units for player " + team + ": " + units.Count + "\n");
             selectedAnimalActor = null;
-            world.cameraManager.loadView(team, true);
+            //world.cameraManager.loadView(team, true);
 		}
 
         private void finishTurn()
@@ -121,18 +126,18 @@ namespace Game
 
 		public override void Update()
 		{
-			if (!stashed && world.collapse.isPressed)
-			{
-				collapseUnits();
-				stashed = true;
-			}
-			if (stashed && world.uncollapse.isPressed)
-			{
-				expandUnits();
+			//if (!stashed && world.collapse.isPressed)
+			//{
+			//	collapseUnits();
+			//	stashed = true;
+			//}
+			//if (stashed && world.uncollapse.isPressed)
+			//{
+			//	expandUnits();
 
-				stashed = false;
+			//	stashed = false;
 
-			}
+			//}
             CalculateTileFlash();
             //System.Console.WriteLine("Number of units in thing " + units.Count + " movedUnits" + movedUnits.Count +"\n");
             // End current turn if every animal has moved

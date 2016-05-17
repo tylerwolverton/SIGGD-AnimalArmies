@@ -21,19 +21,14 @@ namespace Game.GUI
 		{
 			BackgroundLabel = new GUILabel(gui, new Handle(engine.resourceComponent, "Menu/PauseMenu/Background.png"));
 			BackgroundLabel.pos = new Vector2(350, 200);
-			//gui.add(BackgroundLabel);
 
 			ResumeLabel = new GUILabel(gui, new Handle(engine.resourceComponent, "Menu/PauseMenu/Resume.png"));
 			ResumeLabel.mouseClickEvent += ResumeGame;
 			ResumeLabel.pos = new Vector2(365, 300);
-			//gui.add(ResumeLabel);
 
 			QuitLabel = new GUILabel(gui, new Handle(engine.resourceComponent, "Menu/PauseMenu/Quit.png"));
 			QuitLabel.mouseClickEvent += ExitGame;
 			QuitLabel.pos = new Vector2(510, 300);
-			//gui.add(QuitLabel);
-
-			//HidePauseMenu();
 		}
 
 		public void ShowPauseMenu()
@@ -41,9 +36,6 @@ namespace Game.GUI
 			gui.add(BackgroundLabel);
 			gui.add(ResumeLabel);
 			gui.add(QuitLabel);
-			//BackgroundLabel.visible = true;
-			//ResumeLabel.visible = true;
-			//QuitLabel.visible = true;
 		}
 
 		public void HidePauseMenu()
@@ -51,9 +43,6 @@ namespace Game.GUI
 			gui.remove(BackgroundLabel);
 			gui.remove(ResumeLabel);
 			gui.remove(QuitLabel);
-			//BackgroundLabel.visible = false;
-			//ResumeLabel.visible = false;
-			//QuitLabel.visible = false;
 		}
 
 		public void ResumeGame(Vector2 pos, MouseKeyBinding.MouseButton mouseButton)

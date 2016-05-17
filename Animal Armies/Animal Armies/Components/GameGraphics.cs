@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using Engine;
-using System.Diagnostics;
-using Tao.Sdl;
+﻿using Engine;
 
 using Game.GUI;
 
 namespace Game
 {
-    public class GameGraphics : GraphicsComponent
+	public class GameGraphics : GraphicsComponent
     {
         const int WIDTH = 1000;
         const int HEIGHT = 600;

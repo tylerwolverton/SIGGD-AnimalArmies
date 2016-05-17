@@ -44,7 +44,15 @@ namespace Game.AI
             //Find enemy to attack
             attack(targetList);
 
-            moveRemainingUnits();
+			foreach (AnimalActor actor in platoon.units)
+			{
+				// Don't bother with dead units or those that have already moved.
+				if (actor.removeMe || !actor.canMove || !actor.canAct)
+					continue;
+
+				moveRemainingUnit(actor);
+			}
+				
         }
 
         private Dictionary<GameTile, List<AnimalActor>> getTeamTiles()
@@ -166,71 +174,47 @@ namespace Game.AI
             }
         }
 
-        private void moveRemainingUnits()
+        private void moveRemainingUnit(AnimalActor actor)
         {
-            foreach (AnimalActor actor in platoon.units)
+			AnimalActor target = null;
+			int minTeamSize = 999;
+
+			foreach (var team in TeamDictionary.TeamDict.Values)
+			{
+				if (team.IsActive
+					&& team.Color != platoon.units.First().team
+					&& team.ActorList.Count() < minTeamSize)
+				{
+					minTeamSize = team.ActorList.Count();
+					target = team.ActorList.First();
+				}
+			}
+
+			if (target == null)
+			{
+				return;
+			}
+			
+            var possibleMoves = actor.findPaths();
+            var lastPos = actor.curTile;
+
+            foreach(var tile in possibleMoves)
             {
-                // Don't bother with dead units or those that have already moved.
-                if (actor.removeMe || !actor.canMove || !actor.canAct)
-                    continue;
-
-                AnimalActor target = null;
-
-                foreach(var team in TeamDictionary.TeamDict.Values)
+                if((target.curTile as GameTile).euclidian(actor.curTile as GameTile) <
+					(tile as GameTile).euclidian(actor.curTile as GameTile))
                 {
-                    if( team.IsActive
-                        && team.Color != platoon.units.First().team
-                        && team.ActorList.Count > 0 )
-                    {
-                        foreach(var animal in team.ActorList)
-                        {
-                            if(!animal.life.dead)
-                            {
-                                target = animal;
-                                break;
-                            }
-                        }
-
-                        if(target != null)
-                            break;
-                    }
+                    if (moveUnit(actor, tile as GameTile))
+                        break;
                 }
+            }
 
-                if (target == null)
-                    continue;
-
-                var possibleMoves = actor.findPaths();
-                var lastPos = actor.curTile;
-
-                foreach(var tile in possibleMoves)
-                {
-                    var actorXDist = target.curTile.x - actor.curTile.x;
-                    var actorYDist = target.curTile.y - actor.curTile.y;
-
-                    var actorTileXDist = actor.curTile.x - tile.x;
-                    var actorTileYDist = actor.curTile.y - tile.y;
-
-                    if(Math.Sqrt(actorXDist * actorXDist + actorYDist * actorYDist) > 
-                        Math.Sqrt(actorTileXDist * actorTileXDist + actorTileYDist * actorTileYDist))
-                    {
-                        if (moveUnit(actor, tile as GameTile))
-                            break;
-                        
-                        //if(actor.curTile != lastPos)
-                        //    break;
-                    }
+            foreach (var tile in possibleMoves)
+            {
+				if (actor.curTile != lastPos)
+				{
+					break;
                 }
-
-                if (actor.curTile == lastPos)
-                {
-                    foreach (var tile in possibleMoves)
-                    {
-                        if (moveUnit(actor, tile as GameTile))
-                            break;
-                        //if (actor.curTile != lastPos)
-                        //    break;
-                    }
-                }
+				moveUnit(actor, tile as GameTile);
             }
         }
 

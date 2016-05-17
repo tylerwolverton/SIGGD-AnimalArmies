@@ -72,45 +72,7 @@ namespace Game.AI
 				p.pruneUnits();
 			}
 		}
-
-		/* Naive attempt at multi-threading.
-		 * Turns out, ME is not safe, and this is going to take ~10-15 hours of dev time.
-		 * Probably a won't fix.
-		public override void startTurn()
-		{
-			running = true;
-			turnThread = new Thread(new ThreadStart(runTurn));
-			turnThread.Start();
-		}
-
-		private void runTurn()
-		{
-			updateUnits();
-			foreach (Platoon platoon in platoons)
-			{
-				platoon.takeTurn();
-			}
-
-			saveUnitList();
-			running = false;
-		}
-
-		public override void Update()
-		{
-			if (running)
-			{
-				return;
-			}
-
-			if (turnThread != null)
-			{
-				turnThread.Join();
-				turnThread = null;
-			}
-			world.endTurn();
-		}
-		 * */
-
+		
 		public override void startTurn()
 		{
 			finished = false;
@@ -135,18 +97,5 @@ namespace Game.AI
 			if (finished)
 				world.endTurn();
 		}
-
-
-		/*getGameImage (suite of functions) - snapshot of game: contains all tiles (terrain), and location of actors (differentiate between teams)
-		moveActor - take actor object and where it should move
-		attack
-		wait
-		information about rules (tentative)
-		put all this stuff in AnimalActor above
-		in player below
-		initialization
-		takeTurn function
-		tell AI it's done with the current game
-		notifications about units (death, damage)*/
 	}
 }

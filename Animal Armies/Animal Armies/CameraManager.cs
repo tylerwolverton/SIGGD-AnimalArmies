@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using Engine;
 
 namespace Game
 {
-    public class CameraManager
+	public class CameraManager
     {
         private GraphicsComponent gc;
         private Camera cam;

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Engine;
 using Game.AI;
+using Game.GUI;
 
 namespace Game
 {
@@ -31,7 +32,7 @@ namespace Game
 
     public class GameWorld : World
     {
-		public SinglePressBinding click, enter, rightClick, selectLeft, selectRight, collapse, uncollapse;
+		public SinglePressBinding click, enter, rightClick, selectLeft, selectRight, pauseMenuKey, collapse, uncollapse;
         public int currentTeam;
         private int numTeams;
         public int unitsMoved; // number of units moved this turn
@@ -43,6 +44,10 @@ namespace Game
 
         public GameTile highlightTile;
         public Actor highLightPlayer;
+
+		private PauseMenu pauseMenu;
+		bool pauseMenuActive = false;
+		int pauseMenuCooldown = 0;
 
 		public GUILabel playerInfoLabel;
 		public GUILabel playerInfoOutlineLabel;
@@ -96,6 +101,11 @@ namespace Game
 
         public void readyTeam(team_t team)
         {
+			//if (TeamDictionary.TeamDict[team].ActorList.Count > 0)
+			//{
+			//	cameraManager.moveCamera(TeamDictionary.TeamDict[team].ActorList.First().position);
+			//}
+
             teamBox.texture = new Handle(engine.resourceComponent, TeamDictionary.TeamDict[team].BannerPath);
             teamBox.pos = new Vector2(engine.graphicsComponent.width / 2 - teamBox.size.x / 2, 0);
             teamBoxCooldown = 120;
@@ -110,7 +120,10 @@ namespace Game
                 actor.canMove = true;
                 actor.canAct = true;
             }
-        }
+
+			//if(currentActors.Count > 0)
+			//	cameraManager.moveCamera(currentActors.First().position);
+		}
 
         public void unreadyTeam(team_t team)
         {
@@ -155,10 +168,14 @@ namespace Game
 			enter = (SinglePressBinding)engine.inputComponent[GameInput.ExampleBindings.ENTER];
             rightClick = (SinglePressBinding)engine.inputComponent[GameInput.ExampleBindings.RIGHTCLICK];
 			selectLeft= (SinglePressBinding)engine.inputComponent[GameInput.ExampleBindings.SELECTLEFT];
-			selectRight= (SinglePressBinding)engine.inputComponent[GameInput.ExampleBindings.SELECTRIGHT];
+			selectRight = (SinglePressBinding)engine.inputComponent[GameInput.ExampleBindings.SELECTRIGHT];
+			pauseMenuKey = (SinglePressBinding)engine.inputComponent[GameInput.ExampleBindings.MENU];
 			collapse = (SinglePressBinding)engine.inputComponent[GameInput.ExampleBindings.COLLAPSE];
 			uncollapse = (SinglePressBinding)engine.inputComponent[GameInput.ExampleBindings.UNCOLLAPSE];
-        }
+
+			pauseMenu = new PauseMenu(engine, engine.graphicsComponent.gui);
+			pauseMenu.Initialize();
+		}
 
 		protected override void initTiles(Mapfile.TileData[, ,] tileData)
 		{
@@ -227,6 +244,7 @@ namespace Game
 			{
 				UpdateCamera();
 				UpdateInfoBox();
+				CheckPause();
 				// </GraphicsThings>
 
 				if (currentActors.Count == 0)
@@ -344,6 +362,31 @@ namespace Game
             }
         }
 
+		private void CheckPause()
+		{
+			if (pauseMenuCooldown <= 0)
+			{
+				if (pauseMenuKey.isPressed
+					&& !pauseMenuActive)
+				{
+					pauseMenu.ShowPauseMenu();
+					pauseMenuActive = true;
+					pauseMenuCooldown = 10;
+				}
+				else if (pauseMenuKey.isPressed
+						&& pauseMenuActive)
+				{
+					pauseMenu.HidePauseMenu();
+					pauseMenuActive = false;
+					pauseMenuCooldown = 10;
+				}
+			}
+			else
+			{
+				pauseMenuCooldown--;
+			}
+		}
+
         // Note: the following two methods are NOT THE SAME!!!  There is a reason there are two of them.
         public GameActor getActorOnTile(Tile target)
         {
@@ -374,7 +417,6 @@ namespace Game
             Handle song = engine.resourceComponent.get("Music/Menu.ogg");
             //engine.audioComponent.playSong(true, song);
        
-            // Number of Human Players (eventually have this passed in from main menu)
 			if (!engine.currentWorldName.Equals("Maps/Menu.map"))
 			{
                 initializeInfoBox();

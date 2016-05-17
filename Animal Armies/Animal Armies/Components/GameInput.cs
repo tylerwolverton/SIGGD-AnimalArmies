@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using Tao.Sdl;
+﻿using Tao.Sdl;
 using Engine;
 
 namespace Game
 {
-    public class GameInput : InputComponent
+	public class GameInput : InputComponent
     {
         public new Game engine
         {
@@ -60,14 +58,14 @@ namespace Game
 				new ButtonEvent[] { new KeyEvent(Sdl.SDLK_q), new JoyButtonEvent(0, 0) });
 			this[ExampleBindings.SELECTRIGHT] = new SinglePressBinding(this,
 				new ButtonEvent[] { new KeyEvent(Sdl.SDLK_e), new JoyButtonEvent(0, 0) });
-
+			
 			this[ExampleBindings.COLLAPSE] = new SinglePressBinding(this,
 			   new ButtonEvent[] { new KeyEvent(Sdl.SDLK_c), new JoyButtonEvent(0, 0) });
 			this[ExampleBindings.UNCOLLAPSE] = new SinglePressBinding(this,
 			   new ButtonEvent[] { new KeyEvent(Sdl.SDLK_v), new JoyButtonEvent(0, 0) });
 
 
-        }
+		}
 
         //hacked in function to avoid "offcenter" problems when losing window focus.
         public override void normalize()

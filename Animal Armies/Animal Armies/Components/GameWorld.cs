@@ -165,7 +165,7 @@ namespace Game
 			collapse = (SinglePressBinding)engine.inputComponent[GameInput.ExampleBindings.COLLAPSE];
 			uncollapse = (SinglePressBinding)engine.inputComponent[GameInput.ExampleBindings.UNCOLLAPSE];
 
-			pauseMenu = new PauseMenu(engine, engine.graphicsComponent.gui);
+			pauseMenu = new PauseMenu(engine, engine.graphicsComponent.gui, this);
 			pauseMenu.Initialize();
 		}
 

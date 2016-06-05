@@ -12,8 +12,12 @@ namespace Game
 		GUILabel MenuLabel;
 		GUILabel ExitLabel;
         GUILabel StartLabel;
+		GUILabel ControlsLabel;
+		GUILabel CreditsLabel;
+		GUILabel Controls;
+		GUILabel BackLabel;
 
-        PlayerSelection PlayerSelect;
+		PlayerSelection PlayerSelect;
 
         public new Game engine
         {
@@ -74,12 +78,20 @@ namespace Game
             gui.add(TitleLabel);
 			MenuLabel = new GUILabel(gui, new Handle(engine.resourceComponent, "Menu/Start.png"));
             MenuLabel.mouseClickEvent += loadTeamSelect;
-			MenuLabel.pos = new Vector2(width / 2 - 150, height / 2 + 150);
+			MenuLabel.pos = new Vector2(200, height / 2 + 150);
 			gui.add(MenuLabel);
-            ExitLabel = new GUILabel(gui, new Handle(engine.resourceComponent, "Menu/Quit.png"));
+			ControlsLabel = new GUILabel(gui, new Handle(engine.resourceComponent, "Menu/ControlsButton.png"));
+			ControlsLabel.mouseClickEvent += showControls;
+			ControlsLabel.pos = new Vector2(425, height / 2 + 150);
+			gui.add(ControlsLabel);
+			ExitLabel = new GUILabel(gui, new Handle(engine.resourceComponent, "Menu/Quit.png"));
 			ExitLabel.mouseClickEvent += exitGame;
-			ExitLabel.pos = new Vector2(width / 2 + 23, height / 2 + 150);
+			ExitLabel.pos = new Vector2(650, height / 2 + 150);
 			gui.add(ExitLabel);
+
+			CreditsLabel = new GUILabel(gui, new Handle(engine.resourceComponent, "Menu/Credits.png"));
+			CreditsLabel.pos = new Vector2(350, height / 2 + 200);
+			gui.add(CreditsLabel);
 		}
 
 		public void exitGame(Vector2 pos, MouseKeyBinding.MouseButton mouseButton)
@@ -87,10 +99,37 @@ namespace Game
 			engine.quit = true;
 		}
 
+		private void addBackButton()
+		{
+			BackLabel = new GUILabel(gui, new Handle(engine.resourceComponent, "Menu/BackLabel.png"));
+			BackLabel.mouseClickEvent += backToMenu;
+			BackLabel.pos = new Vector2(200, height / 2 + 150);
+			gui.add(BackLabel);
+		}
+
+		public void backToMenu(Vector2 pos, MouseKeyBinding.MouseButton mouseButton)
+		{
+			menuLoad();
+			gui.remove(BackLabel);
+			gui.remove(Controls);
+		}
+
+		public void showControls(Vector2 pos, MouseKeyBinding.MouseButton mouseButton)
+		{
+			menuUnload();
+			addBackButton();
+
+			Controls = new GUILabel(gui, new Handle(engine.resourceComponent, "Menu/Controls.png"));
+			Controls.pos = new Vector2(width / 2 - 192, height / 2 - 256);
+			gui.add(Controls);
+		}
+		
 		public void menuUnload()
         {
             gui.remove(TitleLabel);
 			gui.remove(MenuLabel);
+			gui.remove(ControlsLabel);
+			gui.remove(CreditsLabel);
 			gui.remove(ExitLabel);
 		}
 

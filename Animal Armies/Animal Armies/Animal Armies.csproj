@@ -158,7 +158,6 @@
     <Folder Include="Content\Brushes\" />
     <Folder Include="Content\GUI\000_EngineGUI\" />
     <Folder Include="Content\GUI\001_GameGUI\" />
-    <Folder Include="Content\Maps\" />
     <Folder Include="Content\Scripts\ActorScripts\" />
     <Folder Include="Content\Scripts\TileScripts\" />
     <Folder Include="Content\Scripts\WorldScripts\" />
@@ -184,13 +183,33 @@
   <ItemGroup>
     <Content Include="Content\AA Icon.bmp" />
     <Content Include="Content\AA Icon.png" />
-    <Content Include="Content\GameIcon.bmp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    <Content Include="Content\GameIcon.bmp" />
     <Content Include="Content\GameIcon.ico" />
-    <Content Include="Content\Music\002_gandalfnod.ogg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    <Content Include="Content\GUI\002_TeamBoxes\Blue_Team.png" />
+    <Content Include="Content\GUI\002_TeamBoxes\Purple_Team.png" />
+    <Content Include="Content\GUI\002_TeamBoxes\Red_Team.png" />
+    <Content Include="Content\GUI\002_TeamBoxes\Yellow_Team.png" />
+    <Content Include="Content\GUI\PlayerInfoBg.png" />
+    <Content Include="Content\GUI\PlayerInfoOutline.png" />
+    <Content Include="Content\Menu\BAckground.png" />
+    <Content Include="Content\Menu\GameOver\BlueWon.png" />
+    <Content Include="Content\Menu\GameOver\PurpleWon.png" />
+    <Content Include="Content\Menu\GameOver\RedWon.png" />
+    <Content Include="Content\Menu\GameOver\YellowWon.png" />
+    <Content Include="Content\Menu\PauseMenu\Background.png" />
+    <Content Include="Content\Menu\PauseMenu\Quit.png" />
+    <Content Include="Content\Menu\PauseMenu\Resume.png" />
+    <Content Include="Content\Menu\Quit.png" />
+    <Content Include="Content\Menu\Start.png" />
+    <Content Include="Content\Menu\TeamSelect\Blue.png" />
+    <Content Include="Content\Menu\TeamSelect\Computer.png" />
+    <Content Include="Content\Menu\TeamSelect\Human.png" />
+    <Content Include="Content\Menu\TeamSelect\None.png" />
+    <Content Include="Content\Menu\TeamSelect\Purple.png" />
+    <Content Include="Content\Menu\TeamSelect\Red.png" />
+    <Content Include="Content\Menu\TeamSelect\Yellow.png" />
+    <Content Include="Content\Menu\Title.png" />
+    <Content Include="Content\Music\002_gandalfnod.ogg" />
     <Content Include="Content\Sprites\000_rat\rat_blue\down\Rat Blue 1.png" />
     <Content Include="Content\Sprites\000_rat\rat_blue\down\Rat Blue 2.png" />
     <Content Include="Content\Sprites\000_rat\rat_blue\down\Rat Blue 3.png" />
@@ -269,6 +288,26 @@
     <Content Include="Content\Sprites\000_rat\rat_yellow\up\rat_W_U3.png" />
     <Content Include="Content\Sprites\000_rat\rat_yellow\up\rat_W_U4.png" />
     <Content Include="Content\Sprites\000_rat\rat_yellow\up\rat_W_U5.png" />
+    <Content Include="Content\Sprites\001_trex\trex_blue\down\T-Rex_Blue0000.png" />
+    <Content Include="Content\Sprites\001_trex\trex_blue\down\T-Rex_Blue0001.png" />
+    <Content Include="Content\Sprites\001_trex\trex_blue\down\T-Rex_Blue0002.png" />
+    <Content Include="Content\Sprites\001_trex\trex_blue\down\T-Rex_Blue0003.png" />
+    <Content Include="Content\Sprites\001_trex\trex_blue\trex_blue_grey.png" />
+    <Content Include="Content\Sprites\001_trex\trex_purple\down\T-Rex_Purple0000.png" />
+    <Content Include="Content\Sprites\001_trex\trex_purple\down\T-Rex_Purple0001.png" />
+    <Content Include="Content\Sprites\001_trex\trex_purple\down\T-Rex_Purple0002.png" />
+    <Content Include="Content\Sprites\001_trex\trex_purple\down\T-Rex_Purple0003.png" />
+    <Content Include="Content\Sprites\001_trex\trex_purple\trex_purple_grey.png" />
+    <Content Include="Content\Sprites\001_trex\trex_red\down\T-Rex_Red0000.png" />
+    <Content Include="Content\Sprites\001_trex\trex_red\down\T-Rex_Red0001.png" />
+    <Content Include="Content\Sprites\001_trex\trex_red\down\T-Rex_Red0002.png" />
+    <Content Include="Content\Sprites\001_trex\trex_red\down\T-Rex_Red0003.png" />
+    <Content Include="Content\Sprites\001_trex\trex_red\trex_red_grey.png" />
+    <Content Include="Content\Sprites\001_trex\trex_yellow\down\T-Rex_Yellow0000.png" />
+    <Content Include="Content\Sprites\001_trex\trex_yellow\down\T-Rex_Yellow0001.png" />
+    <Content Include="Content\Sprites\001_trex\trex_yellow\down\T-Rex_Yellow0002.png" />
+    <Content Include="Content\Sprites\001_trex\trex_yellow\down\T-Rex_Yellow0003.png" />
+    <Content Include="Content\Sprites\001_trex\trex_yellow\trex_yellow_grey.png" />
     <Content Include="Content\Sprites\002_turtle\turtle_blue\down\Turtle Turtle 01.png" />
     <Content Include="Content\Sprites\002_turtle\turtle_blue\down\Turtle Turtle 02.png" />
     <Content Include="Content\Sprites\002_turtle\turtle_blue\down\Turtle Turtle 03.png" />
@@ -718,9 +757,7 @@
     <Content Include="Content\Tiles\Tiles\Temperate\Water\water1.png" />
     <Content Include="Content\Tiles\Tiles\Temperate\Water\water2.png" />
     <Content Include="Content\Tiles\Tiles\Temperate\Water\water3.png" />
-    <Content Include="Content\Tiles\Tiles\wall001.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    <Content Include="Content\Tiles\Tiles\wall001.png" />
     <Content Include="Content\Tiles\Tiles\water\VVater1.png" />
     <Content Include="Content\Tiles\Tiles\water\VVater2.png" />
     <Content Include="Content\Tiles\Tiles\water\VVater3.png" />
@@ -735,9 +772,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Animal Armies_TemporaryKey.pfx" />
-    <None Include="Content\Fonts\Vera.ttf">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    <None Include="Content\Fonts\Vera.ttf" />
+    <None Include="Content\Maps\BasicMap.map" />
+    <None Include="Content\Maps\Menu.map" />
+    <None Include="Content\Maps\NewWorld.map" />
+    <None Include="Content\Maps\NewWorld0.map" />
+    <None Include="Content\Maps\sigart_400x400.map" />
+    <None Include="Content\Maps\SurroundWorld.map" />
+    <None Include="Content\Maps\Tyler!.map" />
+    <None Include="Content\Music\003_hey.ogg" />
+    <None Include="Content\Music\004_troll.ogg" />
+    <None Include="Content\Music\005_9000.ogg" />
+    <None Include="Content\Music\Menu.ogg" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">

@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MirrorEngine", "..\Mirror Engine\MirrorEngine\MirrorEngine.csproj", "{79F5CC4A-3B0F-4B7F-87FA-7BB332FC3868}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animal Armies", "Animal Armies\Animal Armies.csproj", "{1F687A8B-AFF3-4887-A4A1-D4FC425894C2}"
@@ -24,6 +26,7 @@ Global
 		{1F687A8B-AFF3-4887-A4A1-D4FC425894C2}.Develop|x86.Build.0 = Develop|x86
 		{1F687A8B-AFF3-4887-A4A1-D4FC425894C2}.Release|x86.ActiveCfg = Release|x86
 		{1F687A8B-AFF3-4887-A4A1-D4FC425894C2}.Release|x86.Build.0 = Release|x86
+		{1F687A8B-AFF3-4887-A4A1-D4FC425894C2}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,11 @@
+I primarily worked on major gameplay systems and menus under the subdirectory AnimalArmies/AnimalArmies
+Files I contributed to:
+CameraManager.cs
+Player.cs
+HumanPlayer.cs
+TeamDictionary.cs
+Acting subfolder
+Components/GameGraphics.cs
+Components/GameInput.cs
+Components/GameWorld.cs
+GUI subfolder

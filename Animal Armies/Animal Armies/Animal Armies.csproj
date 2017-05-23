@@ -14,7 +14,7 @@
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\Users\Tyler Wolverton\Desktop\</PublishUrl>
+    <PublishUrl>C:\GitHub\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -24,7 +24,6 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <AutorunEnabled>true</AutorunEnabled>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
@@ -181,57 +180,169 @@
     <Folder Include="Content\Sprites\011_blob\blob_blue\up\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\AA Icon.bmp" />
-    <Content Include="Content\AA Icon.png" />
-    <Content Include="Content\GameIcon.bmp" />
-    <Content Include="Content\GameIcon.ico" />
-    <Content Include="Content\GUI\002_TeamBoxes\Blue_Team.png" />
-    <Content Include="Content\GUI\002_TeamBoxes\Purple_Team.png" />
-    <Content Include="Content\GUI\002_TeamBoxes\Red_Team.png" />
-    <Content Include="Content\GUI\002_TeamBoxes\Yellow_Team.png" />
-    <Content Include="Content\GUI\PlayerInfoBg.png" />
-    <Content Include="Content\GUI\PlayerInfoOutline.png" />
-    <Content Include="Content\Menu\BAckground.png" />
-    <Content Include="Content\Menu\GameOver\BlueWon.png" />
-    <Content Include="Content\Menu\GameOver\PurpleWon.png" />
-    <Content Include="Content\Menu\GameOver\RedWon.png" />
-    <Content Include="Content\Menu\GameOver\YellowWon.png" />
-    <Content Include="Content\Menu\PauseMenu\Background.png" />
-    <Content Include="Content\Menu\PauseMenu\Quit.png" />
-    <Content Include="Content\Menu\PauseMenu\Resume.png" />
-    <Content Include="Content\Menu\Quit.png" />
-    <Content Include="Content\Menu\Start.png" />
-    <Content Include="Content\Menu\TeamSelect\Blue.png" />
-    <Content Include="Content\Menu\TeamSelect\Computer.png" />
-    <Content Include="Content\Menu\TeamSelect\Human.png" />
-    <Content Include="Content\Menu\TeamSelect\None.png" />
-    <Content Include="Content\Menu\TeamSelect\Purple.png" />
-    <Content Include="Content\Menu\TeamSelect\Red.png" />
-    <Content Include="Content\Menu\TeamSelect\Yellow.png" />
-    <Content Include="Content\Menu\Title.png" />
-    <Content Include="Content\Music\002_gandalfnod.ogg" />
-    <Content Include="Content\Sprites\000_rat\rat_blue\down\Rat Blue 1.png" />
-    <Content Include="Content\Sprites\000_rat\rat_blue\down\Rat Blue 2.png" />
-    <Content Include="Content\Sprites\000_rat\rat_blue\down\Rat Blue 3.png" />
-    <Content Include="Content\Sprites\000_rat\rat_blue\down\Rat Blue 4.png" />
-    <Content Include="Content\Sprites\000_rat\rat_blue\down\Rat Blue 5.png" />
-    <Content Include="Content\Sprites\000_rat\rat_blue\down\Rat Blue 6.png" />
-    <Content Include="Content\Sprites\000_rat\rat_blue\down\Rat Blue 7.png" />
-    <Content Include="Content\Sprites\000_rat\rat_blue\down\Rat Blue 8.png" />
-    <Content Include="Content\Sprites\000_rat\rat_blue\rat_blue_grey.png" />
-    <Content Include="Content\Sprites\000_rat\rat_purple\down\Rat Purple 1.png" />
-    <Content Include="Content\Sprites\000_rat\rat_purple\down\Rat Purple 2.png" />
-    <Content Include="Content\Sprites\000_rat\rat_purple\down\Rat Purple 3.png" />
-    <Content Include="Content\Sprites\000_rat\rat_purple\down\Rat Purple 4.png" />
-    <Content Include="Content\Sprites\000_rat\rat_purple\down\Rat Purple 5.png" />
-    <Content Include="Content\Sprites\000_rat\rat_purple\down\Rat Purple 6.png" />
-    <Content Include="Content\Sprites\000_rat\rat_purple\down\Rat Purple 7.png" />
-    <Content Include="Content\Sprites\000_rat\rat_purple\down\Rat Purple 8.png" />
+    <Content Include="Content\AA Icon.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\AA Icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GameIcon.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GameIcon.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\002_TeamBoxes\Blue_Team.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\002_TeamBoxes\Purple_Team.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\002_TeamBoxes\Red_Team.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\002_TeamBoxes\Yellow_Team.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\PlayerInfoBg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\GUI\PlayerInfoOutline.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Menu\BAckground.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Menu\BackLabel.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Menu\Controls.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Menu\ControlsButton.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Menu\Credits.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Menu\CreditsButton.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Menu\GameOver\BlueWon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Menu\GameOver\PurpleWon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Menu\GameOver\RedWon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Menu\GameOver\YellowWon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Menu\PauseMenu\Background.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Menu\PauseMenu\EndTurn.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Menu\PauseMenu\Quit.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Menu\PauseMenu\Resume.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Menu\Quit.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Menu\Start.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Menu\TeamSelect\Blue.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Menu\TeamSelect\Computer.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Menu\TeamSelect\Human.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Menu\TeamSelect\None.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Menu\TeamSelect\Purple.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Menu\TeamSelect\Red.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Menu\TeamSelect\Yellow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Menu\Title.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Music\002_gandalfnod.ogg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\000_rat\rat_blue\down\Rat Blue 1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\000_rat\rat_blue\down\Rat Blue 2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\000_rat\rat_blue\down\Rat Blue 3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\000_rat\rat_blue\down\Rat Blue 4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\000_rat\rat_blue\down\Rat Blue 5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\000_rat\rat_blue\down\Rat Blue 6.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\000_rat\rat_blue\down\Rat Blue 7.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\000_rat\rat_blue\down\Rat Blue 8.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\000_rat\rat_blue\rat_blue_grey.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\000_rat\rat_purple\down\Rat Purple 1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\000_rat\rat_purple\down\Rat Purple 2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\000_rat\rat_purple\down\Rat Purple 3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\000_rat\rat_purple\down\Rat Purple 4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\000_rat\rat_purple\down\Rat Purple 5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\000_rat\rat_purple\down\Rat Purple 6.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\000_rat\rat_purple\down\Rat Purple 7.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\000_rat\rat_purple\down\Rat Purple 8.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\Sprites\000_rat\rat_purple\left\rat_W_L1.png" />
     <Content Include="Content\Sprites\000_rat\rat_purple\left\rat_W_L2.png" />
     <Content Include="Content\Sprites\000_rat\rat_purple\left\rat_W_L3.png" />
     <Content Include="Content\Sprites\000_rat\rat_purple\left\rat_W_L4.png" />
-    <Content Include="Content\Sprites\000_rat\rat_purple\rat_purple_grey.png" />
+    <Content Include="Content\Sprites\000_rat\rat_purple\rat_purple_grey.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\Sprites\000_rat\rat_purple\right\rat_W_R1.png" />
     <Content Include="Content\Sprites\000_rat\rat_purple\right\rat_W_R2.png" />
     <Content Include="Content\Sprites\000_rat\rat_purple\right\rat_W_R3.png" />
@@ -242,19 +353,37 @@
     <Content Include="Content\Sprites\000_rat\rat_purple\up\rat_W_U3.png" />
     <Content Include="Content\Sprites\000_rat\rat_purple\up\rat_W_U4.png" />
     <Content Include="Content\Sprites\000_rat\rat_purple\up\rat_W_U5.png" />
-    <Content Include="Content\Sprites\000_rat\rat_red\down\Rat Red 1.png" />
-    <Content Include="Content\Sprites\000_rat\rat_red\down\Rat Red 2.png" />
-    <Content Include="Content\Sprites\000_rat\rat_red\down\Rat Red 3.png" />
-    <Content Include="Content\Sprites\000_rat\rat_red\down\Rat Red 4.png" />
-    <Content Include="Content\Sprites\000_rat\rat_red\down\Rat Red 5.png" />
-    <Content Include="Content\Sprites\000_rat\rat_red\down\Rat Red 6.png" />
-    <Content Include="Content\Sprites\000_rat\rat_red\down\Rat Red 7.png" />
-    <Content Include="Content\Sprites\000_rat\rat_red\down\Rat Red 8.png" />
+    <Content Include="Content\Sprites\000_rat\rat_red\down\Rat Red 1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\000_rat\rat_red\down\Rat Red 2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\000_rat\rat_red\down\Rat Red 3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\000_rat\rat_red\down\Rat Red 4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\000_rat\rat_red\down\Rat Red 5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\000_rat\rat_red\down\Rat Red 6.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\000_rat\rat_red\down\Rat Red 7.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\000_rat\rat_red\down\Rat Red 8.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\Sprites\000_rat\rat_red\left\rat_W_L1.png" />
     <Content Include="Content\Sprites\000_rat\rat_red\left\rat_W_L2.png" />
     <Content Include="Content\Sprites\000_rat\rat_red\left\rat_W_L3.png" />
     <Content Include="Content\Sprites\000_rat\rat_red\left\rat_W_L4.png" />
-    <Content Include="Content\Sprites\000_rat\rat_red\rat_red_grey.png" />
+    <Content Include="Content\Sprites\000_rat\rat_red\rat_red_grey.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\Sprites\000_rat\rat_red\right\rat_W_R1.png" />
     <Content Include="Content\Sprites\000_rat\rat_red\right\rat_W_R2.png" />
     <Content Include="Content\Sprites\000_rat\rat_red\right\rat_W_R3.png" />
@@ -265,19 +394,37 @@
     <Content Include="Content\Sprites\000_rat\rat_red\up\rat_W_U3.png" />
     <Content Include="Content\Sprites\000_rat\rat_red\up\rat_W_U4.png" />
     <Content Include="Content\Sprites\000_rat\rat_red\up\rat_W_U5.png" />
-    <Content Include="Content\Sprites\000_rat\rat_yellow\down\Rat Yellow 1.png" />
-    <Content Include="Content\Sprites\000_rat\rat_yellow\down\Rat Yellow 2.png" />
-    <Content Include="Content\Sprites\000_rat\rat_yellow\down\Rat Yellow 3.png" />
-    <Content Include="Content\Sprites\000_rat\rat_yellow\down\Rat Yellow 4.png" />
-    <Content Include="Content\Sprites\000_rat\rat_yellow\down\Rat Yellow 5.png" />
-    <Content Include="Content\Sprites\000_rat\rat_yellow\down\Rat Yellow 6.png" />
-    <Content Include="Content\Sprites\000_rat\rat_yellow\down\Rat Yellow 7.png" />
-    <Content Include="Content\Sprites\000_rat\rat_yellow\down\Rat Yellow 8.png" />
+    <Content Include="Content\Sprites\000_rat\rat_yellow\down\Rat Yellow 1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\000_rat\rat_yellow\down\Rat Yellow 2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\000_rat\rat_yellow\down\Rat Yellow 3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\000_rat\rat_yellow\down\Rat Yellow 4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\000_rat\rat_yellow\down\Rat Yellow 5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\000_rat\rat_yellow\down\Rat Yellow 6.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\000_rat\rat_yellow\down\Rat Yellow 7.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\000_rat\rat_yellow\down\Rat Yellow 8.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\Sprites\000_rat\rat_yellow\left\rat_W_L1.png" />
     <Content Include="Content\Sprites\000_rat\rat_yellow\left\rat_W_L2.png" />
     <Content Include="Content\Sprites\000_rat\rat_yellow\left\rat_W_L3.png" />
     <Content Include="Content\Sprites\000_rat\rat_yellow\left\rat_W_L4.png" />
-    <Content Include="Content\Sprites\000_rat\rat_yellow\rat_yellow_grey.png" />
+    <Content Include="Content\Sprites\000_rat\rat_yellow\rat_yellow_grey.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\Sprites\000_rat\rat_yellow\right\rat_W_R1.png" />
     <Content Include="Content\Sprites\000_rat\rat_yellow\right\rat_W_R2.png" />
     <Content Include="Content\Sprites\000_rat\rat_yellow\right\rat_W_R3.png" />
@@ -288,31 +435,81 @@
     <Content Include="Content\Sprites\000_rat\rat_yellow\up\rat_W_U3.png" />
     <Content Include="Content\Sprites\000_rat\rat_yellow\up\rat_W_U4.png" />
     <Content Include="Content\Sprites\000_rat\rat_yellow\up\rat_W_U5.png" />
-    <Content Include="Content\Sprites\001_trex\trex_blue\down\T-Rex_Blue0000.png" />
-    <Content Include="Content\Sprites\001_trex\trex_blue\down\T-Rex_Blue0001.png" />
-    <Content Include="Content\Sprites\001_trex\trex_blue\down\T-Rex_Blue0002.png" />
-    <Content Include="Content\Sprites\001_trex\trex_blue\down\T-Rex_Blue0003.png" />
-    <Content Include="Content\Sprites\001_trex\trex_blue\trex_blue_grey.png" />
-    <Content Include="Content\Sprites\001_trex\trex_purple\down\T-Rex_Purple0000.png" />
-    <Content Include="Content\Sprites\001_trex\trex_purple\down\T-Rex_Purple0001.png" />
-    <Content Include="Content\Sprites\001_trex\trex_purple\down\T-Rex_Purple0002.png" />
-    <Content Include="Content\Sprites\001_trex\trex_purple\down\T-Rex_Purple0003.png" />
-    <Content Include="Content\Sprites\001_trex\trex_purple\trex_purple_grey.png" />
-    <Content Include="Content\Sprites\001_trex\trex_red\down\T-Rex_Red0000.png" />
-    <Content Include="Content\Sprites\001_trex\trex_red\down\T-Rex_Red0001.png" />
-    <Content Include="Content\Sprites\001_trex\trex_red\down\T-Rex_Red0002.png" />
-    <Content Include="Content\Sprites\001_trex\trex_red\down\T-Rex_Red0003.png" />
-    <Content Include="Content\Sprites\001_trex\trex_red\trex_red_grey.png" />
-    <Content Include="Content\Sprites\001_trex\trex_yellow\down\T-Rex_Yellow0000.png" />
-    <Content Include="Content\Sprites\001_trex\trex_yellow\down\T-Rex_Yellow0001.png" />
-    <Content Include="Content\Sprites\001_trex\trex_yellow\down\T-Rex_Yellow0002.png" />
-    <Content Include="Content\Sprites\001_trex\trex_yellow\down\T-Rex_Yellow0003.png" />
-    <Content Include="Content\Sprites\001_trex\trex_yellow\trex_yellow_grey.png" />
-    <Content Include="Content\Sprites\002_turtle\turtle_blue\down\Turtle Turtle 01.png" />
-    <Content Include="Content\Sprites\002_turtle\turtle_blue\down\Turtle Turtle 02.png" />
-    <Content Include="Content\Sprites\002_turtle\turtle_blue\down\Turtle Turtle 03.png" />
-    <Content Include="Content\Sprites\002_turtle\turtle_blue\down\Turtle Turtle 04.png" />
-    <Content Include="Content\Sprites\002_turtle\turtle_blue\down\Turtle Turtle 05.png" />
+    <Content Include="Content\Sprites\001_trex\trex_blue\down\T-Rex_Blue0000.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\001_trex\trex_blue\down\T-Rex_Blue0001.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\001_trex\trex_blue\down\T-Rex_Blue0002.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\001_trex\trex_blue\down\T-Rex_Blue0003.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\001_trex\trex_blue\trex_blue_grey.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\001_trex\trex_purple\down\T-Rex_Purple0000.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\001_trex\trex_purple\down\T-Rex_Purple0001.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\001_trex\trex_purple\down\T-Rex_Purple0002.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\001_trex\trex_purple\down\T-Rex_Purple0003.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\001_trex\trex_purple\trex_purple_grey.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\001_trex\trex_red\down\T-Rex_Red0000.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\001_trex\trex_red\down\T-Rex_Red0001.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\001_trex\trex_red\down\T-Rex_Red0002.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\001_trex\trex_red\down\T-Rex_Red0003.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\001_trex\trex_red\trex_red_grey.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\001_trex\trex_yellow\down\T-Rex_Yellow0000.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\001_trex\trex_yellow\down\T-Rex_Yellow0001.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\001_trex\trex_yellow\down\T-Rex_Yellow0002.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\001_trex\trex_yellow\down\T-Rex_Yellow0003.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\001_trex\trex_yellow\trex_yellow_grey.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\002_turtle\turtle_blue\down\Turtle Turtle 01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\002_turtle\turtle_blue\down\Turtle Turtle 02.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\002_turtle\turtle_blue\down\Turtle Turtle 03.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\002_turtle\turtle_blue\down\Turtle Turtle 04.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\002_turtle\turtle_blue\down\Turtle Turtle 05.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\Sprites\002_turtle\turtle_blue\left\Turtle Turtle 16.png" />
     <Content Include="Content\Sprites\002_turtle\turtle_blue\left\Turtle Turtle 17.png" />
     <Content Include="Content\Sprites\002_turtle\turtle_blue\left\Turtle Turtle 18.png" />
@@ -323,22 +520,44 @@
     <Content Include="Content\Sprites\002_turtle\turtle_blue\right\Turtle Turtle 08.png" />
     <Content Include="Content\Sprites\002_turtle\turtle_blue\right\Turtle Turtle 09.png" />
     <Content Include="Content\Sprites\002_turtle\turtle_blue\right\Turtle Turtle 10.png" />
-    <Content Include="Content\Sprites\002_turtle\turtle_blue\Turtle_Grey_Blue.png" />
+    <Content Include="Content\Sprites\002_turtle\turtle_blue\Turtle_Grey_Blue.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\Sprites\002_turtle\turtle_blue\up\Turtle Turtle 11.png" />
     <Content Include="Content\Sprites\002_turtle\turtle_blue\up\Turtle Turtle 12.png" />
     <Content Include="Content\Sprites\002_turtle\turtle_blue\up\Turtle Turtle 13.png" />
     <Content Include="Content\Sprites\002_turtle\turtle_blue\up\Turtle Turtle 14.png" />
     <Content Include="Content\Sprites\002_turtle\turtle_blue\up\Turtle Turtle 15.png" />
-    <Content Include="Content\Sprites\002_turtle\turtle_pirate\Pirate Turtle 01.png" />
-    <Content Include="Content\Sprites\002_turtle\turtle_pirate\Pirate Turtle 02.png" />
-    <Content Include="Content\Sprites\002_turtle\turtle_pirate\Pirate Turtle 03.png" />
-    <Content Include="Content\Sprites\002_turtle\turtle_pirate\Pirate Turtle 04.png" />
-    <Content Include="Content\Sprites\002_turtle\turtle_pirate\Pirate Turtle 05.png" />
-    <Content Include="Content\Sprites\002_turtle\turtle_purple\down\Purple Turtle 01.png" />
-    <Content Include="Content\Sprites\002_turtle\turtle_purple\down\Purple Turtle 02.png" />
-    <Content Include="Content\Sprites\002_turtle\turtle_purple\down\Purple Turtle 03.png" />
-    <Content Include="Content\Sprites\002_turtle\turtle_purple\down\Purple Turtle 04.png" />
-    <Content Include="Content\Sprites\002_turtle\turtle_purple\down\Purple Turtle 05.png" />
+    <Content Include="Content\Sprites\002_turtle\turtle_pirate\Pirate Turtle 01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\002_turtle\turtle_pirate\Pirate Turtle 02.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\002_turtle\turtle_pirate\Pirate Turtle 03.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\002_turtle\turtle_pirate\Pirate Turtle 04.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\002_turtle\turtle_pirate\Pirate Turtle 05.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\002_turtle\turtle_purple\down\Purple Turtle 01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\002_turtle\turtle_purple\down\Purple Turtle 02.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\002_turtle\turtle_purple\down\Purple Turtle 03.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\002_turtle\turtle_purple\down\Purple Turtle 04.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\002_turtle\turtle_purple\down\Purple Turtle 05.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\Sprites\002_turtle\turtle_purple\left\Purple Turtle 16.png" />
     <Content Include="Content\Sprites\002_turtle\turtle_purple\left\Purple Turtle 17.png" />
     <Content Include="Content\Sprites\002_turtle\turtle_purple\left\Purple Turtle 18.png" />
@@ -349,17 +568,29 @@
     <Content Include="Content\Sprites\002_turtle\turtle_purple\right\Purple Turtle 08.png" />
     <Content Include="Content\Sprites\002_turtle\turtle_purple\right\Purple Turtle 09.png" />
     <Content Include="Content\Sprites\002_turtle\turtle_purple\right\Purple Turtle 10.png" />
-    <Content Include="Content\Sprites\002_turtle\turtle_purple\Turtle_Grey_Purple.png" />
+    <Content Include="Content\Sprites\002_turtle\turtle_purple\Turtle_Grey_Purple.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\Sprites\002_turtle\turtle_purple\up\Purple Turtle 11.png" />
     <Content Include="Content\Sprites\002_turtle\turtle_purple\up\Purple Turtle 12.png" />
     <Content Include="Content\Sprites\002_turtle\turtle_purple\up\Purple Turtle 13.png" />
     <Content Include="Content\Sprites\002_turtle\turtle_purple\up\Purple Turtle 14.png" />
     <Content Include="Content\Sprites\002_turtle\turtle_purple\up\Purple Turtle 15.png" />
-    <Content Include="Content\Sprites\002_turtle\turtle_red\down\Red Turtle 01.png" />
-    <Content Include="Content\Sprites\002_turtle\turtle_red\down\Red Turtle 02.png" />
-    <Content Include="Content\Sprites\002_turtle\turtle_red\down\Red Turtle 03.png" />
-    <Content Include="Content\Sprites\002_turtle\turtle_red\down\Red Turtle 04.png" />
-    <Content Include="Content\Sprites\002_turtle\turtle_red\down\Red Turtle 05.png" />
+    <Content Include="Content\Sprites\002_turtle\turtle_red\down\Red Turtle 01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\002_turtle\turtle_red\down\Red Turtle 02.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\002_turtle\turtle_red\down\Red Turtle 03.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\002_turtle\turtle_red\down\Red Turtle 04.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\002_turtle\turtle_red\down\Red Turtle 05.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\Sprites\002_turtle\turtle_red\left\Red Turtle 16.png" />
     <Content Include="Content\Sprites\002_turtle\turtle_red\left\Red Turtle 17.png" />
     <Content Include="Content\Sprites\002_turtle\turtle_red\left\Red Turtle 18.png" />
@@ -370,17 +601,29 @@
     <Content Include="Content\Sprites\002_turtle\turtle_red\right\Red Turtle 08.png" />
     <Content Include="Content\Sprites\002_turtle\turtle_red\right\Red Turtle 09.png" />
     <Content Include="Content\Sprites\002_turtle\turtle_red\right\Red Turtle 10.png" />
-    <Content Include="Content\Sprites\002_turtle\turtle_red\Turtle_Grey_Red.png" />
+    <Content Include="Content\Sprites\002_turtle\turtle_red\Turtle_Grey_Red.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\Sprites\002_turtle\turtle_red\up\Red Turtle 11.png" />
     <Content Include="Content\Sprites\002_turtle\turtle_red\up\Red Turtle 12.png" />
     <Content Include="Content\Sprites\002_turtle\turtle_red\up\Red Turtle 13.png" />
     <Content Include="Content\Sprites\002_turtle\turtle_red\up\Red Turtle 14.png" />
     <Content Include="Content\Sprites\002_turtle\turtle_red\up\Red Turtle 15.png" />
-    <Content Include="Content\Sprites\002_turtle\turtle_yellow\down\Yellow Turtle 01.png" />
-    <Content Include="Content\Sprites\002_turtle\turtle_yellow\down\Yellow Turtle 02.png" />
-    <Content Include="Content\Sprites\002_turtle\turtle_yellow\down\Yellow Turtle 03.png" />
-    <Content Include="Content\Sprites\002_turtle\turtle_yellow\down\Yellow Turtle 04.png" />
-    <Content Include="Content\Sprites\002_turtle\turtle_yellow\down\Yellow Turtle 05.png" />
+    <Content Include="Content\Sprites\002_turtle\turtle_yellow\down\Yellow Turtle 01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\002_turtle\turtle_yellow\down\Yellow Turtle 02.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\002_turtle\turtle_yellow\down\Yellow Turtle 03.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\002_turtle\turtle_yellow\down\Yellow Turtle 04.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\002_turtle\turtle_yellow\down\Yellow Turtle 05.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\Sprites\002_turtle\turtle_yellow\left\Yellow Turtle 16.png" />
     <Content Include="Content\Sprites\002_turtle\turtle_yellow\left\Yellow Turtle 17.png" />
     <Content Include="Content\Sprites\002_turtle\turtle_yellow\left\Yellow Turtle 18.png" />
@@ -391,86 +634,228 @@
     <Content Include="Content\Sprites\002_turtle\turtle_yellow\right\Yellow Turtle 08.png" />
     <Content Include="Content\Sprites\002_turtle\turtle_yellow\right\Yellow Turtle 09.png" />
     <Content Include="Content\Sprites\002_turtle\turtle_yellow\right\Yellow Turtle 10.png" />
-    <Content Include="Content\Sprites\002_turtle\turtle_yellow\Turtle_Grey_Yellow.png" />
+    <Content Include="Content\Sprites\002_turtle\turtle_yellow\Turtle_Grey_Yellow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\Sprites\002_turtle\turtle_yellow\up\Yellow Turtle 11.png" />
     <Content Include="Content\Sprites\002_turtle\turtle_yellow\up\Yellow Turtle 12.png" />
     <Content Include="Content\Sprites\002_turtle\turtle_yellow\up\Yellow Turtle 13.png" />
     <Content Include="Content\Sprites\002_turtle\turtle_yellow\up\Yellow Turtle 14.png" />
     <Content Include="Content\Sprites\002_turtle\turtle_yellow\up\Yellow Turtle 15.png" />
-    <Content Include="Content\Sprites\003_redBase\red.png" />
-    <Content Include="Content\Sprites\004_blueBase\blue.png" />
-    <Content Include="Content\Sprites\005_yellowBase\yellow.png" />
-    <Content Include="Content\Sprites\006_purpleBase\purple.png" />
-    <Content Include="Content\Sprites\007_cursor\Cursor1.png" />
-    <Content Include="Content\Sprites\007_cursor\Cursor2.png" />
-    <Content Include="Content\Sprites\008_explosion\Exposion0000.png" />
-    <Content Include="Content\Sprites\008_explosion\Exposion0001.png" />
-    <Content Include="Content\Sprites\008_explosion\Exposion0002.png" />
-    <Content Include="Content\Sprites\008_explosion\Exposion0003.png" />
-    <Content Include="Content\Sprites\008_explosion\Exposion0004.png" />
-    <Content Include="Content\Sprites\008_explosion\Exposion0005.png" />
-    <Content Include="Content\Sprites\008_explosion\Exposion0006.png" />
-    <Content Include="Content\Sprites\008_explosion\Exposion0007.png" />
-    <Content Include="Content\Sprites\008_explosion\Exposion0008.png" />
-    <Content Include="Content\Sprites\009_robin\Red_Robin0000.png" />
-    <Content Include="Content\Sprites\009_robin\robin_blue\down\Blue_Robin0000.png" />
-    <Content Include="Content\Sprites\009_robin\robin_blue\down\Blue_Robin0001.png" />
-    <Content Include="Content\Sprites\009_robin\robin_blue\down\Blue_Robin0002.png" />
-    <Content Include="Content\Sprites\009_robin\robin_blue\down\Blue_Robin0003.png" />
-    <Content Include="Content\Sprites\009_robin\robin_purple\down\Purple_Robin0000.png" />
-    <Content Include="Content\Sprites\009_robin\robin_purple\down\Purple_Robin0001.png" />
-    <Content Include="Content\Sprites\009_robin\robin_purple\down\Purple_Robin0002.png" />
-    <Content Include="Content\Sprites\009_robin\robin_purple\down\Purple_Robin0003.png" />
-    <Content Include="Content\Sprites\009_robin\robin_red\down\Red_Robin0000.png" />
-    <Content Include="Content\Sprites\009_robin\robin_red\down\Red_Robin0001.png" />
-    <Content Include="Content\Sprites\009_robin\robin_red\down\Red_Robin0002.png" />
-    <Content Include="Content\Sprites\009_robin\robin_red\down\Red_Robin0003.png" />
-    <Content Include="Content\Sprites\009_robin\robin_yellow\down\Yellow_Robin0000.png" />
-    <Content Include="Content\Sprites\009_robin\robin_yellow\down\Yellow_Robin0001.png" />
-    <Content Include="Content\Sprites\009_robin\robin_yellow\down\Yellow_Robin0002.png" />
-    <Content Include="Content\Sprites\009_robin\robin_yellow\down\Yellow_Robin0003.png" />
-    <Content Include="Content\Sprites\010_llama\llama_blue\down\Llama_Blue00.png" />
-    <Content Include="Content\Sprites\010_llama\llama_blue\down\Llama_Blue01.png" />
-    <Content Include="Content\Sprites\010_llama\llama_blue\down\Llama_Blue02.png" />
-    <Content Include="Content\Sprites\010_llama\llama_blue\down\Llama_Blue03.png" />
-    <Content Include="Content\Sprites\010_llama\llama_blue\Llama_Blue_Grey.png" />
-    <Content Include="Content\Sprites\010_llama\llama_purple\down\Llama_Purple00.png" />
-    <Content Include="Content\Sprites\010_llama\llama_purple\down\Llama_Purple01.png" />
-    <Content Include="Content\Sprites\010_llama\llama_purple\down\Llama_Purple02.png" />
-    <Content Include="Content\Sprites\010_llama\llama_purple\down\Llama_Purple03.png" />
-    <Content Include="Content\Sprites\010_llama\llama_purple\Llama_Purple_Grey.png" />
-    <Content Include="Content\Sprites\010_llama\llama_red\down\Llama_Red00.png" />
-    <Content Include="Content\Sprites\010_llama\llama_red\down\Llama_Red01.png" />
-    <Content Include="Content\Sprites\010_llama\llama_red\down\Llama_Red02.png" />
-    <Content Include="Content\Sprites\010_llama\llama_red\down\Llama_Red03.png" />
-    <Content Include="Content\Sprites\010_llama\llama_red\Llama_Red_Grey.png" />
-    <Content Include="Content\Sprites\010_llama\llama_yellow\down\Llama_Yellow00.png" />
-    <Content Include="Content\Sprites\010_llama\llama_yellow\down\Llama_Yellow01.png" />
-    <Content Include="Content\Sprites\010_llama\llama_yellow\down\Llama_Yellow02.png" />
-    <Content Include="Content\Sprites\010_llama\llama_yellow\down\Llama_Yellow03.png" />
-    <Content Include="Content\Sprites\010_llama\llama_yellow\Llama_Yellow_Grey.png" />
-    <Content Include="Content\Sprites\011_blob\000_blobblfobbing.png" />
-    <Content Include="Content\Sprites\011_blob\001_blobblofbbing.png" />
-    <Content Include="Content\Sprites\011_blob\002_blobblofbbing.png" />
-    <Content Include="Content\Sprites\011_blob\003_blobblofbbing.png" />
-    <Content Include="Content\Sprites\011_blob\blob_blue\000_blueblobblobbing.png" />
-    <Content Include="Content\Sprites\011_blob\blob_blue\down\000_blueblobblobbing.png" />
-    <Content Include="Content\Sprites\011_blob\blob_blue\down\001_blueblobblobbing.png" />
-    <Content Include="Content\Sprites\011_blob\blob_blue\down\002_blueblobblobbing.png" />
-    <Content Include="Content\Sprites\011_blob\blob_blue\down\003_blueblobblobbing.png" />
-    <Content Include="Content\Sprites\011_blob\blob_purple\down\Rat Purple 1.png" />
-    <Content Include="Content\Sprites\011_blob\blob_purple\down\Rat Purple 2.png" />
-    <Content Include="Content\Sprites\011_blob\blob_purple\down\Rat Purple 3.png" />
-    <Content Include="Content\Sprites\011_blob\blob_purple\down\Rat Purple 4.png" />
-    <Content Include="Content\Sprites\011_blob\blob_purple\down\Rat Purple 5.png" />
-    <Content Include="Content\Sprites\011_blob\blob_purple\down\Rat Purple 6.png" />
-    <Content Include="Content\Sprites\011_blob\blob_purple\down\Rat Purple 7.png" />
-    <Content Include="Content\Sprites\011_blob\blob_purple\down\Rat Purple 8.png" />
+    <Content Include="Content\Sprites\003_redBase\red.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\004_blueBase\blue.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\005_yellowBase\yellow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\006_purpleBase\purple.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\007_cursor\Cursor1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\007_cursor\Cursor2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\008_explosion\Exposion0000.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\008_explosion\Exposion0001.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\008_explosion\Exposion0002.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\008_explosion\Exposion0003.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\008_explosion\Exposion0004.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\008_explosion\Exposion0005.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\008_explosion\Exposion0006.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\008_explosion\Exposion0007.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\008_explosion\Exposion0008.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\009_robin\Red_Robin0000.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\009_robin\robin_blue\down\Blue_Robin0000.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\009_robin\robin_blue\down\Blue_Robin0001.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\009_robin\robin_blue\down\Blue_Robin0002.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\009_robin\robin_blue\down\Blue_Robin0003.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\009_robin\robin_purple\down\Purple_Robin0000.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\009_robin\robin_purple\down\Purple_Robin0001.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\009_robin\robin_purple\down\Purple_Robin0002.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\009_robin\robin_purple\down\Purple_Robin0003.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\009_robin\robin_red\down\Red_Robin0000.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\009_robin\robin_red\down\Red_Robin0001.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\009_robin\robin_red\down\Red_Robin0002.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\009_robin\robin_red\down\Red_Robin0003.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\009_robin\robin_yellow\down\Yellow_Robin0000.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\009_robin\robin_yellow\down\Yellow_Robin0001.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\009_robin\robin_yellow\down\Yellow_Robin0002.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\009_robin\robin_yellow\down\Yellow_Robin0003.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\010_llama\llama_blue\down\Llama_Blue00.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\010_llama\llama_blue\down\Llama_Blue01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\010_llama\llama_blue\down\Llama_Blue02.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\010_llama\llama_blue\down\Llama_Blue03.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\010_llama\llama_blue\Llama_Blue_Grey.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\010_llama\llama_purple\down\Llama_Purple00.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\010_llama\llama_purple\down\Llama_Purple01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\010_llama\llama_purple\down\Llama_Purple02.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\010_llama\llama_purple\down\Llama_Purple03.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\010_llama\llama_purple\Llama_Purple_Grey.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\010_llama\llama_red\down\Llama_Red00.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\010_llama\llama_red\down\Llama_Red01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\010_llama\llama_red\down\Llama_Red02.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\010_llama\llama_red\down\Llama_Red03.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\010_llama\llama_red\Llama_Red_Grey.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\010_llama\llama_yellow\down\Llama_Yellow00.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\010_llama\llama_yellow\down\Llama_Yellow01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\010_llama\llama_yellow\down\Llama_Yellow02.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\010_llama\llama_yellow\down\Llama_Yellow03.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\010_llama\llama_yellow\Llama_Yellow_Grey.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\011_blob\000_blobblfobbing.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\011_blob\001_blobblofbbing.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\011_blob\002_blobblofbbing.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\011_blob\003_blobblofbbing.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\011_blob\blob_blue\000_blueblobblobbing.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\011_blob\blob_blue\down\000_blueblobblobbing.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\011_blob\blob_blue\down\001_blueblobblobbing.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\011_blob\blob_blue\down\002_blueblobblobbing.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\011_blob\blob_blue\down\003_blueblobblobbing.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\011_blob\blob_purple\down\Rat Purple 1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\011_blob\blob_purple\down\Rat Purple 2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\011_blob\blob_purple\down\Rat Purple 3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\011_blob\blob_purple\down\Rat Purple 4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\011_blob\blob_purple\down\Rat Purple 5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\011_blob\blob_purple\down\Rat Purple 6.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\011_blob\blob_purple\down\Rat Purple 7.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\011_blob\blob_purple\down\Rat Purple 8.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\Sprites\011_blob\blob_purple\left\rat_W_L1.png" />
     <Content Include="Content\Sprites\011_blob\blob_purple\left\rat_W_L2.png" />
     <Content Include="Content\Sprites\011_blob\blob_purple\left\rat_W_L3.png" />
     <Content Include="Content\Sprites\011_blob\blob_purple\left\rat_W_L4.png" />
-    <Content Include="Content\Sprites\011_blob\blob_purple\rat_purple_grey.png" />
+    <Content Include="Content\Sprites\011_blob\blob_purple\rat_purple_grey.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\Sprites\011_blob\blob_purple\right\rat_W_R1.png" />
     <Content Include="Content\Sprites\011_blob\blob_purple\right\rat_W_R2.png" />
     <Content Include="Content\Sprites\011_blob\blob_purple\right\rat_W_R3.png" />
@@ -481,11 +866,21 @@
     <Content Include="Content\Sprites\011_blob\blob_purple\up\rat_W_U3.png" />
     <Content Include="Content\Sprites\011_blob\blob_purple\up\rat_W_U4.png" />
     <Content Include="Content\Sprites\011_blob\blob_purple\up\rat_W_U5.png" />
-    <Content Include="Content\Sprites\011_blob\blob_red\000_redblobblobbing.png" />
-    <Content Include="Content\Sprites\011_blob\blob_red\down\000_redblobblobbing.png" />
-    <Content Include="Content\Sprites\011_blob\blob_red\down\001_redblobblobbing.png" />
-    <Content Include="Content\Sprites\011_blob\blob_red\down\002_redblobblobbing.png" />
-    <Content Include="Content\Sprites\011_blob\blob_red\down\003_redblobblobbing.png" />
+    <Content Include="Content\Sprites\011_blob\blob_red\000_redblobblobbing.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\011_blob\blob_red\down\000_redblobblobbing.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\011_blob\blob_red\down\001_redblobblobbing.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\011_blob\blob_red\down\002_redblobblobbing.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\011_blob\blob_red\down\003_redblobblobbing.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\Sprites\011_blob\blob_red\left\rat_W_L1.png" />
     <Content Include="Content\Sprites\011_blob\blob_red\left\rat_W_L2.png" />
     <Content Include="Content\Sprites\011_blob\blob_red\left\rat_W_L3.png" />
@@ -500,19 +895,37 @@
     <Content Include="Content\Sprites\011_blob\blob_red\up\rat_W_U3.png" />
     <Content Include="Content\Sprites\011_blob\blob_red\up\rat_W_U4.png" />
     <Content Include="Content\Sprites\011_blob\blob_red\up\rat_W_U5.png" />
-    <Content Include="Content\Sprites\011_blob\blob_yellow\down\Rat Yellow 1.png" />
-    <Content Include="Content\Sprites\011_blob\blob_yellow\down\Rat Yellow 2.png" />
-    <Content Include="Content\Sprites\011_blob\blob_yellow\down\Rat Yellow 3.png" />
-    <Content Include="Content\Sprites\011_blob\blob_yellow\down\Rat Yellow 4.png" />
-    <Content Include="Content\Sprites\011_blob\blob_yellow\down\Rat Yellow 5.png" />
-    <Content Include="Content\Sprites\011_blob\blob_yellow\down\Rat Yellow 6.png" />
-    <Content Include="Content\Sprites\011_blob\blob_yellow\down\Rat Yellow 7.png" />
-    <Content Include="Content\Sprites\011_blob\blob_yellow\down\Rat Yellow 8.png" />
+    <Content Include="Content\Sprites\011_blob\blob_yellow\down\Rat Yellow 1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\011_blob\blob_yellow\down\Rat Yellow 2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\011_blob\blob_yellow\down\Rat Yellow 3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\011_blob\blob_yellow\down\Rat Yellow 4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\011_blob\blob_yellow\down\Rat Yellow 5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\011_blob\blob_yellow\down\Rat Yellow 6.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\011_blob\blob_yellow\down\Rat Yellow 7.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\011_blob\blob_yellow\down\Rat Yellow 8.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\Sprites\011_blob\blob_yellow\left\rat_W_L1.png" />
     <Content Include="Content\Sprites\011_blob\blob_yellow\left\rat_W_L2.png" />
     <Content Include="Content\Sprites\011_blob\blob_yellow\left\rat_W_L3.png" />
     <Content Include="Content\Sprites\011_blob\blob_yellow\left\rat_W_L4.png" />
-    <Content Include="Content\Sprites\011_blob\blob_yellow\rat_yellow_grey.png" />
+    <Content Include="Content\Sprites\011_blob\blob_yellow\rat_yellow_grey.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\Sprites\011_blob\blob_yellow\right\rat_W_R1.png" />
     <Content Include="Content\Sprites\011_blob\blob_yellow\right\rat_W_R2.png" />
     <Content Include="Content\Sprites\011_blob\blob_yellow\right\rat_W_R3.png" />
@@ -523,45 +936,123 @@
     <Content Include="Content\Sprites\011_blob\blob_yellow\up\rat_W_U3.png" />
     <Content Include="Content\Sprites\011_blob\blob_yellow\up\rat_W_U4.png" />
     <Content Include="Content\Sprites\011_blob\blob_yellow\up\rat_W_U5.png" />
-    <Content Include="Content\Sprites\012_penguin\penguin_blue\down\Penguin_Blue00.png" />
-    <Content Include="Content\Sprites\012_penguin\penguin_blue\down\Penguin_Blue01.png" />
-    <Content Include="Content\Sprites\012_penguin\penguin_blue\down\Penguin_Blue02.png" />
-    <Content Include="Content\Sprites\012_penguin\penguin_blue\down\Penguin_Blue03.png" />
-    <Content Include="Content\Sprites\012_penguin\penguin_blue\down\Penguin_Blue04.png" />
-    <Content Include="Content\Sprites\012_penguin\penguin_blue\down\Penguin_Blue05.png" />
-    <Content Include="Content\Sprites\012_penguin\penguin_blue\down\Penguin_Blue06.png" />
-    <Content Include="Content\Sprites\012_penguin\penguin_blue\down\Penguin_Blue07.png" />
-    <Content Include="Content\Sprites\012_penguin\penguin_blue\Penguin_Blue_Grey00.png" />
-    <Content Include="Content\Sprites\012_penguin\penguin_purple\down\Penguin_Purple00.png" />
-    <Content Include="Content\Sprites\012_penguin\penguin_purple\down\Penguin_Purple01.png" />
-    <Content Include="Content\Sprites\012_penguin\penguin_purple\down\Penguin_Purple02.png" />
-    <Content Include="Content\Sprites\012_penguin\penguin_purple\down\Penguin_Purple03.png" />
-    <Content Include="Content\Sprites\012_penguin\penguin_purple\down\Penguin_Purple04.png" />
-    <Content Include="Content\Sprites\012_penguin\penguin_purple\down\Penguin_Purple05.png" />
-    <Content Include="Content\Sprites\012_penguin\penguin_purple\down\Penguin_Purple06.png" />
-    <Content Include="Content\Sprites\012_penguin\penguin_purple\down\Penguin_Purple07.png" />
-    <Content Include="Content\Sprites\012_penguin\penguin_purple\Penguin_Purple_Grey00.png" />
-    <Content Include="Content\Sprites\012_penguin\penguin_red\down\Penguin_Red00.png" />
-    <Content Include="Content\Sprites\012_penguin\penguin_red\down\Penguin_Red01.png" />
-    <Content Include="Content\Sprites\012_penguin\penguin_red\down\Penguin_Red02.png" />
-    <Content Include="Content\Sprites\012_penguin\penguin_red\down\Penguin_Red03.png" />
-    <Content Include="Content\Sprites\012_penguin\penguin_red\down\Penguin_Red04.png" />
-    <Content Include="Content\Sprites\012_penguin\penguin_red\down\Penguin_Red05.png" />
-    <Content Include="Content\Sprites\012_penguin\penguin_red\down\Penguin_Red06.png" />
-    <Content Include="Content\Sprites\012_penguin\penguin_red\down\Penguin_Red07.png" />
-    <Content Include="Content\Sprites\012_penguin\penguin_red\Penguin_Red_Grey00.png" />
-    <Content Include="Content\Sprites\012_penguin\penguin_yellow\down\Penguin_Yellow00.png" />
-    <Content Include="Content\Sprites\012_penguin\penguin_yellow\down\Penguin_Yellow01.png" />
-    <Content Include="Content\Sprites\012_penguin\penguin_yellow\down\Penguin_Yellow02.png" />
-    <Content Include="Content\Sprites\012_penguin\penguin_yellow\down\Penguin_Yellow03.png" />
-    <Content Include="Content\Sprites\012_penguin\penguin_yellow\down\Penguin_Yellow04.png" />
-    <Content Include="Content\Sprites\012_penguin\penguin_yellow\down\Penguin_Yellow05.png" />
-    <Content Include="Content\Sprites\012_penguin\penguin_yellow\down\Penguin_Yellow06.png" />
-    <Content Include="Content\Sprites\012_penguin\penguin_yellow\down\Penguin_Yellow07.png" />
-    <Content Include="Content\Sprites\012_penguin\penguin_yellow\Penguin_Yellow_Grey00.png" />
-    <Content Include="Content\Tiles\Tiles\Bridge1.png" />
-    <Content Include="Content\Tiles\Tiles\Bridge2.png" />
-    <Content Include="Content\Tiles\Tiles\fort.png" />
+    <Content Include="Content\Sprites\012_penguin\penguin_blue\down\Penguin_Blue00.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\012_penguin\penguin_blue\down\Penguin_Blue01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\012_penguin\penguin_blue\down\Penguin_Blue02.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\012_penguin\penguin_blue\down\Penguin_Blue03.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\012_penguin\penguin_blue\down\Penguin_Blue04.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\012_penguin\penguin_blue\down\Penguin_Blue05.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\012_penguin\penguin_blue\down\Penguin_Blue06.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\012_penguin\penguin_blue\down\Penguin_Blue07.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\012_penguin\penguin_blue\Penguin_Blue_Grey00.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\012_penguin\penguin_purple\down\Penguin_Purple00.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\012_penguin\penguin_purple\down\Penguin_Purple01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\012_penguin\penguin_purple\down\Penguin_Purple02.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\012_penguin\penguin_purple\down\Penguin_Purple03.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\012_penguin\penguin_purple\down\Penguin_Purple04.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\012_penguin\penguin_purple\down\Penguin_Purple05.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\012_penguin\penguin_purple\down\Penguin_Purple06.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\012_penguin\penguin_purple\down\Penguin_Purple07.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\012_penguin\penguin_purple\Penguin_Purple_Grey00.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\012_penguin\penguin_red\down\Penguin_Red00.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\012_penguin\penguin_red\down\Penguin_Red01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\012_penguin\penguin_red\down\Penguin_Red02.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\012_penguin\penguin_red\down\Penguin_Red03.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\012_penguin\penguin_red\down\Penguin_Red04.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\012_penguin\penguin_red\down\Penguin_Red05.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\012_penguin\penguin_red\down\Penguin_Red06.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\012_penguin\penguin_red\down\Penguin_Red07.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\012_penguin\penguin_red\Penguin_Red_Grey00.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\012_penguin\penguin_yellow\down\Penguin_Yellow00.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\012_penguin\penguin_yellow\down\Penguin_Yellow01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\012_penguin\penguin_yellow\down\Penguin_Yellow02.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\012_penguin\penguin_yellow\down\Penguin_Yellow03.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\012_penguin\penguin_yellow\down\Penguin_Yellow04.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\012_penguin\penguin_yellow\down\Penguin_Yellow05.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\012_penguin\penguin_yellow\down\Penguin_Yellow06.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\012_penguin\penguin_yellow\down\Penguin_Yellow07.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Sprites\012_penguin\penguin_yellow\Penguin_Yellow_Grey00.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Bridge1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Bridge2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\fort.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\Tiles\Tiles\Old Tiles\Bridge1.png" />
     <Content Include="Content\Tiles\Tiles\Old Tiles\Bridge2.png" />
     <Content Include="Content\Tiles\Tiles\Old Tiles\Cliff1.png" />
@@ -621,147 +1112,429 @@
     <Content Include="Content\Tiles\Tiles\Old Tiles\water\VVater1.png" />
     <Content Include="Content\Tiles\Tiles\Old Tiles\water\VVater2.png" />
     <Content Include="Content\Tiles\Tiles\Old Tiles\water\VVater3.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Cliff\Cliff1.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Cliff\Cliff2.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Cliff\Cliff3.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Cliff\Cliff4.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest1-0.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest1-1.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest1-2.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest1-3.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest1-4.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest2-0.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest2-1.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest2-2.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest2-3.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest2-4.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest3-0.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest3-1.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest3-2.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest3-3.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest3-4.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Fort\Fort.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\grass.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\grass1.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\grass2.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\grass3.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\grass4.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Hills\Hills1-0.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Hills\Hills1-1.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Hills\Hills1-2.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Hills\Hills1-3.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Hills\Hills1-4.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Hills\Hills2-0.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Hills\Hills2-1.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Hills\Hills2-2.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Hills\Hills2-3.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Hills\Hills2-4.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Mountain\Mountain1-0.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Mountain\Mountain1-1.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Mountain\Mountain1-2.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Mountain\Mountain1-3.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Mountain\Mountain1-4.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Water\water.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Water\water1.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Water\water2.png" />
-    <Content Include="Content\Tiles\Tiles\Prairie\Water\water3.png" />
-    <Content Include="Content\Tiles\Tiles\Snow\Cliff\Cliff1.png" />
-    <Content Include="Content\Tiles\Tiles\Snow\Cliff\Cliff2.png" />
-    <Content Include="Content\Tiles\Tiles\Snow\Cliff\Cliff3.png" />
-    <Content Include="Content\Tiles\Tiles\Snow\Cliff\Cliff4.png" />
-    <Content Include="Content\Tiles\Tiles\Snow\Forest\forest1-0.png" />
-    <Content Include="Content\Tiles\Tiles\Snow\Forest\forest1-1.png" />
-    <Content Include="Content\Tiles\Tiles\Snow\Forest\forest1-2.png" />
-    <Content Include="Content\Tiles\Tiles\Snow\Forest\forest2-0.png" />
-    <Content Include="Content\Tiles\Tiles\Snow\Forest\forest2-1.png" />
-    <Content Include="Content\Tiles\Tiles\Snow\Forest\forest2-2.png" />
-    <Content Include="Content\Tiles\Tiles\Snow\Forest\forest3-0.png" />
-    <Content Include="Content\Tiles\Tiles\Snow\Forest\forest3-1.png" />
-    <Content Include="Content\Tiles\Tiles\Snow\Forest\forest3-2.png" />
-    <Content Include="Content\Tiles\Tiles\Snow\Fort\Fort.png" />
-    <Content Include="Content\Tiles\Tiles\Snow\grass0.png" />
-    <Content Include="Content\Tiles\Tiles\Snow\grass1.png" />
-    <Content Include="Content\Tiles\Tiles\Snow\grass2.png" />
-    <Content Include="Content\Tiles\Tiles\Snow\grass3.png" />
-    <Content Include="Content\Tiles\Tiles\Snow\Hills\hills1-0.png" />
-    <Content Include="Content\Tiles\Tiles\Snow\Hills\hills1-1.png" />
-    <Content Include="Content\Tiles\Tiles\Snow\Hills\hills1-2.png" />
-    <Content Include="Content\Tiles\Tiles\Snow\Mountain\Mountain1-0.png" />
-    <Content Include="Content\Tiles\Tiles\Snow\Mountain\Mountain1-1.png" />
-    <Content Include="Content\Tiles\Tiles\Snow\Mountain\Mountain1-2.png" />
-    <Content Include="Content\Tiles\Tiles\Snow\Water\water.png" />
-    <Content Include="Content\Tiles\Tiles\Snow\Water\water1.png" />
-    <Content Include="Content\Tiles\Tiles\Snow\Water\water2.png" />
-    <Content Include="Content\Tiles\Tiles\Snow\Water\water3.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest1-0.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest1-1.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest1-2.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest1-3.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest1-4.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest1-5.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest2-0.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest2-1.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest2-2.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest2-3.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest2-4.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest2-5.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest3-0.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest3-1.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest3-2.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest3-3.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest3-4.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest3-5.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest4-0.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest4-1.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest4-2.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest4-3.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest4-4.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest4-5.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest5-0.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest5-1.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest5-2.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest5-3.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest5-4.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest5-5.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Grass\grass0.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Grass\grass1.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Grass\grass2.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Grass\grass3.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Grass\grass4.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Grass\grass5.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Hills\Hills1-0.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Hills\Hills1-1.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Hills\Hills1-2.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Hills\Hills1-3.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Hills\Hills1-4.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Hills\Hills1-5.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Hills\Hills2-0.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Hills\Hills2-1.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Hills\Hills2-2.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Hills\Hills2-3.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Hills\Hills2-4.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Hills\Hills2-5.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Mountain\Mountain1-0.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Mountain\Mountain1-1.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Mountain\Mountain1-2.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Mountain\Mountain1-3.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Mountain\Mountain1-4.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Mountain\Mountain1-5.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Mountain\Mountain2-0.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Mountain\Mountain2-1.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Mountain\Mountain2-2.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Mountain\Mountain2-3.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Mountain\Mountain2-4.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Mountain\Mountain2-5.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Water\water.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Water\water1.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Water\water2.png" />
-    <Content Include="Content\Tiles\Tiles\Temperate\Water\water3.png" />
-    <Content Include="Content\Tiles\Tiles\wall001.png" />
-    <Content Include="Content\Tiles\Tiles\water\VVater1.png" />
-    <Content Include="Content\Tiles\Tiles\water\VVater2.png" />
-    <Content Include="Content\Tiles\Tiles\water\VVater3.png" />
-    <Content Include="Content\Tiles\Tiles\water\water.png" />
+    <Content Include="Content\Tiles\Tiles\Prairie\Cliff\Cliff1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Cliff\Cliff2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Cliff\Cliff3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Cliff\Cliff4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest1-0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest1-1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest1-2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest1-3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest1-4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest2-0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest2-1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest2-2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest2-3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest2-4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest3-0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest3-1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest3-2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest3-3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Forest\Forest3-4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Fort\Fort.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\grass.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\grass1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\grass2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\grass3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\grass4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Hills\Hills1-0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Hills\Hills1-1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Hills\Hills1-2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Hills\Hills1-3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Hills\Hills1-4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Hills\Hills2-0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Hills\Hills2-1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Hills\Hills2-2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Hills\Hills2-3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Hills\Hills2-4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Mountain\Mountain1-0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Mountain\Mountain1-1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Mountain\Mountain1-2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Mountain\Mountain1-3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Mountain\Mountain1-4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Water\water.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Water\water1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Water\water2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Prairie\Water\water3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Snow\Cliff\Cliff1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Snow\Cliff\Cliff2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Snow\Cliff\Cliff3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Snow\Cliff\Cliff4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Snow\Forest\forest1-0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Snow\Forest\forest1-1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Snow\Forest\forest1-2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Snow\Forest\forest2-0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Snow\Forest\forest2-1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Snow\Forest\forest2-2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Snow\Forest\forest3-0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Snow\Forest\forest3-1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Snow\Forest\forest3-2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Snow\Fort\Fort.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Snow\grass0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Snow\grass1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Snow\grass2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Snow\grass3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Snow\Hills\hills1-0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Snow\Hills\hills1-1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Snow\Hills\hills1-2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Snow\Mountain\Mountain1-0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Snow\Mountain\Mountain1-1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Snow\Mountain\Mountain1-2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Snow\Water\water.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Snow\Water\water1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Snow\Water\water2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Snow\Water\water3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest1-0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest1-1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest1-2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest1-3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest1-4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest1-5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest2-0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest2-1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest2-2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest2-3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest2-4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest2-5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest3-0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest3-1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest3-2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest3-3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest3-4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest3-5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest4-0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest4-1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest4-2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest4-3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest4-4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest4-5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest5-0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest5-1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest5-2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest5-3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest5-4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Forest\Forest5-5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Grass\grass0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Grass\grass1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Grass\grass2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Grass\grass3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Grass\grass4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Grass\grass5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Hills\Hills1-0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Hills\Hills1-1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Hills\Hills1-2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Hills\Hills1-3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Hills\Hills1-4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Hills\Hills1-5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Hills\Hills2-0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Hills\Hills2-1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Hills\Hills2-2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Hills\Hills2-3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Hills\Hills2-4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Hills\Hills2-5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Mountain\Mountain1-0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Mountain\Mountain1-1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Mountain\Mountain1-2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Mountain\Mountain1-3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Mountain\Mountain1-4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Mountain\Mountain1-5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Mountain\Mountain2-0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Mountain\Mountain2-1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Mountain\Mountain2-2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Mountain\Mountain2-3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Mountain\Mountain2-4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Mountain\Mountain2-5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Water\water.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Water\water1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Water\water2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\Temperate\Water\water3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\wall001.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\water\VVater1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\water\VVater2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\water\VVater3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Tiles\Tiles\water\water.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="GameIcon.ico" />
   </ItemGroup>
   <ItemGroup>
@@ -772,18 +1545,42 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Animal Armies_TemporaryKey.pfx" />
-    <None Include="Content\Fonts\Vera.ttf" />
-    <None Include="Content\Maps\BasicMap.map" />
-    <None Include="Content\Maps\Menu.map" />
-    <None Include="Content\Maps\NewWorld.map" />
-    <None Include="Content\Maps\NewWorld0.map" />
-    <None Include="Content\Maps\sigart_400x400.map" />
-    <None Include="Content\Maps\SurroundWorld.map" />
-    <None Include="Content\Maps\Tyler!.map" />
-    <None Include="Content\Music\003_hey.ogg" />
-    <None Include="Content\Music\004_troll.ogg" />
-    <None Include="Content\Music\005_9000.ogg" />
-    <None Include="Content\Music\Menu.ogg" />
+    <None Include="Content\Fonts\Vera.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Maps\BasicMap.map">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Maps\Menu.map">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Maps\NewWorld.map">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Maps\NewWorld0.map">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Maps\sigart_400x400.map">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Maps\SurroundWorld.map">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Maps\Tyler!.map">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Music\003_hey.ogg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Music\004_troll.ogg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Music\005_9000.ogg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Music\Menu.ogg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">

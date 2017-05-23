@@ -80,8 +80,8 @@ namespace Engine
             // initialize SDL System (SDL must be started before can set WM icon, but normally would
             // not be before initialize is called)
             initializeSDLSystem();
-
-            Debug.WriteLine("Setup Game Icon (should be before first call to SDL_SetVideoMode");
+			
+			Debug.WriteLine("Setup Game Icon (should be before first call to SDL_SetVideoMode");
             //Set the icon of the game window
             IntPtr icon = Sdl.SDL_LoadBMP(file);
             byte[] mask = null;

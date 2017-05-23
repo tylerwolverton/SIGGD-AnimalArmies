@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Game.exe" size="83392">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Game.exe" size="84416">
       <assemblyIdentity name="Game" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>bvuF+vad1GA1P6z1gPNKVAD4+wE=</dsig:DigestValue>
+        <dsig:DigestValue>r7MUGyepVy/oA4L+nc09Lrm5E3A=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -109,7 +109,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>bxR0H0zMg1qtRS8/8BZ9cvxg5F0=</dsig:DigestValue>
+        <dsig:DigestValue>FD9euIxM2H0iz4z1xbKV8qTxz4U=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -236,6 +236,51 @@
       <dsig:DigestValue>OZSF+b8vwCwqC2LqH2EQd8uCQAE=</dsig:DigestValue>
     </hash>
   </file>
+  <file name="Content\Menu\BackLabel.png" size="746">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>AFzv3i4Ilq4/R7iyUGVAHuVwvIw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Menu\Controls.png" size="2414">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>rF98VT+yklNAkeeUnF1o8Vcwx6E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Menu\ControlsButton.png" size="744">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>xGJq7N4Ice4cNOvsAsjqNHtUZsk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Menu\Credits.png" size="1432">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>zmR0CRmdSLWn/WGVP4ya+RCMk8k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Menu\CreditsButton.png" size="816">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>pCj8NiNHCCZQDGQ7cvjATbE9vjc=</dsig:DigestValue>
+    </hash>
+  </file>
   <file name="Content\Menu\GameOver\BlueWon.png" size="7658">
     <hash>
       <dsig:Transforms>
@@ -272,13 +317,22 @@
       <dsig:DigestValue>xkHN8UBhGx17q3UKrjEcNKjRMw0=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Content\Menu\PauseMenu\Background.png" size="2986">
+  <file name="Content\Menu\PauseMenu\Background.png" size="4665">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>ryfhJclwnZIUMt+MVOPuRtNi+TI=</dsig:DigestValue>
+      <dsig:DigestValue>gPhEz83ZyWb/d/JSSoFEuB7j6Tk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Menu\PauseMenu\EndTurn.png" size="774">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>clsJT4ZzEO0bi2PDnWZRnUr1a/8=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Content\Menu\PauseMenu\Quit.png" size="2170">
@@ -299,13 +353,13 @@
       <dsig:DigestValue>YHfQUTWXXHm6IJLt6YLrWpqqTk8=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Content\Menu\Quit.png" size="2170">
+  <file name="Content\Menu\Quit.png" size="688">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>zleb+4yiwjv5zOOrR0/Xg0FwiAg=</dsig:DigestValue>
+      <dsig:DigestValue>Hwfz9qibnBO1U9tS13n2GchmXjk=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Content\Menu\Start.png" size="2140">

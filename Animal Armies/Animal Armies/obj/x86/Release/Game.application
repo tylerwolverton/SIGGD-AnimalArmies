@@ -8,14 +8,14 @@
     <framework targetVersion="4.0" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Game.exe.manifest" size="247663">
+    <dependentAssembly dependencyType="install" codebase="Game.exe.manifest" size="249988">
       <assemblyIdentity name="Game.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>d1ox46Q1GTfDa0TmybGZjtiyQTE=</dsig:DigestValue>
+        <dsig:DigestValue>BH5cq7PqWkYn69bOhm3GvPly5HE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

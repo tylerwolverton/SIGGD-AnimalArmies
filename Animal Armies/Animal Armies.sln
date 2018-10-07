@@ -1,25 +1,32 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MirrorEngine", "..\Mirror Engine\MirrorEngine\MirrorEngine.csproj", "{79F5CC4A-3B0F-4B7F-87FA-7BB332FC3868}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animal Armies", "Animal Armies\Animal Armies.csproj", "{1F687A8B-AFF3-4887-A4A1-D4FC425894C2}"
 EndProject
+Project("{840C416C-B8F3-42BC-B0DD-F6BB14C9F8CB}") = "Installer", "Installer\Installer.aiproj", "{DDCECBF1-FC54-4A60-A919-FEFFD49662AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		All|x86 = All|x86
 		Debug|x86 = Debug|x86
 		Develop|x86 = Develop|x86
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79F5CC4A-3B0F-4B7F-87FA-7BB332FC3868}.All|x86.ActiveCfg = Release|x86
+		{79F5CC4A-3B0F-4B7F-87FA-7BB332FC3868}.All|x86.Build.0 = Release|x86
 		{79F5CC4A-3B0F-4B7F-87FA-7BB332FC3868}.Debug|x86.ActiveCfg = Debug|x86
 		{79F5CC4A-3B0F-4B7F-87FA-7BB332FC3868}.Debug|x86.Build.0 = Debug|x86
 		{79F5CC4A-3B0F-4B7F-87FA-7BB332FC3868}.Develop|x86.ActiveCfg = Develop|x86
 		{79F5CC4A-3B0F-4B7F-87FA-7BB332FC3868}.Develop|x86.Build.0 = Develop|x86
 		{79F5CC4A-3B0F-4B7F-87FA-7BB332FC3868}.Release|x86.ActiveCfg = Release|x86
 		{79F5CC4A-3B0F-4B7F-87FA-7BB332FC3868}.Release|x86.Build.0 = Release|x86
+		{1F687A8B-AFF3-4887-A4A1-D4FC425894C2}.All|x86.ActiveCfg = Release|x86
+		{1F687A8B-AFF3-4887-A4A1-D4FC425894C2}.All|x86.Build.0 = Release|x86
 		{1F687A8B-AFF3-4887-A4A1-D4FC425894C2}.Debug|x86.ActiveCfg = Debug|x86
 		{1F687A8B-AFF3-4887-A4A1-D4FC425894C2}.Debug|x86.Build.0 = Debug|x86
 		{1F687A8B-AFF3-4887-A4A1-D4FC425894C2}.Develop|x86.ActiveCfg = Develop|x86
@@ -27,6 +34,14 @@ Global
 		{1F687A8B-AFF3-4887-A4A1-D4FC425894C2}.Release|x86.ActiveCfg = Release|x86
 		{1F687A8B-AFF3-4887-A4A1-D4FC425894C2}.Release|x86.Build.0 = Release|x86
 		{1F687A8B-AFF3-4887-A4A1-D4FC425894C2}.Release|x86.Deploy.0 = Release|x86
+		{DDCECBF1-FC54-4A60-A919-FEFFD49662AA}.All|x86.ActiveCfg = DefaultBuild
+		{DDCECBF1-FC54-4A60-A919-FEFFD49662AA}.All|x86.Build.0 = DefaultBuild
+		{DDCECBF1-FC54-4A60-A919-FEFFD49662AA}.Debug|x86.ActiveCfg = DefaultBuild
+		{DDCECBF1-FC54-4A60-A919-FEFFD49662AA}.Debug|x86.Build.0 = DefaultBuild
+		{DDCECBF1-FC54-4A60-A919-FEFFD49662AA}.Develop|x86.ActiveCfg = DefaultBuild
+		{DDCECBF1-FC54-4A60-A919-FEFFD49662AA}.Develop|x86.Build.0 = DefaultBuild
+		{DDCECBF1-FC54-4A60-A919-FEFFD49662AA}.Release|x86.ActiveCfg = DefaultBuild
+		{DDCECBF1-FC54-4A60-A919-FEFFD49662AA}.Release|x86.Build.0 = DefaultBuild
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

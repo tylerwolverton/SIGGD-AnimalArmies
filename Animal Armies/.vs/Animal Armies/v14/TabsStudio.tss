@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ArrayOfArrayOfString>
+    <ArrayOfString>
+      <string>c:\users\tyler wolverton\documents\github\siggd-animalarmies\animal armies\animal armies\humanplayer.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\Components\GameWorld.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\users\tyler wolverton\documents\github\siggd-animalarmies\animal armies\animal armies\gui\pausemenu.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\users\tyler wolverton\documents\github\siggd-animalarmies\animal armies\animal armies\components\gamegraphics.cs</string>
+    </ArrayOfString>
+  </ArrayOfArrayOfString>
+</ArrayOfArrayOfArrayOfString>

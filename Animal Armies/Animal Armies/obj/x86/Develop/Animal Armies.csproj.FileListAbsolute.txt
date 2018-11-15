@@ -126,3 +126,437 @@ C:\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\obj\x86\Develop\Game.ex
 C:\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\obj\x86\Develop\Game.application
 C:\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\AA Icon.bmp
 C:\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\GameIcon.bmp
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\alut.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\avcodec-51.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\avformat-51.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\avutil-49.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\cg.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\cgGL.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\AA Icon.bmp
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\AA Icon.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\GameIcon.bmp
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\GameIcon.ico
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\GUI\002_TeamBoxes\Blue_Team.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\GUI\002_TeamBoxes\Purple_Team.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\GUI\002_TeamBoxes\Red_Team.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\GUI\002_TeamBoxes\Yellow_Team.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\GUI\PlayerInfoBg.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\GUI\PlayerInfoOutline.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Menu\BAckground.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Menu\BackLabel.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Menu\Controls.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Menu\ControlsButton.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Menu\Credits.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Menu\CreditsButton.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Menu\GameOver\BlueWon.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Menu\GameOver\PurpleWon.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Menu\GameOver\RedWon.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Menu\GameOver\YellowWon.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Menu\PauseMenu\Background.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Menu\PauseMenu\EndTurn.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Menu\PauseMenu\Quit.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Menu\PauseMenu\Resume.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Menu\Quit.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Menu\Start.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Menu\TeamSelect\Blue.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Menu\TeamSelect\Computer.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Menu\TeamSelect\Human.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Menu\TeamSelect\None.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Menu\TeamSelect\Purple.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Menu\TeamSelect\Red.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Menu\TeamSelect\Yellow.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Menu\Title.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Music\002_gandalfnod.ogg
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\000_rat\rat_blue\down\Rat Blue 1.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\000_rat\rat_blue\down\Rat Blue 2.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\000_rat\rat_blue\down\Rat Blue 3.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\000_rat\rat_blue\down\Rat Blue 4.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\000_rat\rat_blue\down\Rat Blue 5.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\000_rat\rat_blue\down\Rat Blue 6.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\000_rat\rat_blue\down\Rat Blue 7.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\000_rat\rat_blue\down\Rat Blue 8.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\000_rat\rat_blue\rat_blue_grey.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\000_rat\rat_purple\down\Rat Purple 1.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\000_rat\rat_purple\down\Rat Purple 2.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\000_rat\rat_purple\down\Rat Purple 3.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\000_rat\rat_purple\down\Rat Purple 4.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\000_rat\rat_purple\down\Rat Purple 5.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\000_rat\rat_purple\down\Rat Purple 6.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\000_rat\rat_purple\down\Rat Purple 7.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\000_rat\rat_purple\down\Rat Purple 8.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\000_rat\rat_purple\rat_purple_grey.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\000_rat\rat_red\down\Rat Red 1.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\000_rat\rat_red\down\Rat Red 2.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\000_rat\rat_red\down\Rat Red 3.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\000_rat\rat_red\down\Rat Red 4.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\000_rat\rat_red\down\Rat Red 5.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\000_rat\rat_red\down\Rat Red 6.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\000_rat\rat_red\down\Rat Red 7.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\000_rat\rat_red\down\Rat Red 8.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\000_rat\rat_red\rat_red_grey.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\000_rat\rat_yellow\down\Rat Yellow 1.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\000_rat\rat_yellow\down\Rat Yellow 2.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\000_rat\rat_yellow\down\Rat Yellow 3.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\000_rat\rat_yellow\down\Rat Yellow 4.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\000_rat\rat_yellow\down\Rat Yellow 5.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\000_rat\rat_yellow\down\Rat Yellow 6.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\000_rat\rat_yellow\down\Rat Yellow 7.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\000_rat\rat_yellow\down\Rat Yellow 8.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\000_rat\rat_yellow\rat_yellow_grey.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\001_trex\trex_blue\down\T-Rex_Blue0000.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\001_trex\trex_blue\down\T-Rex_Blue0001.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\001_trex\trex_blue\down\T-Rex_Blue0002.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\001_trex\trex_blue\down\T-Rex_Blue0003.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\001_trex\trex_blue\trex_blue_grey.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\001_trex\trex_purple\down\T-Rex_Purple0000.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\001_trex\trex_purple\down\T-Rex_Purple0001.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\001_trex\trex_purple\down\T-Rex_Purple0002.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\001_trex\trex_purple\down\T-Rex_Purple0003.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\001_trex\trex_purple\trex_purple_grey.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\001_trex\trex_red\down\T-Rex_Red0000.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\001_trex\trex_red\down\T-Rex_Red0001.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\001_trex\trex_red\down\T-Rex_Red0002.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\001_trex\trex_red\down\T-Rex_Red0003.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\001_trex\trex_red\trex_red_grey.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\001_trex\trex_yellow\down\T-Rex_Yellow0000.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\001_trex\trex_yellow\down\T-Rex_Yellow0001.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\001_trex\trex_yellow\down\T-Rex_Yellow0002.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\001_trex\trex_yellow\down\T-Rex_Yellow0003.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\001_trex\trex_yellow\trex_yellow_grey.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\002_turtle\turtle_blue\down\Turtle Turtle 01.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\002_turtle\turtle_blue\down\Turtle Turtle 02.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\002_turtle\turtle_blue\down\Turtle Turtle 03.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\002_turtle\turtle_blue\down\Turtle Turtle 04.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\002_turtle\turtle_blue\down\Turtle Turtle 05.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\002_turtle\turtle_blue\Turtle_Grey_Blue.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\002_turtle\turtle_pirate\Pirate Turtle 01.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\002_turtle\turtle_pirate\Pirate Turtle 02.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\002_turtle\turtle_pirate\Pirate Turtle 03.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\002_turtle\turtle_pirate\Pirate Turtle 04.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\002_turtle\turtle_pirate\Pirate Turtle 05.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\002_turtle\turtle_purple\down\Purple Turtle 01.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\002_turtle\turtle_purple\down\Purple Turtle 02.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\002_turtle\turtle_purple\down\Purple Turtle 03.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\002_turtle\turtle_purple\down\Purple Turtle 04.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\002_turtle\turtle_purple\down\Purple Turtle 05.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\002_turtle\turtle_purple\Turtle_Grey_Purple.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\002_turtle\turtle_red\down\Red Turtle 01.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\002_turtle\turtle_red\down\Red Turtle 02.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\002_turtle\turtle_red\down\Red Turtle 03.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\002_turtle\turtle_red\down\Red Turtle 04.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\002_turtle\turtle_red\down\Red Turtle 05.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\002_turtle\turtle_red\Turtle_Grey_Red.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\002_turtle\turtle_yellow\down\Yellow Turtle 01.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\002_turtle\turtle_yellow\down\Yellow Turtle 02.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\002_turtle\turtle_yellow\down\Yellow Turtle 03.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\002_turtle\turtle_yellow\down\Yellow Turtle 04.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\002_turtle\turtle_yellow\down\Yellow Turtle 05.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\002_turtle\turtle_yellow\Turtle_Grey_Yellow.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\003_redBase\red.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\004_blueBase\blue.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\005_yellowBase\yellow.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\006_purpleBase\purple.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\007_cursor\Cursor1.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\007_cursor\Cursor2.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\008_explosion\Exposion0000.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\008_explosion\Exposion0001.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\008_explosion\Exposion0002.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\008_explosion\Exposion0003.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\008_explosion\Exposion0004.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\008_explosion\Exposion0005.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\008_explosion\Exposion0006.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\008_explosion\Exposion0007.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\008_explosion\Exposion0008.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\009_robin\Red_Robin0000.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\009_robin\robin_blue\down\Blue_Robin0000.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\009_robin\robin_blue\down\Blue_Robin0001.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\009_robin\robin_blue\down\Blue_Robin0002.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\009_robin\robin_blue\down\Blue_Robin0003.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\009_robin\robin_purple\down\Purple_Robin0000.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\009_robin\robin_purple\down\Purple_Robin0001.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\009_robin\robin_purple\down\Purple_Robin0002.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\009_robin\robin_purple\down\Purple_Robin0003.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\009_robin\robin_red\down\Red_Robin0000.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\009_robin\robin_red\down\Red_Robin0001.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\009_robin\robin_red\down\Red_Robin0002.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\009_robin\robin_red\down\Red_Robin0003.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\009_robin\robin_yellow\down\Yellow_Robin0000.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\009_robin\robin_yellow\down\Yellow_Robin0001.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\009_robin\robin_yellow\down\Yellow_Robin0002.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\009_robin\robin_yellow\down\Yellow_Robin0003.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\010_llama\llama_blue\down\Llama_Blue00.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\010_llama\llama_blue\down\Llama_Blue01.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\010_llama\llama_blue\down\Llama_Blue02.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\010_llama\llama_blue\down\Llama_Blue03.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\010_llama\llama_blue\Llama_Blue_Grey.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\010_llama\llama_purple\down\Llama_Purple00.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\010_llama\llama_purple\down\Llama_Purple01.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\010_llama\llama_purple\down\Llama_Purple02.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\010_llama\llama_purple\down\Llama_Purple03.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\010_llama\llama_purple\Llama_Purple_Grey.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\010_llama\llama_red\down\Llama_Red00.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\010_llama\llama_red\down\Llama_Red01.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\010_llama\llama_red\down\Llama_Red02.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\010_llama\llama_red\down\Llama_Red03.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\010_llama\llama_red\Llama_Red_Grey.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\010_llama\llama_yellow\down\Llama_Yellow00.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\010_llama\llama_yellow\down\Llama_Yellow01.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\010_llama\llama_yellow\down\Llama_Yellow02.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\010_llama\llama_yellow\down\Llama_Yellow03.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\010_llama\llama_yellow\Llama_Yellow_Grey.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\011_blob\000_blobblfobbing.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\011_blob\001_blobblofbbing.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\011_blob\002_blobblofbbing.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\011_blob\003_blobblofbbing.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\011_blob\blob_blue\000_blueblobblobbing.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\011_blob\blob_blue\down\000_blueblobblobbing.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\011_blob\blob_blue\down\001_blueblobblobbing.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\011_blob\blob_blue\down\002_blueblobblobbing.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\011_blob\blob_blue\down\003_blueblobblobbing.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\011_blob\blob_purple\down\Rat Purple 1.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\011_blob\blob_purple\down\Rat Purple 2.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\011_blob\blob_purple\down\Rat Purple 3.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\011_blob\blob_purple\down\Rat Purple 4.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\011_blob\blob_purple\down\Rat Purple 5.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\011_blob\blob_purple\down\Rat Purple 6.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\011_blob\blob_purple\down\Rat Purple 7.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\011_blob\blob_purple\down\Rat Purple 8.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\011_blob\blob_purple\rat_purple_grey.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\011_blob\blob_red\000_redblobblobbing.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\011_blob\blob_red\down\000_redblobblobbing.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\011_blob\blob_red\down\001_redblobblobbing.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\011_blob\blob_red\down\002_redblobblobbing.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\011_blob\blob_red\down\003_redblobblobbing.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\011_blob\blob_yellow\down\Rat Yellow 1.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\011_blob\blob_yellow\down\Rat Yellow 2.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\011_blob\blob_yellow\down\Rat Yellow 3.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\011_blob\blob_yellow\down\Rat Yellow 4.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\011_blob\blob_yellow\down\Rat Yellow 5.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\011_blob\blob_yellow\down\Rat Yellow 6.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\011_blob\blob_yellow\down\Rat Yellow 7.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\011_blob\blob_yellow\down\Rat Yellow 8.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\011_blob\blob_yellow\rat_yellow_grey.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\012_penguin\penguin_blue\down\Penguin_Blue00.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\012_penguin\penguin_blue\down\Penguin_Blue01.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\012_penguin\penguin_blue\down\Penguin_Blue02.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\012_penguin\penguin_blue\down\Penguin_Blue03.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\012_penguin\penguin_blue\down\Penguin_Blue04.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\012_penguin\penguin_blue\down\Penguin_Blue05.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\012_penguin\penguin_blue\down\Penguin_Blue06.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\012_penguin\penguin_blue\down\Penguin_Blue07.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\012_penguin\penguin_blue\Penguin_Blue_Grey00.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\012_penguin\penguin_purple\down\Penguin_Purple00.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\012_penguin\penguin_purple\down\Penguin_Purple01.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\012_penguin\penguin_purple\down\Penguin_Purple02.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\012_penguin\penguin_purple\down\Penguin_Purple03.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\012_penguin\penguin_purple\down\Penguin_Purple04.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\012_penguin\penguin_purple\down\Penguin_Purple05.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\012_penguin\penguin_purple\down\Penguin_Purple06.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\012_penguin\penguin_purple\down\Penguin_Purple07.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\012_penguin\penguin_purple\Penguin_Purple_Grey00.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\012_penguin\penguin_red\down\Penguin_Red00.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\012_penguin\penguin_red\down\Penguin_Red01.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\012_penguin\penguin_red\down\Penguin_Red02.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\012_penguin\penguin_red\down\Penguin_Red03.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\012_penguin\penguin_red\down\Penguin_Red04.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\012_penguin\penguin_red\down\Penguin_Red05.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\012_penguin\penguin_red\down\Penguin_Red06.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\012_penguin\penguin_red\down\Penguin_Red07.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\012_penguin\penguin_red\Penguin_Red_Grey00.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\012_penguin\penguin_yellow\down\Penguin_Yellow00.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\012_penguin\penguin_yellow\down\Penguin_Yellow01.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\012_penguin\penguin_yellow\down\Penguin_Yellow02.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\012_penguin\penguin_yellow\down\Penguin_Yellow03.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\012_penguin\penguin_yellow\down\Penguin_Yellow04.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\012_penguin\penguin_yellow\down\Penguin_Yellow05.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\012_penguin\penguin_yellow\down\Penguin_Yellow06.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\012_penguin\penguin_yellow\down\Penguin_Yellow07.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Sprites\012_penguin\penguin_yellow\Penguin_Yellow_Grey00.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Bridge1.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Bridge2.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\fort.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Cliff\Cliff1.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Cliff\Cliff2.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Cliff\Cliff3.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Cliff\Cliff4.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Forest\Forest1-0.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Forest\Forest1-1.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Forest\Forest1-2.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Forest\Forest1-3.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Forest\Forest1-4.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Forest\Forest2-0.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Forest\Forest2-1.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Forest\Forest2-2.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Forest\Forest2-3.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Forest\Forest2-4.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Forest\Forest3-0.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Forest\Forest3-1.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Forest\Forest3-2.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Forest\Forest3-3.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Forest\Forest3-4.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Fort\Fort.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\grass.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\grass1.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\grass2.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\grass3.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\grass4.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Hills\Hills1-0.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Hills\Hills1-1.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Hills\Hills1-2.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Hills\Hills1-3.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Hills\Hills1-4.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Hills\Hills2-0.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Hills\Hills2-1.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Hills\Hills2-2.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Hills\Hills2-3.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Hills\Hills2-4.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Mountain\Mountain1-0.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Mountain\Mountain1-1.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Mountain\Mountain1-2.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Mountain\Mountain1-3.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Mountain\Mountain1-4.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Water\water.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Water\water1.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Water\water2.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Prairie\Water\water3.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Snow\Cliff\Cliff1.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Snow\Cliff\Cliff2.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Snow\Cliff\Cliff3.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Snow\Cliff\Cliff4.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Snow\Forest\forest1-0.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Snow\Forest\forest1-1.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Snow\Forest\forest1-2.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Snow\Forest\forest2-0.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Snow\Forest\forest2-1.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Snow\Forest\forest2-2.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Snow\Forest\forest3-0.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Snow\Forest\forest3-1.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Snow\Forest\forest3-2.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Snow\Fort\Fort.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Snow\grass0.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Snow\grass1.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Snow\grass2.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Snow\grass3.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Snow\Hills\hills1-0.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Snow\Hills\hills1-1.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Snow\Hills\hills1-2.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Snow\Mountain\Mountain1-0.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Snow\Mountain\Mountain1-1.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Snow\Mountain\Mountain1-2.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Snow\Water\water.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Snow\Water\water1.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Snow\Water\water2.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Snow\Water\water3.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Forest\Forest1-0.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Forest\Forest1-1.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Forest\Forest1-2.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Forest\Forest1-3.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Forest\Forest1-4.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Forest\Forest1-5.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Forest\Forest2-0.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Forest\Forest2-1.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Forest\Forest2-2.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Forest\Forest2-3.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Forest\Forest2-4.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Forest\Forest2-5.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Forest\Forest3-0.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Forest\Forest3-1.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Forest\Forest3-2.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Forest\Forest3-3.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Forest\Forest3-4.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Forest\Forest3-5.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Forest\Forest4-0.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Forest\Forest4-1.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Forest\Forest4-2.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Forest\Forest4-3.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Forest\Forest4-4.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Forest\Forest4-5.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Forest\Forest5-0.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Forest\Forest5-1.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Forest\Forest5-2.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Forest\Forest5-3.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Forest\Forest5-4.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Forest\Forest5-5.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Grass\grass0.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Grass\grass1.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Grass\grass2.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Grass\grass3.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Grass\grass4.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Grass\grass5.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Hills\Hills1-0.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Hills\Hills1-1.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Hills\Hills1-2.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Hills\Hills1-3.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Hills\Hills1-4.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Hills\Hills1-5.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Hills\Hills2-0.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Hills\Hills2-1.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Hills\Hills2-2.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Hills\Hills2-3.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Hills\Hills2-4.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Hills\Hills2-5.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Mountain\Mountain1-0.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Mountain\Mountain1-1.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Mountain\Mountain1-2.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Mountain\Mountain1-3.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Mountain\Mountain1-4.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Mountain\Mountain1-5.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Mountain\Mountain2-0.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Mountain\Mountain2-1.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Mountain\Mountain2-2.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Mountain\Mountain2-3.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Mountain\Mountain2-4.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Mountain\Mountain2-5.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Water\water.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Water\water1.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Water\water2.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\Temperate\Water\water3.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\wall001.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\water\VVater1.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\water\VVater2.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\water\VVater3.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Tiles\Tiles\water\water.png
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\DevIL.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\freeglut.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\freetype6.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\glfw.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\ILU.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\ILUT.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\jpeg.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\libfreetype-6.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\libogg-0.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\libpng12-0.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\libpng12.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\libtiff-3.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\libtiff.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\libvorbis-0.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\libvorbisfile-3.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\lua5.1.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\lua51.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\ode.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\OpenAL32.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\physfs.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\pthreadGC2.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\SDL.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\SDL_gfx.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\SDL_image.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\SDL_mixer.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\SDL_net.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\SDL_ttf.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\smpeg.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\swscale-0.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\wrap_oal.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\zlib1.dll
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\DeployFiles\Animal Armies_TemporaryKey.pfx
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Fonts\Vera.ttf
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Maps\BasicMap.map
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Maps\Menu.map
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Maps\NewWorld.map
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Maps\NewWorld0.map
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Maps\sigart_400x400.map
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Maps\SurroundWorld.map
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Maps\Tyler!.map
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Music\003_hey.ogg
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Music\004_troll.ogg
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Music\005_9000.ogg
+C:\Users\Tyler Wolverton\Documents\GitHub\SIGGD-AnimalArmies\Animal Armies\Animal Armies\bin\Develop\Content\Music\Menu.ogg

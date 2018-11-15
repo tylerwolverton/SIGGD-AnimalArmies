@@ -56,7 +56,7 @@ namespace Game
 
             StartLabel = new GUILabel(gui, new Handle(engine.resourceComponent, "Menu/Start.png"));
             StartLabel.mouseClickEvent += startGame;
-            StartLabel.pos = new Vector2(width / 2 - 64, height - 75);
+            StartLabel.pos = new Vector2(width / 2 - 110, height - 96);
             gui.add(StartLabel);            
         }
         
@@ -74,23 +74,23 @@ namespace Game
 		public void menuLoad()
         {
             TitleLabel = new GUILabel(gui, new Handle(engine.resourceComponent, "Menu/Title.png"));
-            TitleLabel.pos = new Vector2(width / 2 - 192, height / 2 - 256);
+            TitleLabel.pos = new Vector2(width / 2 - 320, height / 2 - 256);
             gui.add(TitleLabel);
 			MenuLabel = new GUILabel(gui, new Handle(engine.resourceComponent, "Menu/Start.png"));
             MenuLabel.mouseClickEvent += loadTeamSelect;
-			MenuLabel.pos = new Vector2(200, height / 2 + 150);
+			MenuLabel.pos = new Vector2(130, height / 2 + 125);
 			gui.add(MenuLabel);
 			ControlsLabel = new GUILabel(gui, new Handle(engine.resourceComponent, "Menu/ControlsButton.png"));
 			ControlsLabel.mouseClickEvent += showControls;
-			ControlsLabel.pos = new Vector2(425, height / 2 + 150);
+			ControlsLabel.pos = new Vector2(385, height / 2 + 125);
 			gui.add(ControlsLabel);
 			ExitLabel = new GUILabel(gui, new Handle(engine.resourceComponent, "Menu/Quit.png"));
 			ExitLabel.mouseClickEvent += exitGame;
-			ExitLabel.pos = new Vector2(650, height / 2 + 150);
+			ExitLabel.pos = new Vector2(635, height / 2 + 125);
 			gui.add(ExitLabel);
 
 			CreditsLabel = new GUILabel(gui, new Handle(engine.resourceComponent, "Menu/Credits.png"));
-			CreditsLabel.pos = new Vector2(350, height / 2 + 200);
+			CreditsLabel.pos = new Vector2(385, height / 2 + 240);
 			gui.add(CreditsLabel);
 		}
 
@@ -103,7 +103,7 @@ namespace Game
 		{
 			BackLabel = new GUILabel(gui, new Handle(engine.resourceComponent, "Menu/BackLabel.png"));
 			BackLabel.mouseClickEvent += backToMenu;
-			BackLabel.pos = new Vector2(200, height / 2 + 150);
+			BackLabel.pos = new Vector2(25, height / 2 + 200);
 			gui.add(BackLabel);
 		}
 
@@ -120,7 +120,7 @@ namespace Game
 			addBackButton();
 
 			Controls = new GUILabel(gui, new Handle(engine.resourceComponent, "Menu/Controls.png"));
-			Controls.pos = new Vector2(width / 2 - 192, height / 2 - 256);
+			Controls.pos = new Vector2(width / 2 - 475, height / 2 - 290);
 			gui.add(Controls);
 		}
 		

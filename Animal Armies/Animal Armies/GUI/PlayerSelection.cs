@@ -84,10 +84,10 @@ namespace Game.GUI
                                                CreateGUILabel(gui, new Handle(engine.resourceComponent, "Menu/TeamSelect/Red.png"), new Vector2(500, 100)),
                                                CreateGUILabel(gui, new Handle(engine.resourceComponent, "Menu/TeamSelect/Blue.png"), new Vector2(750, 100)) };
 
-            teamStates = new List<TeamState> { new TeamState(engine, CreateGUILabel(gui, humanHandle, new Vector2(75, 200)), team_t.Purple, "GUI\\002_TeamBoxes\\Purple_Team.png", player_type_t.Human),
-                                               new TeamState(engine, CreateGUILabel(gui, computerHandle, new Vector2(325, 200)), team_t.Yellow, "GUI\\002_TeamBoxes\\Yellow_Team.png", player_type_t.Computer),
-                                               new TeamState(engine, CreateGUILabel(gui, noneHandle, new Vector2(575, 200)), team_t.Red, "GUI\\002_TeamBoxes\\Red_Team.png"),
-                                               new TeamState(engine, CreateGUILabel(gui, noneHandle, new Vector2(825, 200)), team_t.Blue, "GUI\\002_TeamBoxes\\Blue_Team.png") };
+            teamStates = new List<TeamState> { new TeamState(engine, CreateGUILabel(gui, humanHandle, new Vector2(75, 230)), team_t.Purple, "GUI\\002_TeamBoxes\\Purple_Team.png", player_type_t.Human),
+                                               new TeamState(engine, CreateGUILabel(gui, computerHandle, new Vector2(325, 230)), team_t.Yellow, "GUI\\002_TeamBoxes\\Yellow_Team.png", player_type_t.Computer),
+                                               new TeamState(engine, CreateGUILabel(gui, noneHandle, new Vector2(575, 230)), team_t.Red, "GUI\\002_TeamBoxes\\Red_Team.png"),
+                                               new TeamState(engine, CreateGUILabel(gui, noneHandle, new Vector2(825, 230)), team_t.Blue, "GUI\\002_TeamBoxes\\Blue_Team.png") };
         }
 
         private void UnloadGuiElements()

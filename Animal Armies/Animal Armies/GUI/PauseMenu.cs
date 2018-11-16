@@ -23,19 +23,19 @@ namespace Game.GUI
 		public void Initialize()
 		{
 			BackgroundLabel = new GUILabel(gui, new Handle(engine.resourceComponent, "Menu/PauseMenu/Background.png"));
-			BackgroundLabel.pos = new Vector2(300, 200);
+			BackgroundLabel.pos = new Vector2(125, 200);
 
 			ResumeLabel = new GUILabel(gui, new Handle(engine.resourceComponent, "Menu/PauseMenu/Resume.png"));
 			ResumeLabel.mouseClickEvent += ResumeGame;
-			ResumeLabel.pos = new Vector2(350, 400);
+			ResumeLabel.pos = new Vector2(165, 400);
 
 			EndTurnLabel = new GUILabel(gui, new Handle(engine.resourceComponent, "Menu/PauseMenu/EndTurn.png"));
 			EndTurnLabel.mouseClickEvent += EndTurn;
-			EndTurnLabel.pos = new Vector2(500, 400);
+			EndTurnLabel.pos = new Vector2(390, 400);
 
 			QuitLabel = new GUILabel(gui, new Handle(engine.resourceComponent, "Menu/PauseMenu/Quit.png"));
 			QuitLabel.mouseClickEvent += ExitGame;
-			QuitLabel.pos = new Vector2(650, 400);
+			QuitLabel.pos = new Vector2(615, 400);
 		}
 
 		public void ShowPauseMenu()
